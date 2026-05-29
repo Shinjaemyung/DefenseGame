@@ -9,6 +9,9 @@ public class GameUIManager : MonoBehaviour
     UI_TowerList towerList;
     UI_ModeChangeButton modeChangeButton;
 
+    [SerializeField, Tooltip("타워 클릭 시 표시할 정보 패널")]
+    UI_TowerInfo towerInfoPanel;
+
     [SerializeField, Tooltip("게임 오버 시 표시할 패널")]
     GameObject gameOverPanel;
 
@@ -31,6 +34,20 @@ public class GameUIManager : MonoBehaviour
     {
         towerList.gameObject.SetActive(false);
         modeChangeButton.ChangeButtonText(PlayerMode.HeroControlMode);
+    }
+
+    /// <summary>타워 정보 패널 표시</summary>
+    public void ShowTowerInfo(Tower tower)
+    {
+        if (towerInfoPanel != null)
+            towerInfoPanel.Show(tower);
+    }
+
+    /// <summary>타워 정보 패널 숨김</summary>
+    public void HideTowerInfo()
+    {
+        if (towerInfoPanel != null)
+            towerInfoPanel.Hide();
     }
 
     /// <summary>게임 오버 패널 표시</summary>

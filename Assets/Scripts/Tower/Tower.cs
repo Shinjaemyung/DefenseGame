@@ -1,4 +1,4 @@
-using Core.Utilities;
+ï»¿using Core.Utilities;
 using System.Collections;
 using System.Collections.Generic;
 using TowerDefense.Towers.Placement;
@@ -16,6 +16,7 @@ public class Tower : MonoBehaviour
 
     public TowerData towerData;
     int totalCost = 0;
+    public int TotalCost => totalCost;
 
     IntVector2 gridPosition;
     IPlacementArea placementArea;
@@ -70,7 +71,7 @@ public class Tower : MonoBehaviour
     
     public void OnClicked()
     {
-        Debug.Log(gameObject.name + "ÀÇ Á¤º¸ UI ¶ç¿öÁÖ±â");
+        GameUIManager.Instance.ShowTowerInfo(this);
     }
 
     public void UpgradeTower(Tower upgradeTower)

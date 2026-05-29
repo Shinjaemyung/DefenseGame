@@ -55,6 +55,11 @@ public class UserInputManager : MonoBehaviour
                 clickedTower.OnClicked();
             }
         }
+        else
+        {
+            // 타워 info 비활성화
+            GameUIManager.Instance.HideTowerInfo();
+        }
     }
 
     void OnLeftMouseUp()

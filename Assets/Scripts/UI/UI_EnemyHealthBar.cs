@@ -6,7 +6,7 @@ using System.Collections;
 /// 적이 데미지를 받았을 때 체력바를 표시하는 컴포넌트.
 /// Resources/EnemyHealthBarUI 프리팹을 런타임에 자식으로 자동 생성.
 /// </summary>
-public class EnemyHealthBar : MonoBehaviour
+public class UI_EnemyHealthBar : MonoBehaviour
 {
     private const string PrefabResourcePath = "EnemyHealthBarUI";
 

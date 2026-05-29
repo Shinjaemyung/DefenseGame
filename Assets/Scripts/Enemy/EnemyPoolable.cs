@@ -7,13 +7,13 @@ public class EnemyPoolable : Poolable
 {
     private Enemy _enemy;
     private EnemyMover _mover;
-    private EnemyHealthBar _healthBar;
+    private UI_EnemyHealthBar _healthBar;
 
     private void Awake()
     {
         _enemy = GetComponent<Enemy>();
         _mover = GetComponent<EnemyMover>();
-        _healthBar = GetComponent<EnemyHealthBar>();
+        _healthBar = GetComponent<UI_EnemyHealthBar>();
     }
 
     public override void OnSpawn()

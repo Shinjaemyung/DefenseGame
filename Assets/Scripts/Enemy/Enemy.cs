@@ -3,11 +3,11 @@ using Core.Health;
 using UnityEngine;
 
 [RequireComponent(typeof(EnemyMover))]
-[RequireComponent(typeof(EnemyHealthBar))]
+[RequireComponent(typeof(UI_EnemyHealthBar))]
 [RequireComponent(typeof(EnemyPoolable))]
 public class Enemy : Targetable
 {
-    [SerializeField] private EnemyHealthBar healthBar;
+    [SerializeField] private UI_EnemyHealthBar healthBar;
 
     private EnemyPoolable _poolable;
 
@@ -15,7 +15,7 @@ public class Enemy : Targetable
     {
         base.Awake();
         if (healthBar == null)
-            healthBar = GetComponent<EnemyHealthBar>();
+            healthBar = GetComponent<UI_EnemyHealthBar>();
         _poolable = GetComponent<EnemyPoolable>();
         Hit += OnHit;
     }
