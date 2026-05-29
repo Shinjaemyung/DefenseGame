@@ -19,7 +19,8 @@ GameObject:
   - component: {fileID: 124025492213710523}
   - component: {fileID: 10396328998485737}
   - component: {fileID: 5975336485088983481}
-  m_Layer: 0
+  - component: {fileID: 1386409579195639282}
+  m_Layer: 9
   m_Name: TmpEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -206,7 +207,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03aed1c9b33482c45a95d143211c7e61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealthBar
-  healthBarPrefab: {fileID: 4950219881380226235, guid: de779a4f23911864280a4c308a551458, type: 3}
   displayDuration: 2.5
   healthyColor: {r: 0, g: 1, b: 0, a: 1}
   lowHealthColor: {r: 1, g: 0, b: 0, a: 1}
@@ -246,3 +246,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMover
   moveSpeed: 3.5
+  waypointReachDistance: 1.5
+  _currentWaypointIndex: 0
+--- !u!114 &1386409579195639282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4899833032356138635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f50b538e5b5326d4887b4f6e5dd04f8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyPoolable

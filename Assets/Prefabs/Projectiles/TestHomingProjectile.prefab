@@ -9,12 +9,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2991476242001280587}
-  - component: {fileID: 7419203512084094437}
+  - component: {fileID: 5729596076757159888}
   - component: {fileID: -4142023654185989021}
   - component: {fileID: 6132271777024668777}
   - component: {fileID: 3626788063522419820}
-  m_Layer: 0
-  m_Name: TestBallisticProjectile
+  m_Layer: 10
+  m_Name: TestHomingProjectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36,7 +36,7 @@ Transform:
   - {fileID: 4697254585079717494}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7419203512084094437
+--- !u!114 &5729596076757159888
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -45,14 +45,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1375887527512235453}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3b343ee3bd61e249a37f2db9f3c6d98, type: 3}
+  m_Script: {fileID: 11500000, guid: 2da8014753875514f8de6a5655aeb8be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arcPreference: 1
-  fireMode: 0
-  firingAngle: 0
+  acceleration: 3
   startSpeed: 1
-  collisionIgnoreTime: 0.35
+  leadingPrecision: 2
+  leadTarget: 0
+  m_HomingTarget: {fileID: 0}
 --- !u!114 &-4142023654185989021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77,10 +77,10 @@ Rigidbody:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1375887527512235453}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -92,7 +92,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 4697254585079717494}
   - component: {fileID: 6183639546183156222}
   - component: {fileID: 7547581896960259376}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -181,10 +181,12 @@ MeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d5beb48759f3e71478d374e8b75fff64, type: 2}
+  - {fileID: 2100000, guid: 446a72560c44e44d8acea2562be7901a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -202,7 +204,9 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
