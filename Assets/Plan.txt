@@ -35,7 +35,6 @@ Hero가 죽으면 일정 시간 후에 다시 부활
 오디오 기능
 이펙트/파티클 기능
 Hero가 적과 충돌 시 데미지 입는 기능
-타워 업그레이드 기능
 Enemy 정보 ScriptableObject로 변경
 Enemy 생성 관리 기능 - 에셋 확인*
 
@@ -50,6 +49,7 @@ GridSize 1이 아닐때 material 사이즈 안맞음
 BallisticProjectile 미완성 - targetPoint가 항상 0이 됨
 배치 모드에서 타워 배치 중일때 모드 바꾸면 VirtualTower 남아있는 버그*
 grid 연결 부위는 서로 다른 grid라 배치 못하는 버그 있음
+게임 오버 후에도 TowerInfo 클릭되는 버그
 
 참고 자료
 https://www.youtube.com/watch?v=j_fICoPhB1A - 스카이박스

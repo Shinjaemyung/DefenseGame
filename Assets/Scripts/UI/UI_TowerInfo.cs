@@ -60,10 +60,10 @@ public class UI_TowerInfo : MonoBehaviour
         upgradeButton.onClick.RemoveAllListeners();
         upgradeButton.onClick.AddListener(OnUpgradeClicked);
 
-        SetPositionToTower(tower);
+        //SetPositionToTower(tower);
         gameObject.SetActive(true);
     }
-
+    /*
     private void SetPositionToTower(Tower tower)
     {
         if (_rectTransform == null) _rectTransform = GetComponent<RectTransform>();
@@ -77,6 +77,7 @@ public class UI_TowerInfo : MonoBehaviour
         _rectTransform.anchorMax = Vector2.zero;
         _rectTransform.anchoredPosition = screenPos;
     }
+    */
 
     /// <summary>패널 숨김</summary>
     public void Hide()

@@ -58,7 +58,7 @@ public class UserInputManager : MonoBehaviour
         else
         {
             // 타워 info 비활성화
-            GameUIManager.Instance.HideTowerInfo();
+            GameUIManager.Instance.ShowTowerList();
         }
     }
 
