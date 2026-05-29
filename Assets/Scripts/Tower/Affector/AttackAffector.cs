@@ -106,7 +106,7 @@ namespace TowerDefense.Affectors
         /// </summary>
         public float effectRadius
         {
-            get { return towerTargetter.effectRadius; }
+            get { return towerTargetter.EffectRadius; }
         }
 
         public Color effectColor
@@ -143,14 +143,14 @@ namespace TowerDefense.Affectors
 
             towerTargetter.ResetTargetter();
             //towerTargetter.alignment = affectorAlignment;
-            towerTargetter.acquiredTarget += OnAcquiredTarget;
-            towerTargetter.lostTarget += OnLostTarget;
+            towerTargetter.AcquiredTarget += OnAcquiredTarget;
+            towerTargetter.LostTarget += OnLostTarget;
         }
 
         void OnDestroy()
         {
-            towerTargetter.acquiredTarget -= OnAcquiredTarget;
-            towerTargetter.lostTarget -= OnLostTarget;
+            towerTargetter.AcquiredTarget -= OnAcquiredTarget;
+            towerTargetter.LostTarget -= OnLostTarget;
         }
 
         void OnLostTarget()

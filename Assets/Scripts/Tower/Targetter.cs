@@ -8,29 +8,29 @@ using Random = UnityEngine.Random;
 namespace TowerDefense.Targetting
 {
     /// <summary>
-    /// Class used to track targets for an affector
+    /// Affector의 대상을 추적하는 데 사용되는 클래스
     /// </summary>
     public class Targetter : MonoBehaviour
     {
         /// <summary>
-        /// Fires when a targetable enters the target collider
+        /// Targetable이 Target 콜라이더에 들어올 때 발동
         /// </summary>
-        public event Action<Targetable> targetEntersRange;
+        public event Action<Targetable> TargetEntersRange;
 
         /// <summary>
-        /// Fires when a targetable exits the target collider
+        /// Targetable이 Target 콜라이더를 나갈 때 발동
         /// </summary>
-        public event Action<Targetable> targetExitsRange;
+        public event Action<Targetable> TargetExitsRange;
 
         /// <summary>
-        /// Fires when an appropriate target is found
+        /// 적절한 목표물이 발견되면 발사
         /// </summary>
-        public event Action<Targetable> acquiredTarget;
+        public event Action<Targetable> AcquiredTarget;
 
         /// <summary>
         /// Fires when the current target was lost
         /// </summary>
-        public event Action lostTarget;
+        public event Action LostTarget;
 
         /// <summary>
         /// The transform to point at the target
@@ -38,7 +38,7 @@ namespace TowerDefense.Targetting
         public Transform mesh;
 
         /// <summary>
-        /// The range of the turret's x rotation
+        /// 터렛의 x축 회전 범위
         /// </summary>
         public Vector2 turretXRotationRange = new Vector2(0, 359);
 
@@ -75,37 +75,37 @@ namespace TowerDefense.Targetting
         /// <summary>
         /// The current targetables in the collider
         /// </summary>
-        protected List<Targetable> m_TargetsInRange = new List<Targetable>();
+        protected List<Targetable> _TargetsInRange = new List<Targetable>();
 
         /// <summary>
         /// The seconds until a search is allowed
         /// </summary>
-        protected float m_SearchTimer = 0.0f;
+        protected float _SearchTimer = 0.0f;
 
         /// <summary>
         /// The seconds until the tower starts spinning
         /// </summary>
-        protected float m_WaitTimer = 0.0f;
+        protected float _WaitTimer = 0.0f;
 
         /// <summary>
         /// The current targetable
         /// </summary>
-        protected Targetable m_CurrrentTargetable;
+        protected Targetable _CurrrentTargetable;
 
         /// <summary>
         /// Counter used for x rotation correction
         /// </summary>
-        protected float m_XRotationCorrectionTime;
+        protected float _XRotationCorrectionTime;
 
         /// <summary>
         /// If there was a targetable in the last frame
         /// </summary>
-        protected bool m_HadTarget;
+        protected bool _HadTarget;
 
         /// <summary>
         /// How fast this turret is spinning
         /// </summary>
-        protected float m_CurrentRotationSpeed;
+        protected float _CurrentRotationSpeed;
 
         /// <summary>
         /// The alignment of the affector
@@ -116,7 +116,7 @@ namespace TowerDefense.Targetting
         /// returns the radius of the collider whether
         /// its a sphere or capsule
         /// </summary>
-        public float effectRadius
+        public float EffectRadius
         {
             get
             {
@@ -139,7 +139,7 @@ namespace TowerDefense.Targetting
         /// </summary>
         public Targetable GetTarget()
         {
-            return m_CurrrentTargetable;
+            return _CurrrentTargetable;
         }
 
         /// <summary>
@@ -147,13 +147,13 @@ namespace TowerDefense.Targetting
         /// </summary>
         public void ResetTargetter()
         {
-            m_TargetsInRange.Clear();
-            m_CurrrentTargetable = null;
+            _TargetsInRange.Clear();
+            _CurrrentTargetable = null;
 
-            targetEntersRange = null;
-            targetExitsRange = null;
-            acquiredTarget = null;
-            lostTarget = null;
+            TargetEntersRange = null;
+            TargetExitsRange = null;
+            AcquiredTarget = null;
+            LostTarget = null;
 
             // Reset turret facing
             if (mesh != null)
@@ -168,7 +168,7 @@ namespace TowerDefense.Targetting
         /// </summary>
         public List<Targetable> GetAllTargets()
         {
-            return m_TargetsInRange;
+            return _TargetsInRange;
         }
 
         /// <summary>
@@ -202,9 +202,9 @@ namespace TowerDefense.Targetting
                 return;
             }
 
-            m_TargetsInRange.Remove(targetable);
-            targetExitsRange?.Invoke(targetable);
-            if (targetable == m_CurrrentTargetable)
+            _TargetsInRange.Remove(targetable);
+            TargetExitsRange?.Invoke(targetable);
+            if (targetable == _CurrrentTargetable)
             {
                 OnTargetRemoved(targetable);
             }
@@ -227,8 +227,8 @@ namespace TowerDefense.Targetting
                 return;
             }
             targetable.Removed += OnTargetRemoved;
-            m_TargetsInRange.Add(targetable);
-            targetEntersRange?.Invoke(targetable);
+            _TargetsInRange.Add(targetable);
+            TargetEntersRange?.Invoke(targetable);
         }
 
         /// <summary>
@@ -237,7 +237,7 @@ namespace TowerDefense.Targetting
         /// <returns>The nearest targetable if there is one, null otherwise</returns>
         protected virtual Targetable GetNearestTargetable()
         {
-            int length = m_TargetsInRange.Count;
+            int length = _TargetsInRange.Count;
 
             if (length == 0)
             {
@@ -248,10 +248,10 @@ namespace TowerDefense.Targetting
             float distance = float.MaxValue;
             for (int i = length - 1; i >= 0; i--)
             {
-                Targetable targetable = m_TargetsInRange[i];
+                Targetable targetable = _TargetsInRange[i];
                 if (targetable == null || targetable.IsDead)
                 {
-                    m_TargetsInRange.RemoveAt(i);
+                    _TargetsInRange.RemoveAt(i);
                     continue;
                 }
                 float currentDistance = Vector3.Distance(transform.position, targetable.Position);
@@ -270,8 +270,8 @@ namespace TowerDefense.Targetting
         /// </summary>
         protected virtual void Start()
         {
-            m_SearchTimer = searchRate;
-            m_WaitTimer = idleWaitTime;
+            _SearchTimer = searchRate;
+            _WaitTimer = idleWaitTime;
         }
 
         /// <summary>
@@ -279,20 +279,20 @@ namespace TowerDefense.Targetting
         /// </summary>
         protected virtual void Update()
         {
-            m_SearchTimer -= Time.deltaTime;
+            _SearchTimer -= Time.deltaTime;
 
-            if (m_SearchTimer <= 0.0f && m_CurrrentTargetable == null && m_TargetsInRange.Count > 0)
+            if (_SearchTimer <= 0.0f && _CurrrentTargetable == null && _TargetsInRange.Count > 0)
             {
-                m_CurrrentTargetable = GetNearestTargetable();
-                if (m_CurrrentTargetable != null)
+                _CurrrentTargetable = GetNearestTargetable();
+                if (_CurrrentTargetable != null)
                 {
-                    acquiredTarget?.Invoke(m_CurrrentTargetable);
-                    m_SearchTimer = searchRate;
+                    AcquiredTarget?.Invoke(_CurrrentTargetable);
+                    _SearchTimer = searchRate;
                 }
             }
 
             AimTurret();
-            m_HadTarget = m_CurrrentTargetable != null;
+            _HadTarget = _CurrrentTargetable != null;
         }
 
         /// <summary>
@@ -302,24 +302,24 @@ namespace TowerDefense.Targetting
         void OnTargetRemoved(DamageableBehaviour target)
         {
             target.Removed -= OnTargetRemoved;
-            if (m_CurrrentTargetable != null && target.configuration == m_CurrrentTargetable.configuration)
+            if (_CurrrentTargetable != null && target.configuration == _CurrrentTargetable.configuration)
             {
-                if (lostTarget != null)
+                if (LostTarget != null)
                 {
-                    lostTarget();
+                    LostTarget();
                 }
-                m_HadTarget = false;
-                m_TargetsInRange.Remove(m_CurrrentTargetable);
-                m_CurrrentTargetable = null;
-                m_XRotationCorrectionTime = 0.0f;
+                _HadTarget = false;
+                _TargetsInRange.Remove(_CurrrentTargetable);
+                _CurrrentTargetable = null;
+                _XRotationCorrectionTime = 0.0f;
             }
             else //wasnt the current target, find and remove from targets list
             {
-                for (int i = 0; i < m_TargetsInRange.Count; i++)
+                for (int i = 0; i < _TargetsInRange.Count; i++)
                 {
-                    if (m_TargetsInRange[i].configuration == target.configuration)
+                    if (_TargetsInRange[i].configuration == target.configuration)
                     {
-                        m_TargetsInRange.RemoveAt(i);
+                        _TargetsInRange.RemoveAt(i);
                         break;
                     }
                 }
@@ -327,7 +327,7 @@ namespace TowerDefense.Targetting
         }
 
         /// <summary>
-        /// Aims the turret at the current target
+        /// 현재 목표물을 향해 조준
         /// </summary>
         protected virtual void AimTurret()
         {
@@ -336,31 +336,31 @@ namespace TowerDefense.Targetting
                 return;
             }
 
-            if (m_CurrrentTargetable == null) // do idle rotation
+            if (_CurrrentTargetable == null) // 대기 상태 회전
             {
-                if (m_WaitTimer > 0)
+                if (_WaitTimer > 0)
                 {
-                    m_WaitTimer -= Time.deltaTime;
-                    if (m_WaitTimer <= 0)
+                    _WaitTimer -= Time.deltaTime;
+                    if (_WaitTimer <= 0)
                     {
-                        m_CurrentRotationSpeed = (Random.value * 2 - 1) * idleRotationSpeed;
+                        _CurrentRotationSpeed = (Random.value * 2 - 1) * idleRotationSpeed;
                     }
                 }
                 else
                 {
                     Vector3 euler = mesh.rotation.eulerAngles;
-                    euler.x = Mathf.Lerp(Wrap180(euler.x), 0, m_XRotationCorrectionTime);
-                    m_XRotationCorrectionTime = Mathf.Clamp01((m_XRotationCorrectionTime + Time.deltaTime) / idleCorrectionTime);
-                    euler.y += m_CurrentRotationSpeed * Time.deltaTime;
+                    euler.x = Mathf.Lerp(Wrap180(euler.x), 0, _XRotationCorrectionTime);
+                    _XRotationCorrectionTime = Mathf.Clamp01((_XRotationCorrectionTime + Time.deltaTime) / idleCorrectionTime);
+                    euler.y += _CurrentRotationSpeed * Time.deltaTime;
 
                     mesh.eulerAngles = euler;
                 }
             }
             else
             {
-                m_WaitTimer = idleWaitTime;
+                _WaitTimer = idleWaitTime;
 
-                Vector3 targetPosition = m_CurrrentTargetable.Position;
+                Vector3 targetPosition = _CurrrentTargetable.Position;
                 if (onlyYTurretRotation)
                 {
                     targetPosition.y = mesh.position.y;
@@ -368,7 +368,6 @@ namespace TowerDefense.Targetting
                 Vector3 direction = targetPosition - mesh.position;
                 Quaternion look = Quaternion.LookRotation(direction, Vector3.up);
                 Vector3 lookEuler = look.eulerAngles;
-                // We need to convert the rotation to a -180/180 wrap so that we can clamp the angle with a min/max
                 float x = Wrap180(lookEuler.x);
                 lookEuler.x = Mathf.Clamp(x, turretXRotationRange.x, turretXRotationRange.y);
                 look.eulerAngles = lookEuler;
@@ -377,7 +376,7 @@ namespace TowerDefense.Targetting
         }
 
         /// <summary>
-        /// A simply function to convert an angle to a -180/180 wrap
+        /// 각도를 -180 ~ 180 범위로 정규화
         /// </summary>
         static float Wrap180(float angle)
         {
