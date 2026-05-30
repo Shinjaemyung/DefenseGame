@@ -17,7 +17,10 @@ public class Hero : MonoBehaviour
     /// <summary>사망 시 발생</summary>
     public event Action OnDied;
 
-    private bool isDead;
+    /// <summary>부활 시 발생</summary>
+    public event Action OnRevived;
+
+    public bool isDead;
 
     private void Awake()
     {
@@ -46,5 +49,12 @@ public class Hero : MonoBehaviour
         if (isDead) return;
         isDead = true;
         OnDied?.Invoke();
+    }
+
+    public void Revive()
+    {
+        if (!isDead) return;
+        isDead = false;
+        OnRevived?.Invoke();
     }
 }

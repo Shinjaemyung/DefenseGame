@@ -26,6 +26,25 @@ public class GameUIManager : MonoBehaviour
         ShowTowerList();
     }
 
+    private void Start()
+    {
+        if (Hero.Instance != null)
+        {
+            Hero.Instance.OnDied += OnHeroDied;
+            Hero.Instance.OnRevived += OnHeroRevived;
+        }  
+    }
+
+    private void OnHeroDied()
+    {
+        modeChangeButton.SetButtonInteractable(false);
+    }
+
+    private void OnHeroRevived()
+    {
+        modeChangeButton.SetButtonInteractable(true);
+    }
+
     public void SetTowerPlacementModeUI()
     {
         heroInfoPanel.Hide();
@@ -63,5 +82,14 @@ public class GameUIManager : MonoBehaviour
         if (gameOverPanel == null) return;
         gameOverPanel.transform.SetAsLastSibling();
         gameOverPanel.Show();
+    }
+
+    private void OnDestroy()
+    {
+        if (Hero.Instance != null)
+        {
+            Hero.Instance.OnDied -= OnHeroDied;
+            Hero.Instance.OnRevived -= OnHeroRevived;
+        }
     }
 }
