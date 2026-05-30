@@ -14,6 +14,10 @@ public class TestManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.X))
             GameManager.Instance.UpdatePlayerGold(10);
+
+
+        if (Input.GetKeyDown(KeyCode.Y))
+            Hero.Instance.UpdateHealth(-50);
     }
 
 }

@@ -14,6 +14,9 @@ public class Hero : MonoBehaviour
     /// <summary>체력 변경 시 발생. (currentHealth, maxHealth)</summary>
     public event Action<float, float> OnHealthChanged;
 
+    /// <summary>사망 시 발생</summary>
+    public event Action OnDied;
+
     private bool isDead;
 
     private void Awake()
@@ -22,6 +25,11 @@ public class Hero : MonoBehaviour
         else Destroy(gameObject);
 
         Health = maxHealth;
+    }
+
+    private void Start()
+    {
+        gameObject.SetActive(false);
     }
 
     public void UpdateHealth(float amount)
@@ -35,6 +43,8 @@ public class Hero : MonoBehaviour
 
     public void Die()
     {
+        if (isDead) return;
         isDead = true;
+        OnDied?.Invoke();
     }
 }

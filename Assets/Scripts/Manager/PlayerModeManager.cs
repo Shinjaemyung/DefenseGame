@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using StarterAssets;
 using System.Collections;
 
@@ -14,7 +14,6 @@ public class PlayerModeManager : MonoBehaviour
 
     public PlayerMode playerMode;
 
-    public GameObject hero;
     StarterAssetsInputs heroInputs;
     public UI_ModeChangeButton modeChangeButton;
 
@@ -24,12 +23,12 @@ public class PlayerModeManager : MonoBehaviour
     {
         if (Instance == null) Instance = this;
         else Destroy(gameObject);
-
-        heroInputs = hero.GetComponent<StarterAssetsInputs>();
     }
 
     private void Start()
     {
+        heroInputs = Hero.Instance.GetComponent<StarterAssetsInputs>();
+        Hero.Instance.OnDied += RequestPlayerModeChange;
         SetTowerPlacementMode();
     }
 
@@ -62,7 +61,7 @@ public class PlayerModeManager : MonoBehaviour
 
     void SetTowerPlacementMode()
     {
-        hero.gameObject.SetActive(false);
+        Hero.Instance.gameObject.SetActive(false);
         MouseManager.Instance.SetCursorLockState(false);
         MainCameraController.Instance.SetTowerPlacementModeView();
         GameUIManager.Instance.SetTowerPlacementModeUI();
@@ -71,10 +70,16 @@ public class PlayerModeManager : MonoBehaviour
 
     void SetHeroControlMode()
     {
-        hero.gameObject.SetActive(true);
+        Hero.Instance.gameObject.SetActive(true);
         MouseManager.Instance.SetCursorLockState(true);
         MainCameraController.Instance.SetHeroControlModeView();
         GameUIManager.Instance.SetHeroControlModeUI();
         playerMode = PlayerMode.HeroControlMode;
+    }
+
+    private void OnDestroy()
+    {
+        if (Hero.Instance != null)
+            Hero.Instance.OnDied -= RequestPlayerModeChange;
     }
 }

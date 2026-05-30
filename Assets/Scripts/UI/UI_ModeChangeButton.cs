@@ -5,7 +5,7 @@ using static PlayerModeManager;
 
 public class UI_ModeChangeButton : MonoBehaviour
 {
-    Button m_Button;
+    Button _Button;
     TextMeshProUGUI buttonText;
 
     public string heroControlModeText;
@@ -13,9 +13,9 @@ public class UI_ModeChangeButton : MonoBehaviour
 
     private void Awake()
     {
-        m_Button = GetComponent<Button>();
+        _Button = GetComponent<Button>();
         buttonText = GetComponentInChildren<TextMeshProUGUI>();
-        m_Button.onClick.AddListener(OnClickButton);
+        _Button.onClick.AddListener(OnClickButton);
     }
 
     void OnClickButton()
@@ -38,6 +38,6 @@ public class UI_ModeChangeButton : MonoBehaviour
 
     public void SetButtonInteractable(bool isInteractable)
     {
-        m_Button.interactable = isInteractable;
+        _Button.interactable = isInteractable;
     }
 }

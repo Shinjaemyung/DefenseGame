@@ -21,7 +21,7 @@ public class HeroContactDamage : MonoBehaviour
         _hero = GetComponent<Hero>();
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
         var enemy = other.GetComponent<Enemy>();
         if (enemy == null) return;
