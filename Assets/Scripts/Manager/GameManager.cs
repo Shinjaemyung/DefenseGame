@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -13,6 +14,9 @@ public class GameManager : MonoBehaviour
     public int PlayerHealth { get; private set; }
     public int PlayerGold { get; private set; }
 
+    [SerializeField, Tooltip("Hero 사망 시 체력 회복 속도")]
+    float heroHealthRegenRate = 1;
+
     public event Action<int> OnPlayerHealthChanged;
     public event Action<int> OnPlayerGoldChanged;
 
@@ -23,6 +27,11 @@ public class GameManager : MonoBehaviour
 
         PlayerHealth = initialPlayerHealth;
         PlayerGold = initialPlayerGold;
+    }
+    private void Start()
+    {
+        if (Hero.Instance != null)
+            Hero.Instance.OnDied += OnHeroDied;
     }
 
     public void UpdatePlayerHealth(int amount)
@@ -46,5 +55,29 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 0f;
         GameUIManager.Instance.ShowGameOver();
+    }
+
+    private void OnHeroDied()
+    {
+        StartCoroutine(HeroRecoveryCoroutine());
+    }
+
+    private IEnumerator HeroRecoveryCoroutine()
+    {
+        var hero = Hero.Instance;
+        while (hero.isDead)
+        {
+            yield return new WaitForSeconds(1f);
+            hero.UpdateHealth(heroHealthRegenRate);
+
+            if (hero.Health >= hero.MaxHealth)
+                hero.Revive();
+        }
+    }
+
+    private void OnDestroy()
+    {
+        if (Hero.Instance != null)
+            Hero.Instance.OnDied -= OnHeroDied;
     }
 }
