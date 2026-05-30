@@ -48,6 +48,7 @@ UI
 버그
 GridSize 1이 아닐때 material 사이즈 안맞음
 호밍 투사체 너무 빠르면 타겟에 안닿음 - 버그 발생 상황 적으니 보류
+Enemy 충돌 쿨타임 지나기 전에 pool됐다가 재생성된 같은 인스턴스에 맞을 경우 데미지 쿨타임 이전 걸로 적용 - 버그 발생 상황 매우 적음
 BallisticProjectile 미완성 - targetPoint가 항상 0이 됨
 배치 모드에서 타워 배치 중일때 모드 바꾸면 VirtualTower 남아있는 버그*
 grid 연결 부위는 서로 다른 grid라 배치 못하는 버그 있음

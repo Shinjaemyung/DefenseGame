@@ -9,6 +9,9 @@ public class Enemy : Targetable
 {
     [SerializeField] private UI_EnemyHealthBar healthBar;
 
+    [SerializeField, Tooltip("Hero와 충돌 시 주는 데미지 (임시)")]
+    public float attackDamage = 10f;
+
     private EnemyPoolable _poolable;
 
     protected override void Awake()
