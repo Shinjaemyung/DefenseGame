@@ -68,7 +68,7 @@ public class MouseManager : MonoBehaviour
             direction += Vector3.forward;
         }
 
-        MainCameraController.Instance.Move(direction);
+        CameraController.Instance.Move(direction);
     }
 
     void CameraZoom()
@@ -78,7 +78,7 @@ public class MouseManager : MonoBehaviour
         if (scroollWheel == 0)
             return;
 
-        MainCameraController.Instance.Zoom(scroollWheel);
+        CameraController.Instance.Zoom(scroollWheel);
     }
 
     /// <summary>커서 락 상태 변경</summary>

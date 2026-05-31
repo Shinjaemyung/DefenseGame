@@ -60,7 +60,7 @@ public class PlayerModeManager : MonoBehaviour
         yield return null;
 
         // 블렌드가 끝날 때까지 대기
-        while (MainCameraController.Instance.IsBlending)
+        while (CameraController.Instance.IsBlending)
             yield return null;
 
         // 모드 전환 완료
@@ -79,7 +79,7 @@ public class PlayerModeManager : MonoBehaviour
 
     void BeginTowerPlacementMode()
     {
-        MainCameraController.Instance.SetTowerPlacementModeView();
+        CameraController.Instance.SetTowerPlacementModeView();
 
         // 이펙트 연출, Hero 모션 등 추가, UI 로직 변경
     }
@@ -94,7 +94,7 @@ public class PlayerModeManager : MonoBehaviour
 
     void BeginHeroControlMode()
     {
-        MainCameraController.Instance.SetHeroControlModeView();
+        CameraController.Instance.SetHeroControlModeView();
     }
 
     void CompleteHeroControlMode()

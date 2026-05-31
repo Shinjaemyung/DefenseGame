@@ -3,11 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MainCameraController : MonoBehaviour
+public class CameraController : MonoBehaviour
 {
-    public static MainCameraController Instance { get; private set; }
-
-    Camera mainCamera;
+    public static CameraController Instance { get; private set; }
 
     [SerializeField] Vector3 startPosition;
     [SerializeField] Vector3 startRotation;
@@ -23,6 +21,7 @@ public class MainCameraController : MonoBehaviour
     [SerializeField] float zoomSpeed = 4000f;
 
     CinemachineBrain cinemachineBrain;
+
     [SerializeField, Tooltip("Hero 모드 가상 카메라")]
     CinemachineVirtualCamera heroFollowCamera;
 
@@ -38,16 +37,15 @@ public class MainCameraController : MonoBehaviour
         if (Instance == null) Instance = this;
         else Destroy(gameObject);
 
-        mainCamera = GetComponent<Camera>();
         cinemachineBrain = GetComponent<CinemachineBrain>();
 
-        currentZoom = mainCamera.fieldOfView;
+        currentZoom = towerPlacementCamera.m_Lens.FieldOfView;
     }
 
     private void Start()
     {
-        mainCamera.transform.position = startPosition;
-        mainCamera.transform.eulerAngles = startRotation;
+        towerPlacementCamera.transform.position = startPosition;
+        towerPlacementCamera.transform.eulerAngles = startRotation;
     }
 
     public void Move(Vector3 direction)
