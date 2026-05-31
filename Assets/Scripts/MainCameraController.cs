@@ -29,6 +29,10 @@ public class MainCameraController : MonoBehaviour
     [SerializeField, Tooltip("타워 배치 모드 가상 카메라")]
     CinemachineVirtualCamera towerPlacementCamera;
 
+
+    /// <summary>카메라 블렌드 중인지 여부 반환</summary>
+    public bool IsBlending => cinemachineBrain.IsBlending;
+
     private void Awake()
     {
         if (Instance == null) Instance = this;

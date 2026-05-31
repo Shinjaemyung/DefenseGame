@@ -29,7 +29,7 @@ public class PlayerModeManager : MonoBehaviour
     {
         heroInputs = Hero.Instance.GetComponent<StarterAssetsInputs>();
         Hero.Instance.OnDied += RequestPlayerModeChange;
-        SetTowerPlacementMode();
+        CompleteTowerPlacementMode();
     }
 
     public void RequestPlayerModeChange()
@@ -44,35 +44,63 @@ public class PlayerModeManager : MonoBehaviour
     {
         isModeChanging = true;
         heroInputs.Initialize();
-        yield return new WaitForSeconds(1.5f);
 
+        // 모드 전환 시작
         switch (currentMode)
         {
             case PlayerMode.TowerPlacementMode:
-                SetHeroControlMode();
+                BeginHeroControlMode();
                 break;
             case PlayerMode.HeroControlMode:
-                SetTowerPlacementMode();
+                BeginTowerPlacementMode();
+                break;
+        }
+
+        // 블렌드가 시작될 때까지 한 프레임 대기
+        yield return null;
+
+        // 블렌드가 끝날 때까지 대기
+        while (MainCameraController.Instance.IsBlending)
+            yield return null;
+
+        // 모드 전환 완료
+        switch (currentMode)
+        {
+            case PlayerMode.TowerPlacementMode:
+                CompleteHeroControlMode();
+                break;
+            case PlayerMode.HeroControlMode:
+                CompleteTowerPlacementMode();
                 break;
         }
 
         isModeChanging = false;
     }
 
-    void SetTowerPlacementMode()
+    void BeginTowerPlacementMode()
+    {
+        MainCameraController.Instance.SetTowerPlacementModeView();
+
+        // 이펙트 연출, Hero 모션 등 추가, UI 로직 변경
+    }
+
+    void CompleteTowerPlacementMode()
     {
         Hero.Instance.gameObject.SetActive(false);
         MouseManager.Instance.SetCursorLockState(false);
-        MainCameraController.Instance.SetTowerPlacementModeView();
         GameUIManager.Instance.SetTowerPlacementMode();
         playerMode = PlayerMode.TowerPlacementMode;
     }
 
-    void SetHeroControlMode()
+    void BeginHeroControlMode()
+    {
+        MainCameraController.Instance.SetHeroControlModeView();
+    }
+
+    void CompleteHeroControlMode()
     {
         Hero.Instance.gameObject.SetActive(true);
         MouseManager.Instance.SetCursorLockState(true);
-        MainCameraController.Instance.SetHeroControlModeView();
         GameUIManager.Instance.SetHeroControlMode();
         playerMode = PlayerMode.HeroControlMode;
     }
