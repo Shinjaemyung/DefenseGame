@@ -5,9 +5,18 @@ using static PlayerModeManager;
 
 public class UserInputManager : MonoBehaviour
 {
+    public static UserInputManager Instance { get; private set; }
+
     public LayerMask towerLayer;
 
     public event Action OnLeftMouseReleased;
+    public event Action OnRightMouseReleased;
+
+    private void Awake()
+    {
+        if (Instance == null) Instance = this;
+        else Destroy(gameObject);
+    }
 
     private void Update()
     {

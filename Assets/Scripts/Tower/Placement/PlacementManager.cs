@@ -1,10 +1,13 @@
 using Core.Utilities;
 using TowerDefense.Towers.Placement;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 
 public class PlacementManager : MonoBehaviour
 {
+    public static PlacementManager Instance { get; private set; }
+
     TowerPlacementGrid[] grids;
     VirtualTower grabedVirtualTower;
 
@@ -14,29 +17,37 @@ public class PlacementManager : MonoBehaviour
     [SerializeField]
     Material invalidPlacementMaterial;
 
+    UI_TowerSpawnButton[] towerSpawnButtons;
+
     LayerMask placementAreaMask;
     LayerMask gridMask;
 
     private void Awake()
     {
+        if (Instance == null) Instance = this;
+        else Destroy(gameObject);
+
         grids = FindObjectsByType<TowerPlacementGrid>(FindObjectsSortMode.None);
 
-        UserInputManager userInputManager = FindAnyObjectByType<UserInputManager>();
+        towerSpawnButtons = FindObjectsByType<UI_TowerSpawnButton>(FindObjectsSortMode.None);
 
-        userInputManager.OnLeftMouseReleased += TryTowerBuild;
-        userInputManager.OnLeftMouseReleased += DeactivateAllGrids;
+        placementAreaMask = LayerMask.GetMask("Grid", "Ground");
+        gridMask = LayerMask.GetMask("Grid");
 
-        UI_TowerSpawnButton[] towerSpawnButtons = FindObjectsByType<UI_TowerSpawnButton>(FindObjectsSortMode.None);
+        DeactivateAllGrids();
+    }
+
+    private void Start()
+    {
         foreach (UI_TowerSpawnButton button in towerSpawnButtons)
         {
             button.OnButtonClicked += ActivateAllGrids;
             button.OnButtonClicked += SpawnVirtualTower;
         }
 
-        placementAreaMask = LayerMask.GetMask("Grid", "Ground");
-        gridMask = LayerMask.GetMask("Grid");
-
-        DeactivateAllGrids();
+        UserInputManager.Instance.OnLeftMouseReleased += TryTowerBuild;
+        UserInputManager.Instance.OnLeftMouseReleased += DeactivateAllGrids;
+        UserInputManager.Instance.OnRightMouseReleased += RemoveVirtualTower;
     }
 
     private void Update()
@@ -87,6 +98,9 @@ public class PlacementManager : MonoBehaviour
         if (grabedVirtualTower == null)
             return;
 
+        if (EventSystem.current.IsPointerOverGameObject())
+            return;
+
         if (grabedVirtualTower.isPlacementValid)
         {
             Tower spawnedTower = Instantiate(grabedVirtualTower.MyTower);
@@ -105,7 +119,11 @@ public class PlacementManager : MonoBehaviour
 
     void RemoveVirtualTower()
     {
+        if (grabedVirtualTower == null)
+            return;
+
         Destroy(grabedVirtualTower.gameObject);
+        grabedVirtualTower = null;
     }
 
     void ActivateAllGrids(Tower tower)
@@ -121,6 +139,15 @@ public class PlacementManager : MonoBehaviour
         foreach (TowerPlacementGrid grid in grids)
         {
             grid.gameObject.SetActive(false);
+        }
+    }
+
+    private void OnDestroy()
+    {
+        foreach (UI_TowerSpawnButton button in towerSpawnButtons)
+        {
+            button.OnButtonClicked -= ActivateAllGrids;
+            button.OnButtonClicked -= SpawnVirtualTower;
         }
     }
 }
