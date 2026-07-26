@@ -17,18 +17,12 @@ namespace Core.Health
         /// 오브젝트 사망 여부
         /// </summary>
         /// <value>죽었다면 True</value>
-        public bool IsDead
-        {
-            get { return configuration.IsDead; }
-        }
+        public bool IsDead => configuration.IsDead;
 
         /// <summary>
         /// 오브젝트의 position
         /// </summary>
-        public virtual Vector3 Position
-        {
-            get { return transform.position; }
-        }
+        public virtual Vector3 Position => transform.position; 
 
         /// <summary>
         /// 데미지를 받았을 때 발생하는 이벤트

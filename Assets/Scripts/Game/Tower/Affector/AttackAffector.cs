@@ -63,7 +63,7 @@ namespace TowerDefense.Affectors
         protected ILauncher _launcher;
 
         /// <summary>
-        /// TowerData 캐시 (attackSpeed 참조용)
+        /// TowerData 캐시
         /// </summary>
         protected TowerData _towerData;
 
@@ -105,40 +105,10 @@ namespace TowerDefense.Affectors
         /// <summary>Attack 파라미터 해시</summary>
         private static readonly int AttackHash = Animator.StringToHash("Attack");
 
-        /// <summary>
-        /// Targetter의 탐색 주기
-        /// </summary>
-        public float SearchRate
-        {
-            get { return towerTargetter.searchRate; }
-            set { towerTargetter.searchRate = value; }
-        }
+        public float EffectRadius => towerTargetter.EffectRadius;
+        public Color EffectColor => radiusEffectColor;
+        public Targetter Targetter => towerTargetter;
 
-        /// <summary>
-        /// 현재 추적중인 대상
-        /// </summary>
-        public Targetable TrackingEnemy
-        {
-            get { return _trackingEnemy; }
-        }
-
-        /// <summary>
-        /// 공격 범위
-        /// </summary>
-        public float EffectRadius
-        {
-            get { return towerTargetter.EffectRadius; }
-        }
-
-        public Color EffectColor
-        {
-            get { return radiusEffectColor; }
-        }
-
-        public Targetter Targetter
-        {
-            get { return towerTargetter; }
-        }
 
         private void Awake()
         {
@@ -254,7 +224,7 @@ namespace TowerDefense.Affectors
         }
 
         /// <summary>
-        /// 공격 시 공통으로 수행되는 로직
+        /// 공격 시 수행되는 로직
         /// </summary>
         protected virtual void FireProjectile()
         {
@@ -283,18 +253,6 @@ namespace TowerDefense.Affectors
 
             if (audioSource != null && fireClip != null)
                 audioSource.PlayOneShot(fireClip);
-        }
-
-        /// <summary>
-        ///대상 간 거리를 비교하기 위한 함수
-        /// </summary>
-        /// <param name="first"></param>
-        /// <param name="second"></param>
-        protected virtual int ByDistance(Targetable first, Targetable second)
-        {
-            float firstSqrMagnitude = Vector3.SqrMagnitude(first.Position - epicenter.position);
-            float secondSqrMagnitude = Vector3.SqrMagnitude(second.Position - epicenter.position);
-            return firstSqrMagnitude.CompareTo(secondSqrMagnitude);
         }
 
         void OnDestroy()
