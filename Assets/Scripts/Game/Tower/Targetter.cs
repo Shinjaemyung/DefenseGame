@@ -96,6 +96,61 @@ namespace TowerDefense.Targetting
         /// 현재 타깃(Targetable)
         /// </summary>
         protected Targetable _currentTargetable;
+        /// <summary>
+        /// 타깃이 잠겨 있는 동안(예: 공격 애니메이션 재생 중)에는
+        /// 현재 타깃을 잃기 전까지 새 타깃으로 교체되지 않음
+        /// </summary>
+        protected bool _targetLocked;
+
+        /// <summary>
+        /// 타깃 잠금 여부
+        /// </summary>
+        public bool IsTargetLocked => _targetLocked;
+
+        /// <summary>
+        /// 타깃을 잠가 새로운 타깃으로 자동 교체되지 않도록 함
+        /// (공격 애니메이션이 재생되는 동안 사용)
+        /// </summary>
+        public void LockTarget()
+        {
+            _targetLocked = true;
+        }
+
+        /// <summary>
+        /// 타깃 잠금을 해제
+        /// (공격 애니메이션 종료 시점에 호출)
+        /// </summary>
+        public void UnlockTarget()
+        {
+            if (!_targetLocked)
+            {
+                return;
+            }
+
+            _targetLocked = false;
+
+            TryAcquireNearestTarget();
+        }
+
+        /// <summary>
+        /// 사거리 내에서 가장 가까운 타깃을 찾아 지정
+        /// </summary>
+        protected void TryAcquireNearestTarget()
+        {
+            if (_targetLocked || _currentTargetable != null || _targetsInRange.Count == 0)
+            {
+                return;
+            }
+
+            _currentTargetable = GetNearestTargetable();
+            if (_currentTargetable != null)
+            {
+                AcquiredTarget?.Invoke(_currentTargetable);
+                _searchTimer = searchRate;
+            }
+        }
+
+
 
         /// <summary>
         /// X축 회전 보정에 사용되는 카운터
@@ -131,11 +186,6 @@ namespace TowerDefense.Targetting
                 return 0;
             }
         }
-        public Targetable GetTarget()
-        {
-            return _currentTargetable;
-        }
-
         /// <summary>
         /// 현재 타깃 목록을 비우고 모든 이벤트를 초기화
         /// </summary>
@@ -143,6 +193,7 @@ namespace TowerDefense.Targetting
         {
             _targetsInRange.Clear();
             _currentTargetable = null;
+            _targetLocked = false;
 
             TargetEntersRange = null;
             TargetExitsRange = null;
@@ -153,14 +204,6 @@ namespace TowerDefense.Targetting
             {
                 mesh.localRotation = Quaternion.identity;
             }
-        }
-
-        /// <summary>
-        /// 범위 안에 있는 모든 타깃을 반환
-        /// </summary>
-        public List<Targetable> GetAllTargets()
-        {
-            return _targetsInRange;
         }
 
         /// <summary>
@@ -302,14 +345,9 @@ namespace TowerDefense.Targetting
         {
             _searchTimer -= Time.deltaTime;
 
-            if (_searchTimer <= 0.0f && _currentTargetable == null && _targetsInRange.Count > 0)
+            if (_searchTimer <= 0.0f)
             {
-                _currentTargetable = GetNearestTargetable();
-                if (_currentTargetable != null)
-                {
-                    AcquiredTarget?.Invoke(_currentTargetable);
-                    _searchTimer = searchRate;
-                }
+                TryAcquireNearestTarget();
             }
 
             AimTurret();

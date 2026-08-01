@@ -182,9 +182,20 @@ namespace TowerDefense.Affectors
         protected virtual void Update()
         {
             _fireTimer -= Time.deltaTime;
+
+            // 공격 주기(애니메이션 재생 구간)가 끝났다면 타깃 잠금을 해제
+            if (_fireTimer <= 0.0f)
+            {
+                towerTargetter.UnlockTarget();
+            }
+
             if (_trackingEnemy != null && _fireTimer <= 0.0f)
             {
                 OnFireAnimation();
+
+                // 다음 공격 주기(애니메이션 재생) 동안 타깃이 바뀌지 않도록 잠금
+                towerTargetter.LockTarget();
+
                 _fireTimer = 1 / _towerData.attackSpeed;
             }
         }
