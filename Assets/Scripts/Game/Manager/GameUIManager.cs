@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 using static PlayerModeManager;
@@ -14,6 +15,12 @@ public class GameUIManager : MonoBehaviour
     UI_HeroInfoPanel heroInfoPanel;
     UI_SettingsPanel settingsPanel;
     UI_PlayerScorePanel playerScorePanel;
+    UI_ModeChangeEffectPanel modeChangeEffectPanel;
+
+    public event Action OnBeginTowerPlacementMode;
+    public event Action OnCompleteTowerPlacementMode;
+    public event Action OnBeginHeroControlMode;
+    public event Action OnCompleteHeroControlMode;
 
     private void Awake()
     {
@@ -28,6 +35,7 @@ public class GameUIManager : MonoBehaviour
         heroInfoPanel = GetComponentInChildren<UI_HeroInfoPanel>(true);
         settingsPanel = GetComponentInChildren<UI_SettingsPanel>(true);
         playerScorePanel = GetComponentInChildren<UI_PlayerScorePanel>(true);
+        modeChangeEffectPanel = GetComponentInChildren<UI_ModeChangeEffectPanel>(true);
 
         ShowTowerList();
     }
@@ -38,7 +46,9 @@ public class GameUIManager : MonoBehaviour
         {
             Hero.Instance.OnDied += OnHeroDied;
             Hero.Instance.OnRevived += OnHeroRevived;
-        }  
+        }
+
+        modeChangeEffectPanel.Initialize();
     }
 
     private void OnHeroDied()
@@ -54,6 +64,7 @@ public class GameUIManager : MonoBehaviour
     public void BeginTowerPlacementMode()
     {
         modeChangeButton.SetButtonInteractable(false);
+        OnBeginTowerPlacementMode?.Invoke();
     }
 
     public void CompleteTowerPlacementMode()
@@ -61,6 +72,7 @@ public class GameUIManager : MonoBehaviour
         towerListPanel.Show();
         modeChangeButton.ChangeButtonText(PlayerMode.TowerPlacementMode);
         modeChangeButton.SetButtonInteractable(true);
+        OnCompleteTowerPlacementMode?.Invoke();
     }
 
     public void BeginHeroControlMode()
@@ -69,12 +81,14 @@ public class GameUIManager : MonoBehaviour
         towerListPanel.Hide();
         towerInfoPanel.Hide();
         enemyInfoPanel.Hide();
+        OnBeginHeroControlMode?.Invoke();
     }
 
     public void CompleteHeroControlMode()
     {
         modeChangeButton.ChangeButtonText(PlayerMode.HeroControlMode);
         modeChangeButton.SetButtonInteractable(true);
+        OnCompleteHeroControlMode?.Invoke();
     }
 
     /// <summary>타워 리스트 패널 표시. 다른 패널은 비활성화.</summary>
