@@ -1,3 +1,4 @@
+using TowerDefense.UI;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -6,6 +7,11 @@ public class UI_GameStartButton : MonoBehaviour
 {
     Button _button;
 
+    [Tooltip("픽셀 디졸브 전환 후 씬을 로드. 비워두면 즉시 씬을 로드.")]
+    [SerializeField] CanvasDissolveTransition dissolveTransition;
+
+    const string GamePlaySceneName = "GamePlayScene";
+
     private void Awake()
     {
         _button = GetComponent<Button>();
@@ -13,9 +19,15 @@ public class UI_GameStartButton : MonoBehaviour
         _button.onClick.AddListener(OnStartGameClicked);
     }
 
-    /// <summary>게임 씬 로드</summary>
     void OnStartGameClicked()
     {
-        SceneManager.LoadScene("GamePlayScene");
+        if (dissolveTransition != null)
+        {
+            dissolveTransition.PlayDissolveThenLoadScene(GamePlaySceneName);
+        }
+        else
+        {
+            SceneManager.LoadScene(GamePlaySceneName);
+        }
     }
 }
