@@ -57,7 +57,7 @@ MonoBehaviour:
     alignment:
       unityObjectReference: {fileID: 0}
   targetTransform: {fileID: 0}
-  enemyData: {fileID: 11400000, guid: 6a2c47974aced1f4399a7c296e5f2d0d, type: 2}
+  _enemyData: {fileID: 0}
 --- !u!54 &8106249905074614151
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -118,9 +118,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b59abfe69704e4c44a4c9a2181bc1943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageableBehaviour: {fileID: 0}
   deathParticleSystemPrefab: {fileID: 0}
-  deathEffectOffset: {x: 0, y: 0, z: 0}
+  dissolveMaterialTemplate: {fileID: 2100000, guid: ede489fc399bfa5438197d2d956a63f3, type: 2}
+  dissolveDuration: 1.2
+  dissolveProgressPropertyName: _DissolveProgress
+  pooledDissolveMeshPrefab: {fileID: 1681340614021896830, guid: ccd4f200374246f4d880843e3a6ebc39, type: 3}
 --- !u!114 &124025492213710523
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -7,16 +7,7 @@ namespace TowerDefense.UI
 {
     /// <summary>
     /// Canvas 전체를 스크린샷으로 캡처한 뒤, 픽셀 디졸브 셰이더로 화면을 사라지게 하고
-    /// 애니메이션이 끝나면 지정한 씬을 로드한다.
-    ///
-    /// 사용법:
-    /// 1) Main Menu Canvas와 같은 계층(혹은 그 위)에 이 컴포넌트를 붙인 오브젝트를 둔다.
-    /// 2) 화면 전체를 덮는 RawImage(별도의, sortingOrder가 가장 높은 Canvas 위에 두는 걸 추천)를
-    ///    만들어 dissolveOverlay에 연결한다.
-    /// 3) Assets/Shaders/PixelDissolve.shader를 쓰는 머티리얼을 만들어 dissolveMaterialTemplate에 연결한다.
-    ///    머티리얼의 _NoiseTex에는 흑백 노이즈 텍스처를 지정해야 한다.
-    /// 4) 씬 전환이 필요한 곳(예: UI_GameStartButton)에서
-    ///    CanvasDissolveTransition.PlayDissolveThenLoadScene("GamePlayScene")을 호출한다.
+    /// 애니메이션이 끝나면 지정한 씬을 로드.
     /// </summary>
     [DisallowMultipleComponent]
     public class CanvasDissolveTransition : MonoBehaviour
@@ -83,7 +74,7 @@ namespace TowerDefense.UI
 
             if (_runtimeMaterial != null)
             {
-                _runtimeMaterial.SetFloat("_DissolveAmount", 1f);
+                _runtimeMaterial.SetFloat("_Progress", 1f);
             }
 
             float elapsed = 0f;
@@ -96,7 +87,7 @@ namespace TowerDefense.UI
 
                 if (_runtimeMaterial != null)
                 {
-                    _runtimeMaterial.SetFloat("_DissolveAmount", dissolveValue);
+                    _runtimeMaterial.SetFloat("_Progress", dissolveValue);
                 }
 
                 yield return null;
@@ -104,7 +95,7 @@ namespace TowerDefense.UI
 
             if (_runtimeMaterial != null)
             {
-                _runtimeMaterial.SetFloat("_DissolveAmount", 0f);
+                _runtimeMaterial.SetFloat("_Progress", 0f);
             }
 
             SceneManager.LoadScene(sceneName);
