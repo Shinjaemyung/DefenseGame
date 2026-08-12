@@ -10,7 +10,7 @@ namespace TowerDefense.UI
     /// 애니메이션이 끝나면 지정한 씬을 로드.
     /// </summary>
     [DisallowMultipleComponent]
-    public class CanvasDissolveTransition : MonoBehaviour
+    public class UI_TransitionCanvas : MonoBehaviour
     {
         [Header("References")]
         [Tooltip("디졸브 대상이 되는 Canvas. 캡처 직후 자동으로 비활성화된다.")]
@@ -117,7 +117,7 @@ namespace TowerDefense.UI
             if (dissolveOverlay != null)
             {
                 dissolveOverlay.texture = _captureTexture;
-                dissolveOverlay.uvRect = new Rect(0f, 1f, 1f, -1f);
+                //dissolveOverlay.uvRect = new Rect(0f, 1f, 1f, -1f);
                 dissolveOverlay.gameObject.SetActive(true);
             }
         }

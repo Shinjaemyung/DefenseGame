@@ -8,7 +8,7 @@ public class UI_GameStartButton : MonoBehaviour
     Button _button;
 
     [Tooltip("픽셀 디졸브 전환 후 씬을 로드. 비워두면 즉시 씬을 로드.")]
-    [SerializeField] CanvasDissolveTransition dissolveTransition;
+    [SerializeField] UI_TransitionCanvas transitionCanvas;
 
     const string GamePlaySceneName = "GamePlayScene";
 
@@ -21,9 +21,9 @@ public class UI_GameStartButton : MonoBehaviour
 
     void OnStartGameClicked()
     {
-        if (dissolveTransition != null)
+        if (transitionCanvas != null)
         {
-            dissolveTransition.PlayDissolveThenLoadScene(GamePlaySceneName);
+            transitionCanvas.PlayDissolveThenLoadScene(GamePlaySceneName);
         }
         else
         {
