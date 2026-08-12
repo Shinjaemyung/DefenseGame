@@ -23,24 +23,9 @@ namespace ActionGameFramework.Health
         /// </summary>
         public virtual Vector3 Velocity { get; protected set; }
 
-        /// <summary>
-        /// The transform that objects target, which falls back to this object's transform if not set
-        /// </summary>
-        public Transform TargetableTransform
-        {
-            get
-            {
-                return targetTransform == null ? transform : targetTransform;
-            }
-        }
+        public Transform TargetableTransform => targetTransform == null ? transform : targetTransform;
 
-        /// <summary>
-        /// Returns our targetable's transform position
-        /// </summary>
-        public override Vector3 Position
-        {
-            get { return TargetableTransform.position; }
-        }
+        public override Vector3 Position => TargetableTransform.position;
 
         /// <summary>
         /// Initialises any DamageableBehaviour logic

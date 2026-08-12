@@ -26,13 +26,13 @@ namespace Core.Health
         /// <summary>디졸브 연출이 설정되어 있는지 여부</summary>
         public bool HasDissolveEffect => dissolveMaterialTemplate != null && pooledDissolveMeshPrefab != null;
 
-        protected Vector3 deathEffectOffset;
+        Vector3 deathEffectOffset;
 
-        protected DamageableBehaviour damageableBehaviour;
+        DamageableBehaviour damageableBehaviour;
 
-        protected Damageable _damageable;
+        Damageable _damageable;
 
-        protected virtual void Awake()
+        private void Awake()
         {
             damageableBehaviour = GetComponent<DamageableBehaviour>();
 
@@ -51,7 +51,13 @@ namespace Core.Health
                 _damageable.Died += OnDied;
         }
 
-        void OnDied(HealthChangeInfo healthChangeInfo)
+        private void OnDisable()
+        {
+            if (_damageable != null)
+                _damageable.Died -= OnDied;
+        }
+
+        private void OnDied(HealthChangeInfo healthChangeInfo)
         {
             if (deathParticleSystemPrefab != null)
             {

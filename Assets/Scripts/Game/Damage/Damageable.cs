@@ -133,10 +133,7 @@ namespace Core.Health
 
             CurrentHealth = health;
 
-            if (HealthChanged != null)
-            {
-                HealthChanged(info);
-            }
+            HealthChanged?.Invoke(info);
         }
 
         /// <summary>
@@ -241,22 +238,7 @@ namespace Core.Health
             CurrentHealth = Mathf.Clamp(CurrentHealth, 0f, maxHealth);
             info.newHealth = CurrentHealth;
 
-            if (HealthChanged != null)
-            {
-                HealthChanged(info);
-            }
-        }
-
-        /// <summary>
-        /// 풀링될 때 기존 구독자 전부 제거
-        /// </summary>
-        public void ClearAllEvents()
-        {
-            ReachedMaxHealth = null;
-            Damaged = null;
-            Healed = null;
-            Died = null;
-            HealthChanged = null;
+            HealthChanged?.Invoke(info);
         }
     }
 }

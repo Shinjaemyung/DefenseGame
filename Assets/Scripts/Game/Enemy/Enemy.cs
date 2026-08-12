@@ -27,8 +27,17 @@ public class Enemy : Targetable
     {
         _enemyData = data;
         configuration.Initialize(_enemyData);
-        Hit += OnHit;
         statusEffects.Clear();
+    }
+
+    protected override void HandleEnable()
+    {
+        Hit += OnHit;
+    }
+
+    protected override void HandleDisable()
+    {
+        Hit -= OnHit;
     }
 
     private void Update()
@@ -92,13 +101,6 @@ public class Enemy : Targetable
     public override void Remove()
     {
         base.Remove();
-
-        ClearAllEvents();
         _poolable.ReturnToPool();
-    }
-
-    void OnDestroy()
-    {
-        ClearAllEvents();
     }
 }

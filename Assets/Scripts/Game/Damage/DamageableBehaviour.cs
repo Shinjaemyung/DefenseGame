@@ -44,10 +44,20 @@ namespace Core.Health
 
         }
 
-        protected virtual void OnEnable()
+        protected void OnEnable()
         {
             configuration.Died += OnConfigurationDied;
+            HandleEnable();
         }
+
+        private void OnDisable()
+        {
+            configuration.Died -= OnConfigurationDied;
+            HandleDisable();
+        }
+
+        protected virtual void HandleEnable() { }
+        protected virtual void HandleDisable() { }
 
         /// <summary>
         /// 실제 데미지 적용. typeCalculations에 등록된 배율을 damageType에 맞게 적용한 뒤 데미지를 적용.
@@ -61,10 +71,7 @@ namespace Core.Health
             HealthChangeInfo info;
             configuration.TakeDamage(damageValue, alignment, damageType, out info);
             var damageInfo = new HitInfo(info, damagePoint);
-            if (Hit != null)
-            {
-                Hit(damageInfo);
-            }
+            Hit?.Invoke(damageInfo);
         }
 
         /// <summary>
@@ -110,17 +117,6 @@ namespace Core.Health
         {
             OnDeath();
             Remove();
-        }
-
-        /// <summary>
-        /// 풀링될 때 기존 구독자 전부 제거
-        /// </summary>
-        protected void ClearAllEvents()
-        {
-            Hit = null;
-            Removed = null;
-            Died = null;
-            configuration.ClearAllEvents();
         }
     }
 }

@@ -76,6 +76,8 @@ public class GamePlayManager : MonoBehaviour
 
         UpdatePlayerGold(enemy._enemyData.goldReward);
         UpdatePlayerScore(increasingScoreAmount);
+
+        enemy.Died -= OnEnemyDied;
     }
 
     private void OnHeroDied()
