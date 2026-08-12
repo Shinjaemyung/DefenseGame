@@ -6,17 +6,20 @@ using UnityEngine;
 /// 죽은 오브젝트의 메시(파츠 단위)를 복제해 그 자리에 그대로 보여주고,
 /// 디졸브 연출이 끝나면 자동으로 풀에 반환된다.
 ///
+/// 새 머티리얼을 씌우지 않고, 원본 렌더러가 쓰던 머티리얼을 그대로(런타임 인스턴스로 복제해서)
+/// 사용한다. 즉 원본 머티리얼의 셰이더에 디졸브 진행도 프로퍼티가 이미 있어야 한다.
+///
 /// 사용법: Play()로 재생을 시작하면, 지정한 시간 동안 디졸브 진행도를
 /// 1(완전히 보임) -> 0(완전히 사라짐)으로 애니메이션한 뒤 스스로 풀에 반환된다.
 /// </summary>
 [RequireComponent(typeof(MeshFilter))]
 [RequireComponent(typeof(MeshRenderer))]
-public class PooledDissolveMesh : Poolable
+public class PooledSlimeDeathEffect : Poolable
 {
     MeshFilter _meshFilter;
     MeshRenderer _meshRenderer;
 
-    Material _dissolveInstance;
+    Material[] _runtimeMaterials;
 
     void Awake()
     {
@@ -25,17 +28,16 @@ public class PooledDissolveMesh : Poolable
     }
 
     /// <summary>
-    /// 지정한 메시를 지정한 위치/자세로 표시하고 디졸브 연출을 재생한다.
+    /// 지정한 메시를 지정한 위치/자세로 표시하고, 원본 머티리얼을 복제해 디졸브 연출을 재생한다.
     /// </summary>
     /// <param name="mesh">표시할 메시(원본 렌더러에서 복제/베이크된 메시)</param>
-    /// <param name="materialCount">머티리얼 슬롯 개수 (원본 렌더러의 서브메시 개수와 동일해야 함)</param>
-    /// <param name="dissolveMaterialTemplate">디졸브 셰이더를 쓰는 머티리얼 템플릿</param>
+    /// <param name="sourceMaterials">원본 렌더러가 쓰던 머티리얼 배열. 셰이더에 디졸브 진행도 프로퍼티가 있어야 함</param>
     /// <param name="progressPropertyId">디졸브 진행도 셰이더 프로퍼티 ID (Shader.PropertyToID로 미리 계산)</param>
     /// <param name="duration">디졸브 연출 시간(초)</param>
     /// <param name="position">월드 위치</param>
     /// <param name="rotation">월드 회전</param>
     /// <param name="scale">월드(lossy) 스케일</param>
-    public void Play(Mesh mesh, int materialCount, Material dissolveMaterialTemplate, int progressPropertyId,
+    public void Play(Mesh mesh, Material[] sourceMaterials, int progressPropertyId,
         float duration, Vector3 position, Quaternion rotation, Vector3 scale)
     {
         transform.SetPositionAndRotation(position, rotation);
@@ -43,23 +45,16 @@ public class PooledDissolveMesh : Poolable
 
         _meshFilter.sharedMesh = mesh;
 
-        if (_dissolveInstance == null)
-        {
-            _dissolveInstance = new Material(dissolveMaterialTemplate);
-        }
-        else if (_dissolveInstance.shader != dissolveMaterialTemplate.shader)
-        {
-            _dissolveInstance.shader = dissolveMaterialTemplate.shader;
-        }
+        ReleaseRuntimeMaterials();
 
-        var materials = new Material[materialCount];
-        for (int i = 0; i < materialCount; i++)
+        _runtimeMaterials = new Material[sourceMaterials.Length];
+        for (int i = 0; i < sourceMaterials.Length; i++)
         {
-            materials[i] = _dissolveInstance;
+            _runtimeMaterials[i] = new Material(sourceMaterials[i]);
         }
-        _meshRenderer.sharedMaterials = materials;
+        _meshRenderer.sharedMaterials = _runtimeMaterials;
 
-        _dissolveInstance.SetFloat(progressPropertyId, 1f);
+        SetProgress(progressPropertyId, 0.8f);
 
         StopAllCoroutines();
         StartCoroutine(DissolveRoutine(progressPropertyId, duration));
@@ -72,17 +67,45 @@ public class PooledDissolveMesh : Poolable
         {
             elapsed += Time.deltaTime;
             float progress = Mathf.Lerp(1f, 0f, Mathf.Clamp01(elapsed / duration));
-            _dissolveInstance.SetFloat(progressPropertyId, progress);
+            SetProgress(progressPropertyId, progress);
             yield return null;
         }
 
-        _dissolveInstance.SetFloat(progressPropertyId, 0f);
+        SetProgress(progressPropertyId, 0f);
         ReturnToPool();
+    }
+
+    void SetProgress(int progressPropertyId, float value)
+    {
+        if (_runtimeMaterials == null)
+        {
+            return;
+        }
+
+        for (int i = 0; i < _runtimeMaterials.Length; i++)
+        {
+            _runtimeMaterials[i].SetFloat(progressPropertyId, value);
+        }
+    }
+
+    void ReleaseRuntimeMaterials()
+    {
+        if (_runtimeMaterials == null)
+        {
+            return;
+        }
+
+        for (int i = 0; i < _runtimeMaterials.Length; i++)
+        {
+            Destroy(_runtimeMaterials[i]);
+        }
+        _runtimeMaterials = null;
     }
 
     public override void OnDespawn()
     {
         base.OnDespawn();
         _meshFilter.sharedMesh = null;
+        ReleaseRuntimeMaterials();
     }
 }

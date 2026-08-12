@@ -5,31 +5,20 @@ namespace Core.Health
 {
     public class DeathEffect : MonoBehaviour
     {
-        public ParticleSystem deathParticleSystemPrefab;
-
         [Header("Dissolve")]
-        [Tooltip("사망 시 적용할 디졸브 머티리얼 (예: MAT_Dissolve). 비워두면 디졸브 연출 없이 아무 일도 하지 않는다.")]
-        [SerializeField] private Material dissolveMaterialTemplate;
-
-        [Tooltip("디졸브 연출 시간(초)")]
+        [Tooltip("연출 시간(초)")]
         [SerializeField] private float dissolveDuration = 1.2f;
 
         [Tooltip("디졸브 셰이더의 진행도 프로퍼티 이름 (1=완전히 보임, 0=완전히 사라짐 기준)")]
         [SerializeField] private string dissolveProgressPropertyName = "_DissolveProgress";
 
-        [Tooltip("디졸브 연출에 쓰일 풀링 프리팹 (PooledDissolveMesh 컴포넌트 포함)")]
-        [SerializeField] private GameObject pooledDissolveMeshPrefab;
+        [Tooltip("연출에 쓰일 풀링 프리팹")]
+        [SerializeField] private GameObject pooledDeathEffectPrefab;
 
         private Renderer[] _sourceRenderers;
         private int _dissolveProgressId;
 
-        /// <summary>디졸브 연출이 설정되어 있는지 여부</summary>
-        public bool HasDissolveEffect => dissolveMaterialTemplate != null && pooledDissolveMeshPrefab != null;
-
-        Vector3 deathEffectOffset;
-
         DamageableBehaviour damageableBehaviour;
-
         Damageable _damageable;
 
         private void Awake()
@@ -59,16 +48,7 @@ namespace Core.Health
 
         private void OnDied(HealthChangeInfo healthChangeInfo)
         {
-            if (deathParticleSystemPrefab != null)
-            {
-                /* 
-                var pfx = Poolable.TryGetPoolable<ParticleSystem>(deathParticleSystemPrefab.gameObject);
-                pfx.transform.position = transform.position + deathEffectOffset;
-                pfx.Play();
-                */
-            }
-
-            if (HasDissolveEffect)
+            if (pooledDeathEffectPrefab != null)
             {
                 SpawnDissolveCorpse();
             }
@@ -99,13 +79,11 @@ namespace Core.Health
         private void PlayDissolvePart(Renderer sourceRenderer)
         {
             Mesh mesh;
-            int materialCount;
 
             if (sourceRenderer is SkinnedMeshRenderer skinnedMeshRenderer)
             {
                 mesh = new Mesh();
                 skinnedMeshRenderer.BakeMesh(mesh);
-                materialCount = skinnedMeshRenderer.sharedMaterials.Length;
             }
             else
             {
@@ -116,18 +94,18 @@ namespace Core.Health
                 }
 
                 mesh = meshFilter.sharedMesh;
-                materialCount = sourceRenderer.sharedMaterials.Length;
             }
 
-            var pooledObject = PoolManager.Instance.GetObject(pooledDissolveMeshPrefab);
-            var pooledDissolveMesh = pooledObject.GetComponent<PooledDissolveMesh>();
-            pooledDissolveMesh.Init(pooledDissolveMeshPrefab);
+            Material[] sourceMaterials = sourceRenderer.sharedMaterials;
+
+            var pooledObject = PoolManager.Instance.GetObject(pooledDeathEffectPrefab);
+            var pooledDissolveMesh = pooledObject.GetComponent<PooledSlimeDeathEffect>();
+            pooledDissolveMesh.Init(pooledDeathEffectPrefab);
 
             Transform sourceTransform = sourceRenderer.transform;
             pooledDissolveMesh.Play(
                 mesh,
-                materialCount,
-                dissolveMaterialTemplate,
+                sourceMaterials,
                 _dissolveProgressId,
                 dissolveDuration,
                 sourceTransform.position,
