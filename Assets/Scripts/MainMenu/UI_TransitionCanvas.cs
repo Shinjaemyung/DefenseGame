@@ -117,7 +117,14 @@ namespace TowerDefense.UI
             if (dissolveOverlay != null)
             {
                 dissolveOverlay.texture = _captureTexture;
-                //dissolveOverlay.uvRect = new Rect(0f, 1f, 1f, -1f);
+                
+                // 그래픽스 API마다 렌더텍스처의 UV 원점(위/아래)이 달라서
+                // (예: 에디터의 Direct3D는 top-down, WebGL/OpenGL 계열은 bottom-up)
+                // 플랫폼에 따라 조건부로만 세로 반전해야 두 환경 모두에서 정상으로 보인다.
+                dissolveOverlay.uvRect = SystemInfo.graphicsUVStartsAtTop
+                    ? new Rect(0f, 1f, 1f, -1f)
+                    : new Rect(0f, 0f, 1f, 1f);
+                
                 dissolveOverlay.gameObject.SetActive(true);
             }
         }
