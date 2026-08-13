@@ -54,7 +54,7 @@ public class PooledSlimeDeathEffect : Poolable
         }
         _meshRenderer.sharedMaterials = _runtimeMaterials;
 
-        SetProgress(progressPropertyId, 0.8f);
+        SetProgress(progressPropertyId, 0f);
 
         StopAllCoroutines();
         StartCoroutine(DissolveRoutine(progressPropertyId, duration));
@@ -66,12 +66,12 @@ public class PooledSlimeDeathEffect : Poolable
         while (elapsed < duration)
         {
             elapsed += Time.deltaTime;
-            float progress = Mathf.Lerp(1f, 0f, Mathf.Clamp01(elapsed / duration));
+            float progress = Mathf.Lerp(0f, 1f, Mathf.Clamp01(elapsed / duration));
             SetProgress(progressPropertyId, progress);
             yield return null;
         }
 
-        SetProgress(progressPropertyId, 0f);
+        SetProgress(progressPropertyId, 1f);
         ReturnToPool();
     }
 
