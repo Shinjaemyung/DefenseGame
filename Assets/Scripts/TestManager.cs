@@ -19,6 +19,15 @@ public class TestManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.P))
             Hero.Instance.UpdateHealth(-50);
+
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+            EnvironmentManager.Instance.SetEnvironment(EnvironmentManager.Instance.presets[0].id, immediate: true);
+
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+            EnvironmentManager.Instance.SetEnvironment(EnvironmentManager.Instance.presets[1].id, immediate: true);
+
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+            EnvironmentManager.Instance.SetEnvironment(EnvironmentManager.Instance.presets[2].id, immediate: true);
     }
 #endif
 }

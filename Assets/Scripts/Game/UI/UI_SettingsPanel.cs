@@ -36,7 +36,6 @@ public class UI_SettingsPanel : UI_Panel
 
     private void OnMainMenuClicked()
     {
-        Time.timeScale = 1f;
         SceneManager.LoadScene("MainMenuScene");
     }
 

@@ -102,7 +102,7 @@ public class GamePlayManager : MonoBehaviour
     /// <summary>게임 일시 정지하고 설정 패널 표시</summary>
     public void PauseGame()
     {
-        Time.timeScale = 0f;
+        GameManager.Instance.PauseGame();
         MouseManager.Instance.SetCursorLockState(false);
         GameUIManager.Instance.ShowSettings();
         IsPaused = true;
@@ -111,7 +111,7 @@ public class GamePlayManager : MonoBehaviour
     /// <summary>게임 재생하고 설정 패널 숨김</summary>
     public void ResumeGame()
     {
-        Time.timeScale = 1f;
+        GameManager.Instance.ResumeGame();
 
         if (PlayerModeManager.Instance.playerMode == PlayerMode.HeroControlMode)
             MouseManager.Instance.SetCursorLockState(true);
@@ -122,7 +122,7 @@ public class GamePlayManager : MonoBehaviour
 
     void SetGameOverState()
     {
-        Time.timeScale = 0f;
+        GameManager.Instance.PauseGame();
         GameUIManager.Instance.ShowGameOver();
         MouseManager.Instance.SetCursorLockState(false);
         IsGameOvered = true;

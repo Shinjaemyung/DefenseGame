@@ -64,7 +64,7 @@ Material:
     m_Floats:
     - _AnimValue: 0
     - _AutoPlay: 1
-    - _DissolveProgress: 1
+    - _DissolveProgress: 0
     - _EmissiveStrength: 0.5
     - _FresnelPower: 3
     - _Metallic: 0
