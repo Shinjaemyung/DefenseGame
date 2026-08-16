@@ -20,11 +20,11 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
-  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
-  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientSkyColor: {r: 0.13333334, g: 0.10980392, b: 0.11372549, a: 1}
+  m_AmbientEquatorColor: {r: 0.13333334, g: 0.10980392, b: 0.11372549, a: 1}
+  m_AmbientGroundColor: {r: 0.764151, g: 0.6813024, b: 0.630785, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 0
+  m_AmbientMode: 1
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 123caa41e84e041d0bd65bb3ae888dd1, type: 2}
   m_HaloStrength: 0.5
@@ -5614,31 +5614,37 @@ MonoBehaviour:
   presets:
   - id: 0
     skyboxMaterial: {fileID: 2100000, guid: 123caa41e84e041d0bd65bb3ae888dd1, type: 2}
-    ambientColor: {r: 0.21176471, g: 0.22745098, b: 0.25882354, a: 1}
-    ambientIntensity: 1
+    skyColor: {r: 1, g: 1, b: 1, a: 1}
+    equatorColor: {r: 1, g: 1, b: 1, a: 0}
+    groundColor: {r: 1, g: 1, b: 1, a: 0}
+    ambientIntensity: 0
     sunColor: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-    sunIntensity: 1
+    sunIntensity: 0.8
     sunRotationEuler: {x: 50, y: -30, z: 0}
     fogEnabled: 0
     fogColor: {r: 0, g: 0, b: 0, a: 0}
     fogDensity: 0
   - id: 1
     skyboxMaterial: {fileID: 2100000, guid: f8a60d169ab8a46b09c9b01a3e51601f, type: 2}
-    ambientColor: {r: 0, g: 0, b: 0, a: 0}
+    skyColor: {r: 0.49803922, g: 0.70980394, b: 0.81960785, a: 1}
+    equatorColor: {r: 0.38679248, g: 0.38679248, b: 0.38679248, a: 0}
+    groundColor: {r: 0.4245283, g: 0.4245283, b: 0.4245283, a: 0}
     ambientIntensity: 0
-    sunColor: {r: 0, g: 0, b: 0, a: 0}
+    sunColor: {r: 0.49803922, g: 0.70980394, b: 0.81960785, a: 1}
     sunIntensity: 0
-    sunRotationEuler: {x: 50, y: -30, z: 0}
+    sunRotationEuler: {x: 50, y: 180, z: 0}
     fogEnabled: 0
     fogColor: {r: 0, g: 0, b: 0, a: 0}
     fogDensity: 0
   - id: 2
     skyboxMaterial: {fileID: 2100000, guid: 6eecb3bb77b3f7a43a504fceda3b0b5f, type: 2}
-    ambientColor: {r: 0, g: 0, b: 0, a: 0}
+    skyColor: {r: 0.38679248, g: 0, b: 0, a: 1}
+    equatorColor: {r: 0.3137255, g: 0.3647059, b: 0.62352943, a: 0}
+    groundColor: {r: 1, g: 1, b: 1, a: 0}
     ambientIntensity: 0
-    sunColor: {r: 0, g: 0, b: 0, a: 0}
-    sunIntensity: 0
-    sunRotationEuler: {x: 50, y: -30, z: 0}
+    sunColor: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+    sunIntensity: 0.2
+    sunRotationEuler: {x: 50, y: 180, z: 0}
     fogEnabled: 0
     fogColor: {r: 0, g: 0, b: 0, a: 0}
     fogDensity: 0

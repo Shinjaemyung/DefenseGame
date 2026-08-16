@@ -21,13 +21,13 @@ public class TestManager : MonoBehaviour
             Hero.Instance.UpdateHealth(-50);
 
         if (Input.GetKeyDown(KeyCode.Alpha1))
-            EnvironmentManager.Instance.SetEnvironment(EnvironmentManager.Instance.presets[0].id, immediate: true);
+            EnvironmentManager.Instance.SetEnvironment(EnvironmentManager.Instance.presets[0].id);
 
         if (Input.GetKeyDown(KeyCode.Alpha2))
-            EnvironmentManager.Instance.SetEnvironment(EnvironmentManager.Instance.presets[1].id, immediate: true);
+            EnvironmentManager.Instance.SetEnvironment(EnvironmentManager.Instance.presets[1].id);
 
         if (Input.GetKeyDown(KeyCode.Alpha3))
-            EnvironmentManager.Instance.SetEnvironment(EnvironmentManager.Instance.presets[2].id, immediate: true);
+            EnvironmentManager.Instance.SetEnvironment(EnvironmentManager.Instance.presets[2].id);
     }
 #endif
 }
