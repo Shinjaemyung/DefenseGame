@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3660488330062169806}
   m_Layer: 0
-  m_Name: Butt_R_end
+  m_Name: 'Butt_R_end[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24,9 +24,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 19039640144828048}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.9246426, y: 0.045383345, z: 0.33965683, w: 0.16616155}
-  m_LocalPosition: {x: -0.000000016763806, y: 0.04702113, z: 0.00000019790605}
-  m_LocalScale: {x: 1.0000001, y: 1, z: 1.000001}
+  m_LocalRotation: {x: 0.9246426, y: 0.045383282, z: 0.33965686, w: 0.16616158}
+  m_LocalPosition: {x: 0.000000018626453, y: 0.047021035, z: 0.00000008940692}
+  m_LocalScale: {x: 1.0000004, y: 0.9999994, z: 1.0000001}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6655457774947659604}
@@ -73,7 +73,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4823834021933831752}
   m_Layer: 0
-  m_Name: Skrit_5.002.L
+  m_Name: 'Skrit_5.002.L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -87,9 +87,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 65954854949835496}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.03416623, y: -0.003258394, z: 0.0034448705, w: 0.9994049}
-  m_LocalPosition: {x: 0.0000000027939677, y: 0.022244679, z: -0.0000000055879354}
-  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
+  m_LocalRotation: {x: 0.034166276, y: -0.0032583077, z: 0.003444898, w: 0.99940497}
+  m_LocalPosition: {x: -0.00000020593866, y: 0.022244802, z: -0.00000006612389}
+  m_LocalScale: {x: 0.9999996, y: 0.9999997, z: 0.9999999}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3368796600304103967}
@@ -481,7 +481,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6030046046079535939}
   m_Layer: 0
-  m_Name: Manuka_shoes_ribbon_R
+  m_Name: 'Manuka_shoes_ribbon_R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -495,9 +495,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 116391375746554897}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.2655366, y: 0.0840497, z: -0.016026195, w: 0.9602964}
-  m_LocalPosition: {x: -0.0056204502, y: 0.30600685, z: -0.029903637}
-  m_LocalScale: {x: 0.99999994, y: 0.9999998, z: 0.99999994}
+  m_LocalRotation: {x: -0.26553664, y: 0.08404969, z: -0.016026197, w: 0.96029633}
+  m_LocalPosition: {x: -0.005620444, y: 0.30600718, z: -0.0299037}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1.0000002}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8994313646073195936}
@@ -513,7 +513,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3604186077421799997}
   m_Layer: 0
-  m_Name: Toe_L
+  m_Name: 'Toe_L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -527,9 +527,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 265498186579262953}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.23556225, y: 0.0000021058854, z: -0.00000054875596, w: 0.9718593}
-  m_LocalPosition: {x: -0.0000000039054693, y: 0.09360829, z: -0.0000000036504604}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_LocalRotation: {x: -0.2355622, y: 0.0000021052128, z: -0.0000005510363, w: 0.9718593}
+  m_LocalPosition: {x: -0.0000000035799885, y: 0.09360845, z: 0.00000024295343}
+  m_LocalScale: {x: 1, y: 1.0000014, z: 0.99999905}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 344517328451534502}
@@ -608,7 +608,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2070687942208383353}
   m_Layer: 0
-  m_Name: Skrit_6.001.L
+  m_Name: 'Skrit_6.001.L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -622,9 +622,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 440734818623261773}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.045982774, y: -0.045937505, z: 0.048522357, w: 0.99670506}
-  m_LocalPosition: {x: 0.0000000037252903, y: 0.01712891, z: 0.000000022351742}
-  m_LocalScale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+  m_LocalRotation: {x: 0.045982767, y: -0.045937568, z: 0.048522357, w: 0.9967051}
+  m_LocalPosition: {x: -0.000000094529206, y: 0.017129075, z: -0.000000057974866}
+  m_LocalScale: {x: 1.0000004, y: 1.0000004, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2398621707115082491}
@@ -640,7 +640,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4599825787649671595}
   m_Layer: 0
-  m_Name: Skrit_7.003.L
+  m_Name: 'Skrit_7.003.L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -654,9 +654,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 453543744216180423}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.03136574, y: -0.002307885, z: 0.0021338821, w: 0.9995031}
-  m_LocalPosition: {x: -0.0000000027939677, y: 0.020701274, z: 0.000000011175871}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_LocalRotation: {x: 0.031365816, y: -0.002307827, z: 0.0021338884, w: 0.9995031}
+  m_LocalPosition: {x: 0.000000049709342, y: 0.020701332, z: 0.00000020256273}
+  m_LocalScale: {x: 1.0000004, y: 1, z: 1.0000001}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2633394154883384787}
@@ -671,7 +671,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4714619450269452166}
   m_Layer: 0
-  m_Name: Skrit_2.001.R
+  m_Name: 'Skrit_2.001.R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -685,9 +685,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 457177812643524726}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.07010038, y: -0.004118607, z: 0.003852351, w: 0.997524}
-  m_LocalPosition: {x: 0.000000014901161, y: 0.015741184, z: -0.000000020489097}
-  m_LocalScale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+  m_LocalRotation: {x: 0.07010038, y: -0.004118531, z: 0.0038523888, w: 0.997524}
+  m_LocalPosition: {x: -0.00000028405339, y: 0.015741324, z: -0.000000026542693}
+  m_LocalScale: {x: 1, y: 1.0000004, z: 1.0000002}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7415036509971869815}
@@ -848,6 +848,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1706833224957537564}
+  - {fileID: 4968201529847767762}
   m_Father: {fileID: 7215793964472932206}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &613779335681307547
@@ -860,7 +861,7 @@ GameObject:
   m_Component:
   - component: {fileID: 622447505356450486}
   m_Layer: 0
-  m_Name: Skrit_5.001.R
+  m_Name: 'Skrit_5.001.R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -874,9 +875,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 613779335681307547}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.08178406, y: 0.010043547, z: -0.009910814, w: 0.9965502}
-  m_LocalPosition: {x: 0.0000000055879354, y: 0.015735222, z: -0.000000013038516}
-  m_LocalScale: {x: 1.0000001, y: 0.99999994, z: 0.99999994}
+  m_LocalRotation: {x: 0.08178397, y: 0.01004359, z: -0.009910843, w: 0.9965502}
+  m_LocalPosition: {x: -0.00000015390098, y: 0.015735313, z: 0.0000001250301}
+  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 1.0000002}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2049250264895959441}
@@ -939,11 +940,10 @@ Transform:
   m_GameObject: {fileID: 674460723342278346}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.009, z: -0.003}
+  m_LocalPosition: {x: 0, y: 0.009, z: -0.0030002594}
   m_LocalScale: {x: 1.15, y: 1.15, z: 1.15}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 2542903159871133647}
   - {fileID: 1228640534740134251}
   - {fileID: 4200518256415665277}
   - {fileID: 6968400344233234337}
@@ -952,7 +952,7 @@ Transform:
   - {fileID: 7662474865454291094}
   - {fileID: 4292424127787991200}
   - {fileID: 1069108996055497328}
-  m_Father: {fileID: 6415706564154673356}
+  m_Father: {fileID: 8588852668169250077}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2487454021579547943
 MonoBehaviour:
@@ -968,7 +968,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::VModularMultiBone
   outfitGroupName: Manuka_black_white
   useBlendShapeOverride: 0
-  useParentBasedScaling: 0
+  useParentBasedScaling: 1
   targetBodyRenderer: {fileID: 0}
   outfitBlendShapes: []
   objectsToHideWhenWearing: []
@@ -1454,7 +1454,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8074493288474670176}
   m_Layer: 0
-  m_Name: Skrit_Root.R
+  m_Name: 'Skrit_Root.R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1468,9 +1468,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 965611986116781021}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.0040172674, y: 0.062055536, z: 0.0005462516, w: 0.99806446}
-  m_LocalPosition: {x: 0.00023807582, y: 0.03109485, z: -0.0023403324}
-  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
+  m_LocalRotation: {x: -0.0040172734, y: 0.062055536, z: 0.0005462489, w: 0.99806446}
+  m_LocalPosition: {x: 0.00023807597, y: 0.031094953, z: -0.0023399706}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 0.9999999}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 7548498467216908769}
@@ -1556,7 +1556,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6284279979943315750}
   m_Layer: 0
-  m_Name: Skrit_7.R
+  m_Name: 'Skrit_7.R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1570,9 +1570,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1042106525280000061}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.065713525, y: 0.9869988, z: 0.14448047, w: -0.025307778}
-  m_LocalPosition: {x: -0.035779044, y: 0.007911874, z: 0.12589674}
-  m_LocalScale: {x: 1, y: 1, z: 0.99999994}
+  m_LocalRotation: {x: 0.06571353, y: 0.98699886, z: 0.14448048, w: -0.025307788}
+  m_LocalPosition: {x: -0.03577905, y: 0.00791195, z: 0.1258967}
+  m_LocalScale: {x: 1.0000006, y: 1.0000002, z: 0.9999996}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 7465330989411961329}
@@ -1650,7 +1650,7 @@ GameObject:
   m_Component:
   - component: {fileID: 344517328451534502}
   m_Layer: 0
-  m_Name: Foot_L
+  m_Name: 'Foot_L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1664,13 +1664,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1165448571127790889}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.53349614, y: -0.0000006613994, z: 0.00000017396164, w: 0.8458025}
-  m_LocalPosition: {x: 0.0000000124143735, y: 0.33596393, z: -0.0000000031393093}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.17209502, y: 0.00000020116565, z: 0.0000006305053, w: 0.9850804}
+  m_LocalPosition: {x: -0.0222751, y: 0.006161481, z: -0.07722072}
+  m_LocalScale: {x: 1.1499993, y: 1.149998, z: 1.1500013}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3604186077421799997}
-  m_Father: {fileID: 4968201529847767762}
+  m_Father: {fileID: 1706833224957537564}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1192006401107096540
 GameObject:
@@ -1797,6 +1797,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4851703474249143888}
+  - {fileID: 2542903159871133647}
   m_Father: {fileID: 8588852668169250077}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1245350185713380538
@@ -1873,7 +1874,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4468892883662231042}
   m_Layer: 0
-  m_Name: Skrit_6.L
+  m_Name: 'Skrit_6.L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1887,9 +1888,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1271020788097585494}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.07445841, y: 0.9502913, z: 0.14504921, w: 0.26526058}
-  m_LocalPosition: {x: -0.035042897, y: 0.00968324, z: 0.12060703}
-  m_LocalScale: {x: 1, y: 1.0000002, z: 1}
+  m_LocalRotation: {x: -0.074458435, y: 0.9502913, z: 0.1450492, w: 0.2652606}
+  m_LocalPosition: {x: -0.035042956, y: 0.0096833445, z: 0.12060666}
+  m_LocalScale: {x: 1.0000004, y: 0.9999998, z: 0.99999946}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2070687942208383353}
@@ -2032,7 +2033,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7548498467216908769}
   m_Layer: 0
-  m_Name: Skrit_1.R
+  m_Name: 'Skrit_1.R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2046,9 +2047,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1399124694976167093}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.11521375, y: -0.78212714, z: -0.112416595, w: 0.601968}
-  m_LocalPosition: {x: 0.09187291, y: 0.02105714, z: 0.019167831}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
+  m_LocalRotation: {x: -0.1152137, y: -0.78212714, z: -0.112416655, w: 0.60196793}
+  m_LocalPosition: {x: 0.09187293, y: 0.021057267, z: 0.01916761}
+  m_LocalScale: {x: 1.0000004, y: 1.0000002, z: 0.9999999}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 3547158433415179995}
@@ -2259,7 +2260,7 @@ GameObject:
   m_Component:
   - component: {fileID: 131565118230396207}
   m_Layer: 0
-  m_Name: Skrit_6.001.R
+  m_Name: 'Skrit_6.001.R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2273,9 +2274,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1592218461419488223}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.04598229, y: 0.045938347, z: -0.04852062, w: 0.9967051}
-  m_LocalPosition: {x: -0, y: 0.017128907, z: 0.000000029802322}
-  m_LocalScale: {x: 0.9999998, y: 0.9999999, z: 0.99999994}
+  m_LocalRotation: {x: 0.045982264, y: 0.045938253, z: -0.048520662, w: 0.9967052}
+  m_LocalPosition: {x: 0.00000009546048, y: 0.017129043, z: -0.00000004190953}
+  m_LocalScale: {x: 1, y: 1.0000004, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3400728762025746231}
@@ -2291,7 +2292,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8567838063032363904}
   m_Layer: 0
-  m_Name: UpperArm_L
+  m_Name: 'UpperArm_L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2305,12 +2306,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1609493667047800218}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0000016010796, y: -0.0000016283504, z: -0.00971461, w: 0.99995285}
-  m_LocalPosition: {x: 0.000000019572818, y: 0.03675571, z: -5.968328e-10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.009983274, y: 0.009791437, z: -0.0063099256, w: 0.9998824}
+  m_LocalPosition: {x: -0.0051972927, y: -0.004247484, z: 0.007874445}
+  m_LocalScale: {x: 1.1500002, y: 1.150001, z: 1.1500003}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1217680888951835014}
+  m_Father: {fileID: 5682526418106610444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1633108301304692474
 GameObject:
@@ -2500,7 +2501,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2143101700150276845}
   m_Layer: 0
-  m_Name: Collar1.002.R
+  m_Name: 'Collar1.002.R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2514,8 +2515,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1753192965759900672}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.00000021504289, y: -0.00000015646218, z: 0.0000001604152, w: 1}
-  m_LocalPosition: {x: 0.0000000010229302, y: 0.02028507, z: 7.750405e-10}
+  m_LocalRotation: {x: -0.0000001564621, y: -0.00000012660958, z: 0.00000015954059, w: 1}
+  m_LocalPosition: {x: 0.0000000037252903, y: 0.02028532, z: -0.000000006519258}
   m_LocalScale: {x: 1.0000001, y: 1, z: 1.0000001}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2531,7 +2532,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7465330989411961329}
   m_Layer: 0
-  m_Name: Skrit_7.001.R
+  m_Name: 'Skrit_7.001.R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2545,9 +2546,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1808748297972800380}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.055573057, y: 0.027323708, z: -0.027998336, w: 0.99768794}
-  m_LocalPosition: {x: 0.0000000018626451, y: 0.017232396, z: -0.000000038184226}
-  m_LocalScale: {x: 0.99999994, y: 0.9999999, z: 1}
+  m_LocalRotation: {x: 0.055573083, y: 0.027323691, z: -0.027998338, w: 0.9976879}
+  m_LocalPosition: {x: -0.000000005355102, y: 0.017232504, z: 0.00000012246898}
+  m_LocalScale: {x: 0.99999946, y: 0.9999996, z: 1.0000004}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7603566314044114871}
@@ -2563,7 +2564,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2857684531628400491}
   m_Layer: 0
-  m_Name: Manuka_shoes_ribbon_L
+  m_Name: 'Manuka_shoes_ribbon_L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2577,9 +2578,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1815653296048059782}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.2655367, y: -0.08404971, z: 0.016026156, w: 0.9602964}
-  m_LocalPosition: {x: 0.0056204586, y: 0.30600685, z: -0.02990364}
-  m_LocalScale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+  m_LocalRotation: {x: -0.26553673, y: -0.08404974, z: 0.016026156, w: 0.9602964}
+  m_LocalPosition: {x: 0.005620458, y: 0.3060072, z: -0.0299037}
+  m_LocalScale: {x: 0.9999999, y: 0.9999998, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4105930587509083615}
@@ -2723,7 +2724,6 @@ Transform:
   m_Children:
   - {fileID: 7485983948897440103}
   - {fileID: 1789664533901542909}
-  - {fileID: 3061204670972380521}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &777959375907496923
@@ -3701,7 +3701,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112819871358247043}
   m_Layer: 0
-  m_Name: Butt_L_end
+  m_Name: 'Butt_L_end[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3715,9 +3715,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2318279569816743243}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.92464256, y: -0.045383733, z: -0.33965644, w: 0.16616243}
-  m_LocalPosition: {x: 0.000000014901161, y: 0.04702108, z: 0.00000020279549}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 1.0000004}
+  m_LocalRotation: {x: 0.92464256, y: -0.04538372, z: -0.3396565, w: 0.16616245}
+  m_LocalPosition: {x: -0.0000000055879363, y: 0.04702104, z: 0.00000007450579}
+  m_LocalScale: {x: 1.0000002, y: 0.99999946, z: 0.9999999}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8578205349691874605}
@@ -4307,7 +4307,7 @@ SkinnedMeshRenderer:
   m_MaskInteraction: 0
   serializedVersion: 2
   m_Quality: 0
-  m_UpdateWhenOffscreen: 0
+  m_UpdateWhenOffscreen: 1
   m_SkinnedMotionVectors: 1
   m_Mesh: {fileID: -7857976322539524274, guid: 702963c93aeea014f9bb928ef99ee336, type: 3}
   m_Bones:
@@ -4452,6 +4452,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 158555007138327440}
+  - {fileID: 8567838063032363904}
   m_Father: {fileID: 6990414670912057680}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2582686064076826517
@@ -4484,6 +4485,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4827294812408155505}
+  - {fileID: 705877323183663282}
   m_Father: {fileID: 4851703474249143888}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2609911232605855877
@@ -4496,7 +4498,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7187426058260794642}
   m_Layer: 0
-  m_Name: Collar1.001.R
+  m_Name: 'Collar1.001.R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4510,9 +4512,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2609911232605855877}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.073221445, y: -0.00000009785731, z: 0.054897662, w: 0.99580365}
-  m_LocalPosition: {x: -0.000000004656613, y: 0.019420983, z: 0.000000007450581}
-  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
+  m_LocalRotation: {x: -0.07322141, y: -0.000000089406946, z: 0.05489767, w: 0.9958037}
+  m_LocalPosition: {x: 0.000000007916241, y: 0.019421062, z: -0.0000001010485}
+  m_LocalScale: {x: 1, y: 0.9999997, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2143101700150276845}
@@ -4559,7 +4561,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1373913143533959637}
   m_Layer: 0
-  m_Name: Skrit_2.003.R
+  m_Name: 'Skrit_2.003.R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4573,9 +4575,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2764595750011875834}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.0003840574, y: 0.009603584, z: -0.009036352, w: 0.99991304}
-  m_LocalPosition: {x: 0.000000009313226, y: 0.020821419, z: 0.000000022351742}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_LocalRotation: {x: -0.00038406608, y: 0.0096035795, z: -0.009036355, w: 0.999913}
+  m_LocalPosition: {x: -0.00000004831235, y: 0.02082154, z: 0.000000004423782}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 1.0000002}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7415036509971869815}
@@ -4590,7 +4592,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9063068660925113352}
   m_Layer: 0
-  m_Name: Skrit_4.002.R
+  m_Name: 'Skrit_4.002.R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4604,9 +4606,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2785407176189143234}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0519728, y: -0.011400106, z: 0.006119799, w: 0.99856466}
-  m_LocalPosition: {x: 0.0000000037252903, y: 0.023096565, z: -0.000000014901161}
-  m_LocalScale: {x: 1.0000001, y: 1, z: 1}
+  m_LocalRotation: {x: 0.051972788, y: -0.011400087, z: 0.0061198, w: 0.99856466}
+  m_LocalPosition: {x: -0.00000017706772, y: 0.023096824, z: -0.0000003306197}
+  m_LocalScale: {x: 1.0000002, y: 1.0000008, z: 1.0000004}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 435462371385933476}
@@ -4986,6 +4988,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8080490553874947233}
+  - {fileID: 866336129423316253}
   m_Father: {fileID: 4851703474249143888}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2872886837381738556
@@ -5030,7 +5033,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9006736078042235685}
   m_Layer: 0
-  m_Name: Ribbone
+  m_Name: 'Ribbone[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5044,9 +5047,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2950487307026467077}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.98018366, y: 0.00000007045537, z: 0.0000005215652, w: 0.19809097}
-  m_LocalPosition: {x: -0.000000001678629, y: 0.07275532, z: 0.085863985}
-  m_LocalScale: {x: 1, y: 1, z: 0.99999934}
+  m_LocalRotation: {x: 0.98018366, y: 0.000000070455386, z: 0.00000052156525, w: 0.19809087}
+  m_LocalPosition: {x: -0.0000000016786326, y: 0.07275519, z: 0.08586442}
+  m_LocalScale: {x: 1, y: 1.0000004, z: 0.9999997}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 4159944132636720837}
@@ -5150,6 +5153,7 @@ Transform:
   - {fileID: 2354431642030836565}
   - {fileID: 6990414670912057680}
   - {fileID: 7723401480095383908}
+  - {fileID: 4159944132636720837}
   m_Father: {fileID: 8098406891102830203}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3032631036151303250
@@ -5194,7 +5198,7 @@ GameObject:
   m_Component:
   - component: {fileID: 866336129423316253}
   m_Layer: 0
-  m_Name: UpperLeg_R
+  m_Name: 'UpperLeg_R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5208,14 +5212,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3119908691340710125}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.9999867, y: -6.144339e-10, z: 0.00000011920769, w: -0.0051543047}
-  m_LocalPosition: {x: 0.05519946, y: -0.070530005, z: -0.011516513}
-  m_LocalScale: {x: 1, y: 1, z: 0.99999994}
+  m_LocalRotation: {x: -0.0013257858, y: 0.034477253, z: -0.03483507, w: 0.9987974}
+  m_LocalPosition: {x: -0.016205655, y: -0.043319892, z: -0.012169913}
+  m_LocalScale: {x: 1.1499993, y: 1.15, z: 1.149997}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 9104369851622653246}
   - {fileID: 8074493288474670176}
-  m_Father: {fileID: 3515689298969935618}
+  m_Father: {fileID: 1409193135619448934}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3154725691305169565
 GameObject:
@@ -6162,7 +6165,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2542903159871133647}
   m_Layer: 0
-  m_Name: Armature
+  m_Name: 'Armature[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6176,13 +6179,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3231564480345278731}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071067, y: -0.000000030908616, z: 0.000000030908623, w: 0.7071068}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.8680495e-10, y: 0.0030002613, z: 0.008999998}
+  m_LocalScale: {x: 1.15, y: 1.1499999, z: 1.1499999}
   m_ConstrainProportionsScale: 1
-  m_Children:
-  - {fileID: 3515689298969935618}
-  m_Father: {fileID: 3061204670972380521}
+  m_Children: []
+  m_Father: {fileID: 829065491641218435}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3250018278512467261
 GameObject:
@@ -6214,6 +6216,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1926742290806569172}
+  - {fileID: 3901208536339638596}
   m_Father: {fileID: 7723401480095383908}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3261511908600782958
@@ -6257,7 +6260,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3271613055942110275}
   m_Layer: 0
-  m_Name: Skrit_1.003.R
+  m_Name: 'Skrit_1.003.R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6271,9 +6274,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3262619617203832235}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.026491301, y: 0.013946499, z: -0.0132665215, w: 0.99946374}
-  m_LocalPosition: {x: -0.0000000018626451, y: 0.020867933, z: -0.000000008032657}
-  m_LocalScale: {x: 0.9999999, y: 0.99999994, z: 0.9999998}
+  m_LocalRotation: {x: 0.02649122, y: 0.013946407, z: -0.013266563, w: 0.99946374}
+  m_LocalPosition: {x: 0.00000021490274, y: 0.020868057, z: -0.000000040163286}
+  m_LocalScale: {x: 1, y: 0.9999998, z: 0.9999997}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9003114945216323285}
@@ -6320,7 +6323,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2398621707115082491}
   m_Layer: 0
-  m_Name: Skrit_6.002.L
+  m_Name: 'Skrit_6.002.L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6334,9 +6337,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3329722013036864217}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.026443793, y: 0.016329288, z: -0.016914424, w: 0.9993738}
-  m_LocalPosition: {x: -0.000000013038516, y: 0.0221784, z: 0.000000037252903}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 0.9999999}
+  m_LocalRotation: {x: 0.026443861, y: 0.016329397, z: -0.016914435, w: 0.99937385}
+  m_LocalPosition: {x: 0.00000002933665, y: 0.02217853, z: 0.00000010151416}
+  m_LocalScale: {x: 1.0000004, y: 1.0000002, z: 0.9999999}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3256819624271483959}
@@ -6384,7 +6387,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3901208536339638596}
   m_Layer: 0
-  m_Name: UpperArm_R
+  m_Name: 'UpperArm_R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6398,12 +6401,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3355160531585832536}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0000016061754, y: 0.0000016284001, z: 0.00971461, w: 0.99995285}
-  m_LocalPosition: {x: -0.000000019813838, y: 0.036755715, z: 0.00000011951992}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.010011478, y: -0.00981875, z: 0.0063001253, w: 0.99988186}
+  m_LocalPosition: {x: 0.0051927306, y: -0.004820823, z: 0.007886431}
+  m_LocalScale: {x: 1.1500005, y: 1.1500007, z: 1.1500003}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4211406435360412739}
+  m_Father: {fileID: 7761807988863542240}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3371266248178553189
 GameObject:
@@ -6415,7 +6418,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7603566314044114871}
   m_Layer: 0
-  m_Name: Skrit_7.002.R
+  m_Name: 'Skrit_7.002.R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6429,9 +6432,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3371266248178553189}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0122328345, y: 0.03432628, z: -0.03370795, w: 0.99876714}
-  m_LocalPosition: {x: 0.0000000055879354, y: 0.021900369, z: 0.000000007450581}
-  m_LocalScale: {x: 1.0000001, y: 1, z: 0.99999994}
+  m_LocalRotation: {x: 0.01223282, y: 0.034326307, z: -0.033707973, w: 0.99876714}
+  m_LocalPosition: {x: 0.00000009522779, y: 0.021900559, z: -0.0000002919695}
+  m_LocalScale: {x: 1.000001, y: 1.0000007, z: 0.9999996}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1469207118329874274}
@@ -6447,7 +6450,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8588335530223377034}
   m_Layer: 0
-  m_Name: Skrit_2.R
+  m_Name: 'Skrit_2.R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6461,9 +6464,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3400467873676964706}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.12381103, y: -0.6985206, z: -0.06284141, w: 0.70199054}
-  m_LocalPosition: {x: 0.07976317, y: 0.02223807, z: -0.023850212}
-  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+  m_LocalRotation: {x: -0.12381102, y: -0.69852054, z: -0.06284145, w: 0.7019906}
+  m_LocalPosition: {x: 0.07976318, y: 0.022238193, z: -0.023850348}
+  m_LocalScale: {x: 1, y: 0.9999994, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 4714619450269452166}
@@ -6511,7 +6514,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8627899249767350176}
   m_Layer: 0
-  m_Name: Skrit_3.001.L
+  m_Name: 'Skrit_3.001.L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6525,9 +6528,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3431942060035716758}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.044692025, y: 0.062470276, z: -0.046218846, w: 0.9959739}
-  m_LocalPosition: {x: -0.0000000027939677, y: 0.014531502, z: -0.000000014901161}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 0.9999999}
+  m_LocalRotation: {x: 0.044692073, y: 0.06247022, z: -0.04621883, w: 0.9959738}
+  m_LocalPosition: {x: -0.000000096042655, y: 0.014531614, z: 0.00000007264313}
+  m_LocalScale: {x: 1.0000002, y: 1.0000002, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4953729739404368650}
@@ -6627,6 +6630,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8753662056558463247}
+  - {fileID: 344517328451534502}
   m_Father: {fileID: 4827294812408155505}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3683183972274345984
@@ -6639,7 +6643,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1469207118329874274}
   m_Layer: 0
-  m_Name: Skrit_7.003.R
+  m_Name: 'Skrit_7.003.R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6653,9 +6657,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3683183972274345984}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.03136445, y: 0.0023071195, z: -0.0021352067, w: 0.9995031}
-  m_LocalPosition: {x: -0, y: 0.020701608, z: 0.000000010244548}
-  m_LocalScale: {x: 0.99999994, y: 0.9999999, z: 1}
+  m_LocalRotation: {x: 0.03136429, y: 0.0023071389, z: -0.0021352386, w: 0.9995031}
+  m_LocalPosition: {x: -0.0000000627478, y: 0.02070173, z: 0.00000025011843}
+  m_LocalScale: {x: 0.999999, y: 0.99999875, z: 1.0000004}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7603566314044114871}
@@ -6734,7 +6738,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4257215192442970577}
   m_Layer: 0
-  m_Name: Skrit_2.002.L
+  m_Name: 'Skrit_2.002.L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6748,9 +6752,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3747040483265982259}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.04891402, y: -0.017969443, z: 0.01788078, w: 0.9984813}
-  m_LocalPosition: {x: -0, y: 0.022355502, z: -0.000000013504177}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.048914082, y: -0.017969495, z: 0.017880771, w: 0.9984812}
+  m_LocalPosition: {x: -0.000000088941356, y: 0.022355646, z: -0.0000000020954767}
+  m_LocalScale: {x: 1, y: 1, z: 1.0000004}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8574815150154732260}
@@ -6798,7 +6802,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6655457774947659604}
   m_Layer: 0
-  m_Name: Butt_R
+  m_Name: 'Butt_R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6812,9 +6816,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3788479282007118472}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.8188185, y: -0.080974646, z: -0.080974735, w: 0.5625144}
-  m_LocalPosition: {x: 0.05026248, y: -0.049349073, z: -0.03414759}
-  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
+  m_LocalRotation: {x: -0.8188186, y: -0.08097463, z: -0.080974735, w: 0.56251436}
+  m_LocalPosition: {x: 0.05026248, y: -0.04934915, z: -0.03414737}
+  m_LocalScale: {x: 0.9999999, y: 1.0000007, z: 1.0000006}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3660488330062169806}
@@ -6830,7 +6834,7 @@ GameObject:
   m_Component:
   - component: {fileID: 168244436751172630}
   m_Layer: 0
-  m_Name: Skrit_3.003.L
+  m_Name: 'Skrit_3.003.L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6844,9 +6848,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3861253336360344072}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.018961206, y: 0.0043185195, z: -0.003254125, w: 0.9998056}
-  m_LocalPosition: {x: 0.000000007450581, y: 0.020987865, z: 0.000000007450581}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_LocalRotation: {x: 0.018961249, y: 0.0043186024, z: -0.0032541375, w: 0.99980557}
+  m_LocalPosition: {x: 0.000000109255794, y: 0.020988028, z: -0.00000006076878}
+  m_LocalScale: {x: 1.0000001, y: 0.99999887, z: 0.9999994}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4953729739404368650}
@@ -6924,7 +6928,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8578205349691874605}
   m_Layer: 0
-  m_Name: Butt_L
+  m_Name: 'Butt_L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6938,9 +6942,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3933975896954413307}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.81881845, y: 0.08097467, z: 0.0809747, w: 0.5625145}
-  m_LocalPosition: {x: -0.05026248, y: -0.049349066, z: -0.03414759}
-  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+  m_LocalRotation: {x: -0.8188185, y: 0.08097466, z: 0.08097468, w: 0.56251454}
+  m_LocalPosition: {x: -0.05026248, y: -0.049349148, z: -0.03414737}
+  m_LocalScale: {x: 0.9999999, y: 1.0000004, z: 1.0000002}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 7112819871358247043}
@@ -7300,7 +7304,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6983403976525922131}
   m_Layer: 0
-  m_Name: Breast_R.001_end
+  m_Name: 'Breast_R.001_end[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7314,9 +7318,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4011321192492992998}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.000000105705105, y: -0.0000013574027, z: -0.0000021150336, w: 1}
-  m_LocalPosition: {x: -0.00000006449409, y: 0.057585552, z: -0.0000000018626451}
-  m_LocalScale: {x: 1, y: 1, z: 1.0000001}
+  m_LocalRotation: {x: -0.000000026077027, y: -0.0000014584508, z: -0.0000021532173, w: 1}
+  m_LocalPosition: {x: -0.00000029429842, y: 0.057585876, z: -0.00000013783581}
+  m_LocalScale: {x: 0.9999999, y: 0.9999998, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9093703807233854936}
@@ -7363,7 +7367,7 @@ GameObject:
   m_Component:
   - component: {fileID: 705877323183663282}
   m_Layer: 0
-  m_Name: UpperLeg_L
+  m_Name: 'UpperLeg_L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7377,14 +7381,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4054146370433463968}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.9999867, y: 6.1443395e-10, z: -0.0000001192077, w: -0.0051543047}
-  m_LocalPosition: {x: -0.05519945, y: -0.07053, z: -0.011516513}
-  m_LocalScale: {x: 1, y: 1, z: 0.99999994}
+  m_LocalRotation: {x: -0.0013257783, y: -0.034477253, z: 0.034834985, w: 0.9987974}
+  m_LocalPosition: {x: 0.01620553, y: -0.0433199, z: -0.012169922}
+  m_LocalScale: {x: 1.1499993, y: 1.15, z: 1.149997}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4968201529847767762}
   - {fileID: 3515803723840182297}
-  m_Father: {fileID: 3515689298969935618}
+  m_Father: {fileID: 7215793964472932206}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4083465032391156114
 GameObject:
@@ -7468,7 +7471,7 @@ SkinnedMeshRenderer:
   m_MaskInteraction: 0
   serializedVersion: 2
   m_Quality: 0
-  m_UpdateWhenOffscreen: 0
+  m_UpdateWhenOffscreen: 1
   m_SkinnedMotionVectors: 1
   m_Mesh: {fileID: 5600052231561724183, guid: 702963c93aeea014f9bb928ef99ee336, type: 3}
   m_Bones:
@@ -7727,7 +7730,7 @@ SkinnedMeshRenderer:
   m_MaskInteraction: 0
   serializedVersion: 2
   m_Quality: 0
-  m_UpdateWhenOffscreen: 0
+  m_UpdateWhenOffscreen: 1
   m_SkinnedMotionVectors: 1
   m_Mesh: {fileID: -5843205998469451034, guid: 702963c93aeea014f9bb928ef99ee336, type: 3}
   m_Bones:
@@ -7850,7 +7853,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6163134304518061741}
   m_Layer: 0
-  m_Name: Skrit_7.001.L
+  m_Name: 'Skrit_7.001.L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7864,9 +7867,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4281057870245384223}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.055573195, y: -0.027323555, z: 0.027997907, w: 0.99768794}
-  m_LocalPosition: {x: -0.0000000055879354, y: 0.01723235, z: 0.000000017695129}
-  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
+  m_LocalRotation: {x: 0.05557319, y: -0.027323568, z: 0.027997917, w: 0.997688}
+  m_LocalPosition: {x: -0.000000016530956, y: 0.017232498, z: 0.00000015366828}
+  m_LocalScale: {x: 1, y: 1.0000004, z: 1.0000001}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2633394154883384787}
@@ -7882,7 +7885,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6978779969876020961}
   m_Layer: 0
-  m_Name: Skrit_1.003.L
+  m_Name: 'Skrit_1.003.L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7896,9 +7899,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4292224676635155566}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.026492327, y: -0.01394563, z: 0.013266834, w: 0.9994637}
-  m_LocalPosition: {x: -0.0000000018626451, y: 0.020867683, z: 0.0000000040745363}
-  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+  m_LocalRotation: {x: 0.02649241, y: -0.013945432, z: 0.013266814, w: 0.9994637}
+  m_LocalPosition: {x: -0.00000023940814, y: 0.02086783, z: 0.000000005355103}
+  m_LocalScale: {x: 0.9999998, y: 0.9999999, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6653691760548118460}
@@ -7945,7 +7948,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4953729739404368650}
   m_Layer: 0
-  m_Name: Skrit_3.002.L
+  m_Name: 'Skrit_3.002.L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7959,9 +7962,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4337998800739003339}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.049366478, y: -0.020922896, z: 0.015857223, w: 0.9984357}
-  m_LocalPosition: {x: 0.000000007450581, y: 0.022689454, z: 0}
-  m_LocalScale: {x: 0.9999998, y: 0.9999999, z: 0.9999998}
+  m_LocalRotation: {x: 0.049366474, y: -0.020922892, z: 0.015857236, w: 0.9984357}
+  m_LocalPosition: {x: 0.000000324333, y: 0.022689644, z: -0.00000015203841}
+  m_LocalScale: {x: 0.9999999, y: 1.000001, z: 1.0000004}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 168244436751172630}
@@ -8061,6 +8064,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 60726140848865131}
+  - {fileID: 8034666031681798358}
   m_Father: {fileID: 4851703474249143888}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4481663076638210866
@@ -8105,7 +8109,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3408212965326725532}
   m_Layer: 0
-  m_Name: Collar2.002.L
+  m_Name: 'Collar2.002.L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8119,9 +8123,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4486164029515058373}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.0000005831315, y: 0.0000004731117, z: -0.00000041749604, w: 1}
-  m_LocalPosition: {x: 7.423733e-10, y: 0.020285025, z: 0.000000004047024}
-  m_LocalScale: {x: 0.99999994, y: 1, z: 0.99999994}
+  m_LocalRotation: {x: -0.0000006149054, y: 0.00000047029164, z: -0.00000041090942, w: 1}
+  m_LocalPosition: {x: -4.656613e-10, y: 0.020285176, z: -0.000000023734177}
+  m_LocalScale: {x: 0.9999998, y: 1.0000004, z: 1.0000002}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9096873934507237430}
@@ -8136,7 +8140,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3515689298969935618}
   m_Layer: 0
-  m_Name: Hips
+  m_Name: 'Hips[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8150,17 +8154,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4494279799064854282}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7071067, y: -0.000000030908613, z: 0.000000030908605, w: 0.7071068}
-  m_LocalPosition: {x: -0.000000068479686, y: -0.032065224, z: 0.7833163}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.07926896, y: 0.000000003464942, z: 0.000000043573827, w: 0.99685335}
+  m_LocalPosition: {x: -0.00000007796485, y: 0.1441566, z: 0.0053116833}
+  m_LocalScale: {x: 1.15, y: 1.1499995, z: 1.1499995}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 8578205349691874605}
   - {fileID: 6655457774947659604}
-  - {fileID: 8034666031681798358}
-  - {fileID: 705877323183663282}
-  - {fileID: 866336129423316253}
-  m_Father: {fileID: 2542903159871133647}
+  m_Father: {fileID: 4851703474249143888}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4637862126765643674
 GameObject:
@@ -8515,7 +8516,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6741100808341778141}
   m_Layer: 0
-  m_Name: Skrit_5.001.L
+  m_Name: 'Skrit_5.001.L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8529,9 +8530,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4690766095357403426}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.08178257, y: -0.010044764, z: 0.009911016, w: 0.9965503}
-  m_LocalPosition: {x: -0.0000000027939677, y: 0.015735183, z: 0.000000044703484}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.08178259, y: -0.010044837, z: 0.009910995, w: 0.99655026}
+  m_LocalPosition: {x: 0.00000014319072, y: 0.015735244, z: 0.00000011757946}
+  m_LocalScale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4823834021933831752}
@@ -8547,7 +8548,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5024265817512058254}
   m_Layer: 0
-  m_Name: Skrit_3.003.R
+  m_Name: 'Skrit_3.003.R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8561,9 +8562,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4730949381690712481}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.018961057, y: -0.0043189144, z: 0.0032548162, w: 0.9998056}
-  m_LocalPosition: {x: -0.000000007450581, y: 0.020987667, z: 0.0000000037252903}
-  m_LocalScale: {x: 1, y: 0.9999999, z: 1.0000001}
+  m_LocalRotation: {x: 0.018961042, y: -0.0043189996, z: 0.0032547738, w: 0.99980557}
+  m_LocalPosition: {x: -0.00000014447141, y: 0.020987827, z: -0.00000008568168}
+  m_LocalScale: {x: 1.0000001, y: 0.9999998, z: 1.0000001}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1552083525323106797}
@@ -8609,7 +8610,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2193592790279701872}
   m_Layer: 0
-  m_Name: Head
+  m_Name: 'Head[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8623,12 +8624,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4778819663106358436}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.02265076, y: 0.00000011917852, z: 0.0000000027000566, w: 0.99974346}
-  m_LocalPosition: {x: -7.771561e-15, y: 0.04495171, z: -0.000000013038494}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.0000006752085, y: -9.767183e-15, z: 0.00000004371132, w: 1}
+  m_LocalPosition: {x: -0.00000010904485, y: -0.007058304, z: 0.005480351}
+  m_LocalScale: {x: 1.15, y: 1.15, z: 1.1499999}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5592361315591703305}
+  m_Father: {fileID: 8852476589123696711}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4784809188041689483
 GameObject:
@@ -8671,7 +8672,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4979580020956790963}
   m_Layer: 0
-  m_Name: Skrit_2.001.L
+  m_Name: 'Skrit_2.001.L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8685,9 +8686,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4789152802575333477}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.07010254, y: 0.004120912, z: -0.003852174, w: 0.99752384}
-  m_LocalPosition: {x: -0.000000013038516, y: 0.015741067, z: -0.0000000041909516}
-  m_LocalScale: {x: 0.9999998, y: 1, z: 1}
+  m_LocalRotation: {x: 0.07010258, y: 0.004120855, z: -0.003852135, w: 0.99752384}
+  m_LocalPosition: {x: 0.00000031467061, y: 0.015741212, z: -0.00000002048909}
+  m_LocalScale: {x: 0.99999946, y: 1, z: 0.9999996}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4257215192442970577}
@@ -8788,6 +8789,7 @@ Transform:
   - {fileID: 2624412697452305401}
   - {fileID: 7766524864059742750}
   - {fileID: 7284546322809831763}
+  - {fileID: 2193592790279701872}
   m_Father: {fileID: 4017884962243787137}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4897387610433795026
@@ -8800,7 +8802,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3547158433415179995}
   m_Layer: 0
-  m_Name: Skrit_1.001.R
+  m_Name: 'Skrit_1.001.R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8814,9 +8816,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4897387610433795026}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.06602879, y: -0.0011853221, z: 0.0011238522, w: 0.9978164}
-  m_LocalPosition: {x: 0.0000000018626451, y: 0.014186536, z: -0.000000013271347}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_LocalRotation: {x: 0.06602879, y: -0.0011853277, z: 0.001123838, w: 0.99781644}
+  m_LocalPosition: {x: -6.984917e-10, y: 0.014186632, z: 0.000000020721929}
+  m_LocalScale: {x: 0.9999997, y: 0.999999, z: 0.9999997}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 9003114945216323285}
@@ -8936,7 +8938,7 @@ SkinnedMeshRenderer:
   m_MaskInteraction: 0
   serializedVersion: 2
   m_Quality: 0
-  m_UpdateWhenOffscreen: 0
+  m_UpdateWhenOffscreen: 1
   m_SkinnedMotionVectors: 1
   m_Mesh: {fileID: 4819407324258107585, guid: 702963c93aeea014f9bb928ef99ee336, type: 3}
   m_Bones:
@@ -9059,7 +9061,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3368796600304103967}
   m_Layer: 0
-  m_Name: Skrit_5.003.L
+  m_Name: 'Skrit_5.003.L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9073,9 +9075,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4924634789342441854}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.034189563, y: 0.006249073, z: -0.0065786834, w: 0.9993742}
-  m_LocalPosition: {x: -0.0000000027939677, y: 0.02079014, z: -0.000000007450581}
-  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
+  m_LocalRotation: {x: 0.034189608, y: 0.006248957, z: -0.0065787146, w: 0.9993742}
+  m_LocalPosition: {x: -0.0000002654125, y: 0.020790325, z: -0.00000012549573}
+  m_LocalScale: {x: 1.0000001, y: 0.9999999, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4823834021933831752}
@@ -9402,7 +9404,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3795075379492058623}
   m_Layer: 0
-  m_Name: Collar1.001.L
+  m_Name: 'Collar1.001.L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9416,9 +9418,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5038831690385321515}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.07322198, y: -0.000000028039564, z: -0.05489727, w: 0.99580365}
-  m_LocalPosition: {x: 0.0000000037252903, y: 0.019421112, z: -0.000000019557774}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_LocalRotation: {x: -0.07322198, y: -0.000000026077023, z: -0.05489728, w: 0.99580365}
+  m_LocalPosition: {x: 0.0000000053551052, y: 0.019421268, z: -0.00000013911631}
+  m_LocalScale: {x: 0.9999999, y: 1.0000001, z: 0.9999998}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2528044458602625835}
@@ -9434,7 +9436,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8034666031681798358}
   m_Layer: 0
-  m_Name: Spine
+  m_Name: 'Spine[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9448,14 +9450,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5044254970797496348}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.000000002543615, y: -9.278907e-22, z: 1.7763568e-14, w: 1}
-  m_LocalPosition: {x: -1.0633383e-16, y: 0.0381214, z: -6.223644e-10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.0067433775, y: 2.9475727e-10, z: 0.00000004371039, w: 0.99997735}
+  m_LocalPosition: {x: -0.00000008179743, y: 0.056785103, z: 0.00417888}
+  m_LocalScale: {x: 1.15, y: 1.1499995, z: 1.1499995}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 4159944132636720837}
   - {fileID: 6304522063645166649}
-  m_Father: {fileID: 3515689298969935618}
+  m_Father: {fileID: 8098406891102830203}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5073546851003034120
 GameObject:
@@ -9747,7 +9748,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1789909988236816751}
   m_Layer: 0
-  m_Name: Skrit_4.L
+  m_Name: 'Skrit_4.L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9761,9 +9762,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5131234395680293434}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.20867027, y: 0.33252186, z: 0.020481022, w: 0.9194925}
-  m_LocalPosition: {x: 0.005012894, y: 0.027591486, z: -0.0907384}
-  m_LocalScale: {x: 1, y: 1, z: 0.99999994}
+  m_LocalRotation: {x: -0.20867026, y: 0.3325219, z: 0.020480996, w: 0.9194925}
+  m_LocalPosition: {x: 0.005012882, y: 0.027591545, z: -0.090738505}
+  m_LocalScale: {x: 0.9999998, y: 1, z: 1.0000004}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 7232546178875280542}
@@ -9779,7 +9780,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5592361315591703305}
   m_Layer: 0
-  m_Name: Neck
+  m_Name: 'Neck[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9793,13 +9794,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5147621016035469628}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.15764518, y: -0.00000011771854, z: -0.000000018792681, w: 0.98749584}
-  m_LocalPosition: {x: -7.108863e-15, y: 0.15105048, z: 0.010741515}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_LocalRotation: {x: 0.008895312, y: -0.00000011761318, z: 0.000000042622084, w: 0.9999604}
+  m_LocalPosition: {x: -0.00000010453019, y: 0.006824743, z: -0.018733233}
+  m_LocalScale: {x: 1.15, y: 1.1499996, z: 1.1499996}
   m_ConstrainProportionsScale: 1
-  m_Children:
-  - {fileID: 2193592790279701872}
-  m_Father: {fileID: 4159944132636720837}
+  m_Children: []
+  m_Father: {fileID: 4017884962243787137}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5262406247675251560
 GameObject:
@@ -9875,7 +9875,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2669026303028698853}
   m_Layer: 0
-  m_Name: Skrit_3.001.R
+  m_Name: 'Skrit_3.001.R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9889,9 +9889,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5311344613387660323}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0446904, y: -0.062469274, z: 0.046219595, w: 0.99597394}
-  m_LocalPosition: {x: 0.000000004656613, y: 0.014531575, z: 0.0000000037252903}
-  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 1}
+  m_LocalRotation: {x: 0.04469029, y: -0.06246928, z: 0.046219632, w: 0.99597394}
+  m_LocalPosition: {x: 0.000000089523425, y: 0.014531661, z: 0.00000008614736}
+  m_LocalScale: {x: 1.0000002, y: 1.0000001, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1552083525323106797}
@@ -9927,6 +9927,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6850876532766966849}
+  - {fileID: 9104369851622653246}
   m_Father: {fileID: 1409193135619448934}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5391975260613694544
@@ -9939,7 +9940,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9104369851622653246}
   m_Layer: 0
-  m_Name: LowerLeg_R
+  m_Name: 'LowerLeg_R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9953,14 +9954,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5391975260613694544}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.028081695, y: -0.00000059884195, z: 0.00000049103824, w: 0.99960566}
-  m_LocalPosition: {x: 0.000000018327745, y: 0.28348118, z: 0.000000002866276}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_LocalRotation: {x: 0.014076941, y: 0.012990442, z: -0.013884749, w: 0.99972016}
+  m_LocalPosition: {x: 0.010203912, y: -0.07403243, z: -0.011596263}
+  m_LocalScale: {x: 1.1499991, y: 1.1500009, z: 1.1499981}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2646568635789193}
   - {fileID: 6030046046079535939}
-  m_Father: {fileID: 866336129423316253}
+  m_Father: {fileID: 8080490553874947233}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5410689155058485125
 GameObject:
@@ -10004,7 +10004,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9093703807233854936}
   m_Layer: 0
-  m_Name: Breast_R.001
+  m_Name: 'Breast_R.001[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10018,9 +10018,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5516767366299394034}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.6913878, y: 0.15602876, z: 0.703728, w: 0.04903955}
-  m_LocalPosition: {x: -0.000000007450581, y: 0.0838973, z: 0.000000025960617}
-  m_LocalScale: {x: 0.9999996, y: 0.99999976, z: 0.999999}
+  m_LocalRotation: {x: 0.69138765, y: 0.15602873, z: 0.7037281, w: 0.049039595}
+  m_LocalPosition: {x: -0.000000027534742, y: 0.08389721, z: -0.000000083414136}
+  m_LocalScale: {x: 0.99999833, y: 0.9999998, z: 0.9999996}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6983403976525922131}
@@ -10067,7 +10067,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2286966243382141792}
   m_Layer: 0
-  m_Name: Collar1.R
+  m_Name: 'Collar1.R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10081,9 +10081,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5713583958853517749}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.039528403, y: 0.061287403, z: -0.06687146, w: 0.99509275}
-  m_LocalPosition: {x: 0.07669592, y: 0.047610912, z: -0.0078094727}
-  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_LocalRotation: {x: -0.039528385, y: 0.061287403, z: -0.06687147, w: 0.99509275}
+  m_LocalPosition: {x: 0.07669593, y: 0.047611095, z: -0.0078091444}
+  m_LocalScale: {x: 1.0000001, y: 0.9999999, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 7187426058260794642}
@@ -10171,7 +10171,7 @@ SkinnedMeshRenderer:
   m_MaskInteraction: 0
   serializedVersion: 2
   m_Quality: 0
-  m_UpdateWhenOffscreen: 0
+  m_UpdateWhenOffscreen: 1
   m_SkinnedMotionVectors: 1
   m_Mesh: {fileID: -784895918869126852, guid: 702963c93aeea014f9bb928ef99ee336, type: 3}
   m_Bones:
@@ -10483,7 +10483,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4159944132636720837}
   m_Layer: 0
-  m_Name: Chest
+  m_Name: 'Chest[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10497,19 +10497,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5908532046540554365}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.13523652, y: -8.1399983e-16, z: 1.5685929e-15, w: 0.9908134}
-  m_LocalPosition: {x: -1.0633387e-16, y: 0.077711165, z: -0.000000001075918}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.042219948, y: -0.0000000099257065, z: 0.000000042569543, w: 0.9991084}
+  m_LocalPosition: {x: -0.00000008961021, y: 0.02550031, z: 0.008773534}
+  m_LocalScale: {x: 1.15, y: 1.1499996, z: 1.1499996}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 1780028530724378480}
-  - {fileID: 469015332341180310}
   - {fileID: 4308997863908891270}
-  - {fileID: 5592361315591703305}
   - {fileID: 9006736078042235685}
-  - {fileID: 1217680888951835014}
-  - {fileID: 4211406435360412739}
-  m_Father: {fileID: 8034666031681798358}
+  m_Father: {fileID: 60726140848865131}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5935584193381520359
 GameObject:
@@ -10521,7 +10516,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2078055793540565210}
   m_Layer: 0
-  m_Name: Breast_L.001_end
+  m_Name: 'Breast_L.001_end[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10535,9 +10530,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5935584193381520359}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.00000006961636, y: 0.0000013792887, z: -0.000000030267987, w: 1}
-  m_LocalPosition: {x: 0.000000023748726, y: 0.057585556, z: 0.0000000018626451}
-  m_LocalScale: {x: 0.99999994, y: 0.9999999, z: 1}
+  m_LocalRotation: {x: -0.000000085681684, y: 0.0000013266691, z: -0.000000029802326, w: 1}
+  m_LocalPosition: {x: 0.0000002291053, y: 0.057585917, z: -0.00000014342328}
+  m_LocalScale: {x: 0.9999996, y: 0.9999996, z: 0.9999997}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5731009383183623820}
@@ -10552,7 +10547,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3256819624271483959}
   m_Layer: 0
-  m_Name: Skrit_6.003.L
+  m_Name: 'Skrit_6.003.L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10566,9 +10561,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6007035804803104533}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.054195914, y: -0.014782736, z: 0.015634965, w: 0.99829847}
-  m_LocalPosition: {x: 0.000000009313226, y: 0.020792594, z: 0.000000029802322}
-  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+  m_LocalRotation: {x: 0.054195926, y: -0.014782731, z: 0.015634948, w: 0.9982985}
+  m_LocalPosition: {x: 0.000000020896543, y: 0.020792693, z: 0.000000049825765}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999999}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2398621707115082491}
@@ -10583,7 +10578,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2646568635789193}
   m_Layer: 0
-  m_Name: Foot_R
+  m_Name: 'Foot_R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10597,13 +10592,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6055872154355563287}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.53349614, y: 0.00000066159026, z: -0.00000017365888, w: 0.8458025}
-  m_LocalPosition: {x: -0.000000008294141, y: 0.33596396, z: -0.0000000028491058}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.17209502, y: -0.00000013597308, z: -0.00000064820046, w: 0.9850804}
+  m_LocalPosition: {x: 0.022275092, y: 0.006161481, z: -0.07722072}
+  m_LocalScale: {x: 1.1499993, y: 1.149998, z: 1.1500013}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7345185423022598811}
-  m_Father: {fileID: 9104369851622653246}
+  m_Father: {fileID: 6850876532766966849}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6089080192608634644
 GameObject:
@@ -10960,7 +10955,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7415036509971869815}
   m_Layer: 0
-  m_Name: Skrit_2.002.R
+  m_Name: 'Skrit_2.002.R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10974,9 +10969,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6161075528532069499}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.048916195, y: 0.017967027, z: -0.01788071, w: 0.9984812}
-  m_LocalPosition: {x: 0.000000007450581, y: 0.022355486, z: 0.000000019557774}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_LocalRotation: {x: 0.048916116, y: 0.017967043, z: -0.017880687, w: 0.9984813}
+  m_LocalPosition: {x: 0.00000009396172, y: 0.022355592, z: 0.000000027241178}
+  m_LocalScale: {x: 1.0000001, y: 0.9999997, z: 1.0000001}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1373913143533959637}
@@ -11024,7 +11019,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1552083525323106797}
   m_Layer: 0
-  m_Name: Skrit_3.002.R
+  m_Name: 'Skrit_3.002.R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11038,9 +11033,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6210532456380060797}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.049367916, y: 0.02092251, z: -0.015858337, w: 0.99843556}
-  m_LocalPosition: {x: -0.0000000037252903, y: 0.02268932, z: -0.000000014901161}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
+  m_LocalRotation: {x: 0.049367838, y: 0.020922462, z: -0.015858252, w: 0.9984356}
+  m_LocalPosition: {x: -0.00000028591597, y: 0.022689505, z: -0.00000015320256}
+  m_LocalScale: {x: 1, y: 0.9999998, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5024265817512058254}
@@ -11150,7 +11145,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2633394154883384787}
   m_Layer: 0
-  m_Name: Skrit_7.002.L
+  m_Name: 'Skrit_7.002.L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11164,9 +11159,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6349482783827876086}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.012232303, y: -0.034326136, z: 0.03370857, w: 0.99876714}
-  m_LocalPosition: {x: -0.0000000018626451, y: 0.021900402, z: 0.000000014901161}
-  m_LocalScale: {x: 1, y: 1, z: 0.9999999}
+  m_LocalRotation: {x: 0.012232238, y: -0.034326136, z: 0.033708584, w: 0.9987672}
+  m_LocalPosition: {x: -0.000000103376806, y: 0.02190064, z: -0.00000029406507}
+  m_LocalScale: {x: 1, y: 1, z: 0.9999997}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4599825787649671595}
@@ -11202,6 +11197,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7761807988863542240}
+  - {fileID: 4211406435360412739}
   m_Father: {fileID: 60726140848865131}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6405201910010257188
@@ -11214,7 +11210,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7232546178875280542}
   m_Layer: 0
-  m_Name: Skrit_4.001.L
+  m_Name: 'Skrit_4.001.L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11228,9 +11224,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6405201910010257188}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.090156995, y: -0.053987768, z: 0.023967637, w: 0.99417436}
-  m_LocalPosition: {x: -0.0000000037252903, y: 0.019894248, z: 0.000000014901161}
-  m_LocalScale: {x: 0.99999994, y: 1, z: 0.99999994}
+  m_LocalRotation: {x: 0.09015699, y: -0.053987734, z: 0.023967678, w: 0.9941744}
+  m_LocalPosition: {x: -0.0000001683366, y: 0.01989422, z: 0.0000002849846}
+  m_LocalScale: {x: 0.9999998, y: 0.9999996, z: 0.9999996}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1369283874857901086}
@@ -11277,7 +11273,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3400728762025746231}
   m_Layer: 0
-  m_Name: Skrit_6.002.R
+  m_Name: 'Skrit_6.002.R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11291,9 +11287,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6413484697100881967}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.026445765, y: -0.016331682, z: 0.01691201, w: 0.99937373}
-  m_LocalPosition: {x: 0.0000000018626451, y: 0.022178538, z: 0.000000037252903}
-  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 1}
+  m_LocalRotation: {x: 0.026445806, y: -0.016331734, z: 0.016912011, w: 0.9993738}
+  m_LocalPosition: {x: -0.000000030035153, y: 0.022178615, z: 0.00000007962808}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1228814986703458744}
@@ -11341,7 +11337,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9096873934507237430}
   m_Layer: 0
-  m_Name: Collar2.001.L
+  m_Name: 'Collar2.001.L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11355,9 +11351,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6428237496614562986}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.0017934609, y: -0.00000007532468, z: -0.024184044, w: 0.999706}
-  m_LocalPosition: {x: 9.313226e-10, y: 0.019369131, z: 0.0000000011641532}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.0017933837, y: -0.00000007450577, z: -0.024184044, w: 0.999706}
+  m_LocalPosition: {x: 0.000000008789357, y: 0.019369302, z: -0.000000009313222}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 0.9999999}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3408212965326725532}
@@ -11373,7 +11369,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2528044458602625835}
   m_Layer: 0
-  m_Name: Collar1.002.L
+  m_Name: 'Collar1.002.L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11387,9 +11383,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6460950048417385551}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0000009668279, y: 0.0000009275976, z: -0.0000010573362, w: 1}
-  m_LocalPosition: {x: 0.000000003469438, y: 0.02028521, z: 0.0000000029840521}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.0000009164211, y: 0.00000093261787, z: -0.00000106085, w: 1}
+  m_LocalPosition: {x: 0.0000000044237827, y: 0.020285288, z: 0.000000017229471}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 1.0000004}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3795075379492058623}
@@ -11468,7 +11464,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5664503307006913363}
   m_Layer: 0
-  m_Name: Collar2.001.R
+  m_Name: 'Collar2.001.R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11482,9 +11478,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6515061532986215975}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.0017936563, y: -0.0000001192995, z: 0.024183983, w: 0.999706}
-  m_LocalPosition: {x: -0.00000001071021, y: 0.019369062, z: -0.0000000041909516}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_LocalRotation: {x: -0.0017936967, y: -0.00000012293452, z: 0.024183985, w: 0.999706}
+  m_LocalPosition: {x: -0.00000001641456, y: 0.019369198, z: 0.000000011641528}
+  m_LocalScale: {x: 0.9999999, y: 1.0000001, z: 1.0000001}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8277011515939308436}
@@ -11500,7 +11496,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8277011515939308436}
   m_Layer: 0
-  m_Name: Collar2.002.R
+  m_Name: 'Collar2.002.R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11514,9 +11510,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6543391477926211864}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.00000056967974, y: -0.00000027939672, z: 0.00000022908776, w: 1}
-  m_LocalPosition: {x: -4.659242e-10, y: 0.020285184, z: -0.000000006429673}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.0000005135077, y: -0.00000028238054, z: 0.00000023208212, w: 1}
+  m_LocalPosition: {x: 3.4924602e-10, y: 0.020285374, z: -0.000000011532391}
+  m_LocalScale: {x: 1.0000001, y: 1.0000006, z: 1.0000006}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5664503307006913363}
@@ -11562,7 +11558,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2780789375805762656}
   m_Layer: 0
-  m_Name: Collar2.L
+  m_Name: 'Collar2.L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11576,9 +11572,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6631544627183262238}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.10811745, y: -0.034142096, z: 0.028127365, w: 0.9931535}
-  m_LocalPosition: {x: -0.027610531, y: 0.04785528, z: -0.007863753}
-  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
+  m_LocalRotation: {x: -0.108117364, y: -0.0341421, z: 0.028127369, w: 0.9931535}
+  m_LocalPosition: {x: -0.027610531, y: 0.04785548, z: -0.007863415}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 1.0000004}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 9096873934507237430}
@@ -11970,7 +11966,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2049250264895959441}
   m_Layer: 0
-  m_Name: Skrit_5.002.R
+  m_Name: 'Skrit_5.002.R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11984,9 +11980,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6824571734808138498}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.034162927, y: 0.0032606497, z: -0.0034459762, w: 0.999405}
-  m_LocalPosition: {x: -0.0000000027939677, y: 0.022244815, z: 0}
-  m_LocalScale: {x: 1, y: 0.9999999, z: 1.0000001}
+  m_LocalRotation: {x: 0.03416287, y: 0.0032605615, z: -0.003445982, w: 0.9994051}
+  m_LocalPosition: {x: 0.00000022875614, y: 0.022244977, z: -0.00000006961635}
+  m_LocalScale: {x: 1.0000004, y: 1.0000005, z: 1.0000004}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1033124223602555986}
@@ -12066,7 +12062,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6582949501961121612}
   m_Layer: 0
-  m_Name: Skrit_2.L
+  m_Name: 'Skrit_2.L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12080,9 +12076,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6863591326539679785}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.12381147, y: 0.69852024, z: 0.06284214, w: 0.7019908}
-  m_LocalPosition: {x: -0.07976315, y: 0.022238052, z: -0.023850217}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
+  m_LocalRotation: {x: -0.123811536, y: 0.6985202, z: 0.06284217, w: 0.70199084}
+  m_LocalPosition: {x: -0.079763174, y: 0.022238139, z: -0.02385035}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000004}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 4979580020956790963}
@@ -12170,7 +12166,7 @@ SkinnedMeshRenderer:
   m_MaskInteraction: 0
   serializedVersion: 2
   m_Quality: 0
-  m_UpdateWhenOffscreen: 0
+  m_UpdateWhenOffscreen: 1
   m_SkinnedMotionVectors: 1
   m_Mesh: {fileID: 4310030198444546032, guid: 702963c93aeea014f9bb928ef99ee336, type: 3}
   m_Bones:
@@ -12388,7 +12384,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3125041647008142549}
   m_Layer: 0
-  m_Name: Collar2.R
+  m_Name: 'Collar2.R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12402,9 +12398,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6997834733880041518}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.10811744, y: 0.03414246, z: -0.028127259, w: 0.99315345}
-  m_LocalPosition: {x: 0.027610531, y: 0.047855284, z: -0.007863775}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.10811748, y: 0.03414246, z: -0.028127255, w: 0.9931535}
+  m_LocalPosition: {x: 0.027610531, y: 0.047855377, z: -0.007863421}
+  m_LocalScale: {x: 1, y: 1.0000004, z: 1.0000005}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 5664503307006913363}
@@ -12546,7 +12542,7 @@ GameObject:
   m_Component:
   - component: {fileID: 22943923709987551}
   m_Layer: 0
-  m_Name: Skrit_3.R
+  m_Name: 'Skrit_3.R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12560,9 +12556,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7107977434812823727}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.11368922, y: -0.5103833, z: -0.06404444, w: 0.84998935}
-  m_LocalPosition: {x: 0.04522969, y: 0.026144383, z: -0.06828822}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
+  m_LocalRotation: {x: -0.113689244, y: -0.5103833, z: -0.06404444, w: 0.8499894}
+  m_LocalPosition: {x: 0.045229685, y: 0.02614456, z: -0.06828817}
+  m_LocalScale: {x: 0.9999996, y: 0.99999946, z: 0.9999998}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2669026303028698853}
@@ -12665,7 +12661,7 @@ Transform:
   m_GameObject: {fileID: 7159408934727794973}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071067, y: -0.000000030908616, z: 0.000000030908623, w: 0.7071068}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13209,7 +13205,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8994313646073195936}
   m_Layer: 0
-  m_Name: Manuka_shoes_ribbon_R_end
+  m_Name: 'Manuka_shoes_ribbon_R_end[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13223,9 +13219,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7243871564721931818}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.060314827, y: -0.00023764659, z: -0.000013756465, w: 0.9981794}
-  m_LocalPosition: {x: 0.0000000037252903, y: 0.031318944, z: 0.000000015832484}
-  m_LocalScale: {x: 1, y: 1, z: 0.99999994}
+  m_LocalRotation: {x: -0.060314797, y: -0.00023761389, z: -0.000013740731, w: 0.99817944}
+  m_LocalPosition: {x: 0.00000006455229, y: 0.031319275, z: -0.0000002458691}
+  m_LocalScale: {x: 1.0000001, y: 0.9999999, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6030046046079535939}
@@ -13336,7 +13332,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7345185423022598811}
   m_Layer: 0
-  m_Name: Toe_R
+  m_Name: 'Toe_R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13350,9 +13346,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7453740542115536387}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.23556228, y: -0.0000021051703, z: 0.00000055170545, w: 0.9718593}
-  m_LocalPosition: {x: -0.0000000069113875, y: 0.09360829, z: -0.000000007027453}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.23556234, y: -0.0000021002922, z: 0.0000005548811, w: 0.9718593}
+  m_LocalPosition: {x: -0.000000008262629, y: 0.09360845, z: 0.00000024295343}
+  m_LocalScale: {x: 0.9999999, y: 1.0000015, z: 0.99999917}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2646568635789193}
@@ -13398,7 +13394,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1655365264565203812}
   m_Layer: 0
-  m_Name: Skrit_5.R
+  m_Name: 'Skrit_5.R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13412,9 +13408,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7496823858852611672}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.09630341, y: 0.86828387, z: 0.16054453, w: -0.45938468}
-  m_LocalPosition: {x: 0.08140933, y: 0.015224886, z: 0.0751426}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.09630343, y: 0.8682838, z: 0.16054454, w: -0.45938468}
+  m_LocalPosition: {x: 0.08140937, y: 0.015224999, z: 0.07514228}
+  m_LocalScale: {x: 1.0000005, y: 0.9999999, z: 0.9999997}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 622447505356450486}
@@ -13430,7 +13426,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9003114945216323285}
   m_Layer: 0
-  m_Name: Skrit_1.002.R
+  m_Name: 'Skrit_1.002.R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13444,9 +13440,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7547573129427054994}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.03144041, y: 0.013714603, z: -0.013387051, w: 0.9993219}
-  m_LocalPosition: {x: 0.0000000055879354, y: 0.022372983, z: -0.00000002537854}
-  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
+  m_LocalRotation: {x: 0.031440396, y: 0.013714647, z: -0.013387144, w: 0.9993219}
+  m_LocalPosition: {x: 0.00000011467277, y: 0.02237311, z: -0.000000031432148}
+  m_LocalScale: {x: 0.9999998, y: 1.0000004, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3271613055942110275}
@@ -13514,6 +13510,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 873264835932782030}
+  - {fileID: 2646568635789193}
   m_Father: {fileID: 8080490553874947233}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7653804642333431663
@@ -13610,6 +13607,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5682526418106610444}
+  - {fileID: 1217680888951835014}
   m_Father: {fileID: 60726140848865131}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7664324960877811616
@@ -13717,7 +13715,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9054229513223885356}
   m_Layer: 0
-  m_Name: Collar1.L
+  m_Name: 'Collar1.L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13731,9 +13729,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7750558342263382188}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.039528385, y: -0.06128723, z: 0.06687145, w: 0.99509275}
-  m_LocalPosition: {x: -0.07669592, y: 0.047610898, z: -0.00780944}
-  m_LocalScale: {x: 0.9999999, y: 1, z: 1}
+  m_LocalRotation: {x: -0.039528355, y: -0.06128723, z: 0.06687144, w: 0.99509275}
+  m_LocalPosition: {x: -0.07669593, y: 0.047611088, z: -0.0078091053}
+  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 3795075379492058623}
@@ -13781,7 +13779,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6653691760548118460}
   m_Layer: 0
-  m_Name: Skrit_1.002.L
+  m_Name: 'Skrit_1.002.L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13795,9 +13793,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7923976124901200644}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.031440552, y: -0.013714961, z: 0.01338664, w: 0.9993219}
-  m_LocalPosition: {x: 0.0000000037252903, y: 0.02237294, z: -0.00000002561137}
-  m_LocalScale: {x: 0.99999994, y: 1.0000001, z: 1}
+  m_LocalRotation: {x: 0.031440556, y: -0.013714986, z: 0.013386584, w: 0.9993219}
+  m_LocalPosition: {x: -0.00000011529478, y: 0.022373078, z: -0.000000028870993}
+  m_LocalScale: {x: 0.9999999, y: 1.000001, z: 1.0000004}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6978779969876020961}
@@ -13907,7 +13905,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2084176819184092839}
   m_Layer: 0
-  m_Name: Skrit_5.L
+  m_Name: 'Skrit_5.L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13921,9 +13919,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7954627567163379227}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.09630344, y: 0.868284, z: 0.16054451, w: 0.4593845}
-  m_LocalPosition: {x: -0.08140934, y: 0.015224866, z: 0.0751426}
-  m_LocalScale: {x: 1, y: 0.9999999, z: 1}
+  m_LocalRotation: {x: -0.09630343, y: 0.8682839, z: 0.1605445, w: 0.45938453}
+  m_LocalPosition: {x: -0.08140938, y: 0.015224946, z: 0.0751423}
+  m_LocalScale: {x: 1.000001, y: 1, z: 1.0000001}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6741100808341778141}
@@ -13959,6 +13957,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7099844927448651842}
+  - {fileID: 1780028530724378480}
   m_Father: {fileID: 60726140848865131}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7992379680896865273
@@ -14066,7 +14065,7 @@ GameObject:
   m_Component:
   - component: {fileID: 942280810925902205}
   m_Layer: 0
-  m_Name: Skrit_1.L
+  m_Name: 'Skrit_1.L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14080,9 +14079,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8123986701689692182}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.115213454, y: 0.78212774, z: 0.112416156, w: 0.60196733}
-  m_LocalPosition: {x: -0.09187292, y: 0.02105712, z: 0.019167831}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_LocalRotation: {x: -0.11521345, y: 0.78212774, z: 0.11241606, w: 0.60196733}
+  m_LocalPosition: {x: -0.09187296, y: 0.021057209, z: 0.019167617}
+  m_LocalScale: {x: 1.0000002, y: 1.0000004, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 8182832700784377141}
@@ -14130,7 +14129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1369283874857901086}
   m_Layer: 0
-  m_Name: Skrit_4.002.L
+  m_Name: 'Skrit_4.002.L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14144,9 +14143,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8158318910970392926}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.051974535, y: 0.011401612, z: -0.006120038, w: 0.9985646}
-  m_LocalPosition: {x: 0.000000007450581, y: 0.023096606, z: 0.000000020489097}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_LocalRotation: {x: 0.051974587, y: 0.0114016095, z: -0.0061200503, w: 0.9985646}
+  m_LocalPosition: {x: 0.00000021292368, y: 0.023096843, z: -0.00000035297143}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 0.9999998}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2385863672321852414}
@@ -14225,7 +14224,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4308997863908891270}
   m_Layer: 0
-  m_Name: Collar_Root
+  m_Name: 'Collar_Root[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14239,9 +14238,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8255798004061920439}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.97014064, y: 0.000000029017755, z: -0.00000011606729, w: -0.2425431}
-  m_LocalPosition: {x: -0.0000000012083418, y: 0.12887031, z: -0.060340416}
-  m_LocalScale: {x: 1, y: 1, z: 0.99999976}
+  m_LocalRotation: {x: 0.9701407, y: 0.000000029017736, z: -0.00000011606731, w: -0.24254309}
+  m_LocalPosition: {x: -0.0000000012083544, y: 0.12887023, z: -0.060340438}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 0.9999999}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 9054229513223885356}
@@ -14260,7 +14259,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3412456174139594772}
   m_Layer: 0
-  m_Name: Skrit_4.001.R
+  m_Name: 'Skrit_4.001.R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14274,9 +14273,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8264154504894656273}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.09015726, y: 0.053987093, z: -0.023967639, w: 0.99417436}
-  m_LocalPosition: {x: 0.0000000037252903, y: 0.019894343, z: -0.000000007450581}
-  m_LocalScale: {x: 0.9999999, y: 0.99999994, z: 0.99999976}
+  m_LocalRotation: {x: 0.09015725, y: 0.053987104, z: -0.023967637, w: 0.99417436}
+  m_LocalPosition: {x: -0.00000024400654, y: 0.019894654, z: -0.00000033806995}
+  m_LocalScale: {x: 0.9999999, y: 0.99999946, z: 0.99999946}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 9063068660925113352}
@@ -14323,7 +14322,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4105930587509083615}
   m_Layer: 0
-  m_Name: Manuka_shoes_ribbon_L_end
+  m_Name: 'Manuka_shoes_ribbon_L_end[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14337,9 +14336,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8302974819542750286}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.060314797, y: 0.00023765684, z: 0.000013858398, w: 0.9981794}
-  m_LocalPosition: {x: -0.0000000023283064, y: 0.03131895, z: 0.000000006519258}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.060314693, y: 0.00023762873, z: 0.0000138468995, w: 0.99817944}
+  m_LocalPosition: {x: -0.000000046537032, y: 0.031319384, z: -0.00000017508864}
+  m_LocalScale: {x: 1.0000001, y: 1.0000002, z: 1.0000004}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2857684531628400491}
@@ -14354,7 +14353,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7692510913838315233}
   m_Layer: 0
-  m_Name: Skrit_4.R
+  m_Name: 'Skrit_4.R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14368,9 +14367,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8335326561001941204}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.20867017, y: -0.33252153, z: -0.020481052, w: 0.91949266}
-  m_LocalPosition: {x: -0.005012894, y: 0.027591491, z: -0.09073841}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.20867011, y: -0.33252156, z: -0.020481072, w: 0.91949266}
+  m_LocalPosition: {x: -0.005012883, y: 0.027591629, z: -0.090738475}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 1.0000005}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 3412456174139594772}
@@ -14666,7 +14665,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4211406435360412739}
   m_Layer: 0
-  m_Name: Shoulder_R
+  m_Name: 'Shoulder_R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14680,13 +14679,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8380639548634173771}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.4277885, y: -0.42778844, z: -0.56302494, w: 0.5630249}
-  m_LocalPosition: {x: 0.039076418, y: 0.1265111, z: -0.004304301}
-  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999999}
+  m_LocalRotation: {x: -0.050362047, y: -0.050362255, z: -0.036066446, w: 0.9968082}
+  m_LocalPosition: {x: 0.0057070837, y: 0.014481487, z: -0.021474008}
+  m_LocalScale: {x: 1.1500005, y: 1.1500009, z: 1.1500003}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3901208536339638596}
-  m_Father: {fileID: 4159944132636720837}
+  m_Children: []
+  m_Father: {fileID: 7723401480095383908}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8527809507613694125
 GameObject:
@@ -14730,7 +14728,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8182832700784377141}
   m_Layer: 0
-  m_Name: Skrit_1.001.L
+  m_Name: 'Skrit_1.001.L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14744,9 +14742,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8530781703207959907}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.066028185, y: 0.0011846398, z: -0.0011236778, w: 0.99781644}
-  m_LocalPosition: {x: 0.000000004656613, y: 0.014186591, z: -4.656613e-10}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 1.0000001}
+  m_LocalRotation: {x: 0.06602824, y: 0.0011845225, z: -0.0011237183, w: 0.99781644}
+  m_LocalPosition: {x: -0.000000004889442, y: 0.014186687, z: 0.000000029802322}
+  m_LocalScale: {x: 1.0000004, y: 1.0000002, z: 1.0000002}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6653691760548118460}
@@ -14782,6 +14780,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8852476589123696711}
+  - {fileID: 5592361315591703305}
   m_Father: {fileID: 60726140848865131}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8572937576053294371
@@ -14794,7 +14793,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5309253679000168877}
   m_Layer: 0
-  m_Name: Skrit_6.R
+  m_Name: 'Skrit_6.R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14808,9 +14807,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8572937576053294371}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.07445811, y: 0.9502913, z: 0.14504935, w: -0.2652606}
-  m_LocalPosition: {x: 0.0350429, y: 0.009683255, z: 0.12060703}
-  m_LocalScale: {x: 1.0000001, y: 1.0000002, z: 1}
+  m_LocalRotation: {x: 0.07445811, y: 0.9502913, z: 0.14504941, w: -0.26526052}
+  m_LocalPosition: {x: 0.035042845, y: 0.0096833445, z: 0.12060746}
+  m_LocalScale: {x: 1.000001, y: 1.0000005, z: 0.9999997}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 131565118230396207}
@@ -15175,7 +15174,7 @@ GameObject:
   m_Component:
   - component: {fileID: 435462371385933476}
   m_Layer: 0
-  m_Name: Skrit_4.003.R
+  m_Name: 'Skrit_4.003.R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15189,9 +15188,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8606754293460513928}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0133126015, y: -0.02077929, z: 0.011311835, w: 0.99963146}
-  m_LocalPosition: {x: -0, y: 0.021199668, z: 0.000000007450581}
-  m_LocalScale: {x: 0.99999994, y: 0.9999999, z: 1}
+  m_LocalRotation: {x: 0.013312566, y: -0.020779323, z: 0.011311836, w: 0.99963146}
+  m_LocalPosition: {x: 0.000000061088926, y: 0.0211998, z: 0.00000012503001}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 1.0000002}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9063068660925113352}
@@ -15586,7 +15585,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6304522063645166649}
   m_Layer: 0
-  m_Name: Chest_Coll
+  m_Name: 'Chest_Coll[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15600,9 +15599,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8694515971317763103}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.06920066, y: -0.06920076, z: -0.7037125, w: 0.7037125}
-  m_LocalPosition: {x: -0, y: 0.1303, z: -0.0041}
-  m_LocalScale: {x: 0.15499006, y: 0.15499, z: 0.15499002}
+  m_LocalRotation: {x: -0.06920061, y: -0.06920075, z: -0.7037124, w: 0.7037125}
+  m_LocalPosition: {x: -3.9388784e-14, y: 0.13029973, z: -0.004100041}
+  m_LocalScale: {x: 0.15499012, y: 0.15499015, z: 0.15499002}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 8034666031681798358}
@@ -15617,7 +15616,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1306228850699197654}
   m_Layer: 0
-  m_Name: Skrit_7.L
+  m_Name: 'Skrit_7.L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15631,9 +15630,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8775498598346846385}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.06571323, y: 0.98699886, z: 0.14448051, w: 0.025307821}
-  m_LocalPosition: {x: 0.035779037, y: 0.007911868, z: 0.12589674}
-  m_LocalScale: {x: 1, y: 0.9999998, z: 1}
+  m_LocalRotation: {x: -0.06571324, y: 0.9869988, z: 0.14448048, w: 0.025307843}
+  m_LocalPosition: {x: 0.035779044, y: 0.007911959, z: 0.12589675}
+  m_LocalScale: {x: 1.0000012, y: 0.9999999, z: 0.9999997}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6163134304518061741}
@@ -15665,7 +15664,7 @@ Transform:
   m_GameObject: {fileID: 8777054687755656628}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071067, y: -0.000000030908616, z: 0.000000030908623, w: 0.7071068}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15929,7 +15928,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8574815150154732260}
   m_Layer: 0
-  m_Name: Skrit_2.003.L
+  m_Name: 'Skrit_2.003.L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15943,9 +15942,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8802136046730770536}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.00038381183, y: -0.009603994, z: 0.009035625, w: 0.99991304}
-  m_LocalPosition: {x: 0.0000000037252903, y: 0.02082146, z: -0.000000007450581}
-  m_LocalScale: {x: 1, y: 1, z: 1.0000001}
+  m_LocalRotation: {x: -0.0003838425, y: -0.009603811, z: 0.009035638, w: 0.999913}
+  m_LocalPosition: {x: 0.000000031723175, y: 0.020821637, z: -0.00000003282911}
+  m_LocalScale: {x: 1.0000004, y: 1.0000004, z: 1.0000004}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4257215192442970577}
@@ -16028,7 +16027,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1217680888951835014}
   m_Layer: 0
-  m_Name: Shoulder_L
+  m_Name: 'Shoulder_L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16042,13 +16041,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8889417533974507249}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.4277885, y: 0.42778844, z: 0.56302494, w: 0.5630249}
-  m_LocalPosition: {x: -0.039076418, y: 0.1265111, z: -0.004304299}
-  m_LocalScale: {x: 0.99999994, y: 1, z: 0.99999994}
+  m_LocalRotation: {x: -0.050362047, y: 0.050362345, z: 0.03606643, w: 0.9968082}
+  m_LocalPosition: {x: -0.0057070996, y: 0.014481686, z: -0.021474028}
+  m_LocalScale: {x: 1.1500003, y: 1.1500009, z: 1.1500003}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8567838063032363904}
-  m_Father: {fileID: 4159944132636720837}
+  m_Children: []
+  m_Father: {fileID: 6990414670912057680}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8897129522793683871
 GameObject:
@@ -16116,6 +16114,7 @@ Transform:
   - {fileID: 8098406891102830203}
   - {fileID: 7215793964472932206}
   - {fileID: 1409193135619448934}
+  - {fileID: 3515689298969935618}
   m_Father: {fileID: 829065491641218435}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8941360698129691341
@@ -16128,7 +16127,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6202837080825579027}
   m_Layer: 0
-  m_Name: Skrit_3.L
+  m_Name: 'Skrit_3.L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16142,9 +16141,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8941360698129691341}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.11368992, y: 0.5103827, z: 0.06404477, w: 0.8499897}
-  m_LocalPosition: {x: -0.04522969, y: 0.02614437, z: -0.06828822}
-  m_LocalScale: {x: 1, y: 0.9999999, z: 0.99999994}
+  m_LocalRotation: {x: -0.113689885, y: 0.5103828, z: 0.064044796, w: 0.84998965}
+  m_LocalPosition: {x: -0.04522969, y: 0.026144512, z: -0.068288185}
+  m_LocalScale: {x: 0.9999999, y: 0.9999998, z: 1.0000004}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 8627899249767350176}
@@ -16160,7 +16159,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1228814986703458744}
   m_Layer: 0
-  m_Name: Skrit_6.003.R
+  m_Name: 'Skrit_6.003.R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16174,9 +16173,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8949538477284236068}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.054194573, y: 0.014784185, z: -0.015634255, w: 0.9982985}
-  m_LocalPosition: {x: 0.000000006519258, y: 0.020792529, z: -0.000000014901161}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.05419455, y: 0.014784185, z: -0.0156343, w: 0.9982985}
+  m_LocalPosition: {x: -0.000000029627703, y: 0.020792605, z: 0.000000048661605}
+  m_LocalScale: {x: 1, y: 0.9999998, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3400728762025746231}
@@ -16191,7 +16190,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4968201529847767762}
   m_Layer: 0
-  m_Name: LowerLeg_L
+  m_Name: 'LowerLeg_L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16205,14 +16204,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8959409487328823640}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.028081695, y: 0.00000059866835, z: -0.00000048486095, w: 0.99960566}
-  m_LocalPosition: {x: -0.000000017768848, y: 0.28348118, z: 0.0000000029657814}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_LocalRotation: {x: 0.014076941, y: -0.012990438, z: 0.0138846785, w: 0.99972016}
+  m_LocalPosition: {x: -0.01020398, y: -0.07403246, z: -0.011596267}
+  m_LocalScale: {x: 1.1499991, y: 1.1500009, z: 1.1499981}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 344517328451534502}
   - {fileID: 2857684531628400491}
-  m_Father: {fileID: 705877323183663282}
+  m_Father: {fileID: 4827294812408155505}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8969599609417809831
 GameObject:
@@ -16254,11 +16252,12 @@ Transform:
   - {fileID: 1956788310859917671}
   - {fileID: 7721728962307008864}
   - {fileID: 4985567772790416213}
-  - {fileID: 7674665127434486847}
-  - {fileID: 3457081127385564834}
-  - {fileID: 2084872652435967061}
   - {fileID: 6372327157030157306}
   - {fileID: 8581201115644337326}
+  - {fileID: 2084872652435967061}
+  - {fileID: 7674665127434486847}
+  - {fileID: 3457081127385564834}
+  - {fileID: 3061204670972380521}
   - {fileID: 5063094285412827189}
   - {fileID: 947707972502772050}
   - {fileID: 8725013078598140903}
@@ -16330,7 +16329,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3515803723840182297}
   m_Layer: 0
-  m_Name: Skrit_Root.L
+  m_Name: 'Skrit_Root.L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16344,9 +16343,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9073211218242307553}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.0040172664, y: -0.062055536, z: -0.00054623536, w: 0.99806446}
-  m_LocalPosition: {x: -0.00023807584, y: 0.03109484, z: -0.0023403324}
-  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
+  m_LocalRotation: {x: -0.004017267, y: -0.06205553, z: -0.000546237, w: 0.9980645}
+  m_LocalPosition: {x: -0.00023807638, y: 0.031094953, z: -0.0023399713}
+  m_LocalScale: {x: 1, y: 0.9999998, z: 0.9999997}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 942280810925902205}
@@ -16440,7 +16439,7 @@ SkinnedMeshRenderer:
   m_MaskInteraction: 0
   serializedVersion: 2
   m_Quality: 0
-  m_UpdateWhenOffscreen: 0
+  m_UpdateWhenOffscreen: 1
   m_SkinnedMotionVectors: 1
   m_Mesh: {fileID: 3377216930602325389, guid: 702963c93aeea014f9bb928ef99ee336, type: 3}
   m_Bones:
@@ -16564,7 +16563,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1780028530724378480}
   m_Layer: 0
-  m_Name: Breast_L
+  m_Name: 'Breast_L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16578,13 +16577,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9089583192938960481}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.051771503, y: 0.59494555, z: 0.7972161, w: 0.088351995}
-  m_LocalPosition: {x: -0.033462644, y: 0.06789804, z: 0.014917023}
-  m_LocalScale: {x: 1.0000001, y: 0.9999996, z: 0.9999999}
+  m_LocalRotation: {x: -0.037145026, y: 0.29550233, z: 0.10174441, w: 0.9491821}
+  m_LocalPosition: {x: 0.031817995, y: -0.025878247, z: 0.029368967}
+  m_LocalScale: {x: 1.1500003, y: 1.1499995, z: 1.1499994}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 5731009383183623820}
-  m_Father: {fileID: 4159944132636720837}
+  m_Father: {fileID: 4272519524316042290}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9098637841678999068
 GameObject:
@@ -16596,7 +16595,7 @@ GameObject:
   m_Component:
   - component: {fileID: 469015332341180310}
   m_Layer: 0
-  m_Name: Breast_R
+  m_Name: 'Breast_R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16610,13 +16609,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9098637841678999068}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.051772043, y: 0.59494567, z: 0.79721606, w: -0.08835153}
-  m_LocalPosition: {x: 0.033462644, y: 0.067898095, z: 0.014917054}
-  m_LocalScale: {x: 0.99999994, y: 0.9999998, z: 0.99999994}
+  m_LocalRotation: {x: -0.03714499, y: -0.295503, z: -0.10174442, w: 0.9491819}
+  m_LocalPosition: {x: -0.03181793, y: -0.025878303, z: 0.029369183}
+  m_LocalScale: {x: 1.1500005, y: 1.1499999, z: 1.1499996}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 9093703807233854936}
-  m_Father: {fileID: 4159944132636720837}
+  m_Father: {fileID: 8823699759307228540}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9110682058358609430
 GameObject:
@@ -16691,7 +16690,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5731009383183623820}
   m_Layer: 0
-  m_Name: Breast_L.001
+  m_Name: 'Breast_L.001[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16705,9 +16704,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9137509502745360429}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.6913881, y: 0.15602884, z: 0.7037278, w: -0.04903936}
-  m_LocalPosition: {x: 0.0000000018626451, y: 0.083897315, z: -0.0000000048894435}
-  m_LocalScale: {x: 1.0000006, y: 1.0000005, z: 1.0000019}
+  m_LocalRotation: {x: -0.69138795, y: 0.15602884, z: 0.7037278, w: -0.049039315}
+  m_LocalPosition: {x: 0.000000009718145, y: 0.083897255, z: -0.00000012957538}
+  m_LocalScale: {x: 1.0000002, y: 1.000001, z: 1.0000029}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2078055793540565210}
@@ -16743,6 +16742,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5080788481528755095}
+  - {fileID: 469015332341180310}
   m_Father: {fileID: 60726140848865131}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9152116103074644405
@@ -16786,7 +16786,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1033124223602555986}
   m_Layer: 0
-  m_Name: Skrit_5.003.R
+  m_Name: 'Skrit_5.003.R[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16800,9 +16800,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9181685276264057281}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.034191918, y: -0.0062510893, z: 0.0065803323, w: 0.9993741}
-  m_LocalPosition: {x: 0.000000004656613, y: 0.02079022, z: 0.000000009313226}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.03419189, y: -0.0062510925, z: 0.006580345, w: 0.9993741}
+  m_LocalPosition: {x: 0.00000021113367, y: 0.020790318, z: -0.00000007322521}
+  m_LocalScale: {x: 0.9999997, y: 0.9999997, z: 0.9999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2049250264895959441}
@@ -16889,7 +16889,7 @@ SkinnedMeshRenderer:
   m_MaskInteraction: 0
   serializedVersion: 2
   m_Quality: 0
-  m_UpdateWhenOffscreen: 0
+  m_UpdateWhenOffscreen: 1
   m_SkinnedMotionVectors: 1
   m_Mesh: {fileID: -4910907212420761332, guid: 702963c93aeea014f9bb928ef99ee336, type: 3}
   m_Bones:
@@ -17013,7 +17013,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2385863672321852414}
   m_Layer: 0
-  m_Name: Skrit_4.003.L
+  m_Name: 'Skrit_4.003.L[Manuka_black_white]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17027,9 +17027,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9217067834822488527}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.013310542, y: 0.020777842, z: -0.011311726, w: 0.9996315}
-  m_LocalPosition: {x: -0.000000007450581, y: 0.021199735, z: 0.000000007450581}
-  m_LocalScale: {x: 1, y: 0.9999999, z: 1}
+  m_LocalRotation: {x: 0.013310513, y: 0.02077783, z: -0.011311742, w: 0.9996315}
+  m_LocalPosition: {x: -0.00000008070492, y: 0.021199927, z: 0.00000015855771}
+  m_LocalScale: {x: 0.9999998, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1369283874857901086}
