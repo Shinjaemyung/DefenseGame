@@ -5614,9 +5614,9 @@ MonoBehaviour:
   presets:
   - id: 0
     skyboxMaterial: {fileID: 2100000, guid: 123caa41e84e041d0bd65bb3ae888dd1, type: 2}
-    skyColor: {r: 1, g: 1, b: 1, a: 1}
-    equatorColor: {r: 1, g: 1, b: 1, a: 0}
-    groundColor: {r: 1, g: 1, b: 1, a: 0}
+    skyColor: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+    equatorColor: {r: 0.764151, g: 0.764151, b: 0.764151, a: 1}
+    groundColor: {r: 0.41568628, g: 0.41568628, b: 0.41568628, a: 0}
     ambientIntensity: 0
     sunColor: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
     sunIntensity: 0.8
@@ -5648,7 +5648,7 @@ MonoBehaviour:
     fogEnabled: 0
     fogColor: {r: 0, g: 0, b: 0, a: 0}
     fogDensity: 0
-  sunLight: {fileID: 705507994}
+  sunLight: {fileID: 0}
   transitionDuration: 1.5
   transitionCurve:
     serializedVersion: 2
