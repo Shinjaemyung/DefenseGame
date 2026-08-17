@@ -625,43 +625,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4393946019257510, guid: cfc6cdae425db2647a62e4bc343e3bb4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.016
+      value: -0.016018432
       objectReference: {fileID: 0}
     - target: {fileID: 4393946019257510, guid: cfc6cdae425db2647a62e4bc343e3bb4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.036
+      value: 0.036011145
       objectReference: {fileID: 0}
     - target: {fileID: 4393946019257510, guid: cfc6cdae425db2647a62e4bc343e3bb4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.029
+      value: -0.02900245
       objectReference: {fileID: 0}
     - target: {fileID: 4393946019257510, guid: cfc6cdae425db2647a62e4bc343e3bb4, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.79316753
+      value: -0.011180841
       objectReference: {fileID: 0}
     - target: {fileID: 4393946019257510, guid: cfc6cdae425db2647a62e4bc343e3bb4, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.00000018835992
+      value: -0.6089428
       objectReference: {fileID: 0}
     - target: {fileID: 4393946019257510, guid: cfc6cdae425db2647a62e4bc343e3bb4, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000027939667
+      value: -0.79308885
       objectReference: {fileID: 0}
     - target: {fileID: 4393946019257510, guid: cfc6cdae425db2647a62e4bc343e3bb4, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.6090035
+      value: 0.008584608
       objectReference: {fileID: 0}
     - target: {fileID: 4393946019257510, guid: cfc6cdae425db2647a62e4bc343e3bb4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 1.561
       objectReference: {fileID: 0}
     - target: {fileID: 4393946019257510, guid: cfc6cdae425db2647a62e4bc343e3bb4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -180.417
       objectReference: {fileID: 0}
     - target: {fileID: 4393946019257510, guid: cfc6cdae425db2647a62e4bc343e3bb4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -75.035
+      value: 75.029
       objectReference: {fileID: 0}
     - target: {fileID: 4393946019257510, guid: cfc6cdae425db2647a62e4bc343e3bb4, type: 3}
       propertyPath: m_ConstrainProportionsScale
@@ -684,6 +684,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 989808203802897668}
   m_SourcePrefab: {fileID: 100100000, guid: cfc6cdae425db2647a62e4bc343e3bb4, type: 3}
+--- !u!4 &3784112287647373523 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4588015337460146, guid: cfc6cdae425db2647a62e4bc343e3bb4, type: 3}
+  m_PrefabInstance: {fileID: 3788533155191867745}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &3789683246832574311 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1189674227078662, guid: cfc6cdae425db2647a62e4bc343e3bb4, type: 3}
@@ -701,9 +706,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a09b1f3a7c3bdf748a22787e29c2773d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SwordSlashFX
-  vfxSpawnPoint: {fileID: 3790920999061657031}
+  vfxSpawnPoint: {fileID: 3784112287647373523}
   slashVfxPrefab: {fileID: 198741542255655676, guid: 9c53b72dc7c188b488fdaf2edefb6673, type: 3}
-  vfxScale: 0.8
+  vfxScale: 0.7
   rotationOffsetEuler: {x: -80, y: 0, z: 30}
 --- !u!4 &3790920999061657031 stripped
 Transform:

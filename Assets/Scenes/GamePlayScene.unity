@@ -5648,7 +5648,7 @@ MonoBehaviour:
     fogEnabled: 0
     fogColor: {r: 0, g: 0, b: 0, a: 0}
     fogDensity: 0
-  sunLight: {fileID: 0}
+  sunLight: {fileID: 705507994}
   transitionDuration: 1.5
   transitionCurve:
     serializedVersion: 2
