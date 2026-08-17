@@ -679,8 +679,32 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 1162986251627204, guid: cfc6cdae425db2647a62e4bc343e3bb4, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1189674227078662, guid: cfc6cdae425db2647a62e4bc343e3bb4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 989808203802897668}
   m_SourcePrefab: {fileID: 100100000, guid: cfc6cdae425db2647a62e4bc343e3bb4, type: 3}
+--- !u!1 &3789683246832574311 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1189674227078662, guid: cfc6cdae425db2647a62e4bc343e3bb4, type: 3}
+  m_PrefabInstance: {fileID: 3788533155191867745}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &989808203802897668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3789683246832574311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a09b1f3a7c3bdf748a22787e29c2773d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SwordSlashFX
+  vfxSpawnPoint: {fileID: 3790920999061657031}
+  slashVfxPrefab: {fileID: 198741542255655676, guid: 9c53b72dc7c188b488fdaf2edefb6673, type: 3}
+  vfxScale: 0.8
+  rotationOffsetEuler: {x: -80, y: 0, z: 30}
 --- !u!4 &3790920999061657031 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4393946019257510, guid: cfc6cdae425db2647a62e4bc343e3bb4, type: 3}
