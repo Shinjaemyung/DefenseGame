@@ -17,13 +17,13 @@ public class TestManager : MonoBehaviour
         Test();
 #endif
 
-        if (Input.GetKeyDown(KeyCode.F1))
+        if (Input.GetKeyDown(KeyCode.Alpha4))
             EnvironmentManager.Instance.SetEnvironment(EnvironmentManager.Instance.presets[0].id);
 
-        if (Input.GetKeyDown(KeyCode.F2))
+        if (Input.GetKeyDown(KeyCode.Alpha5))
             EnvironmentManager.Instance.SetEnvironment(EnvironmentManager.Instance.presets[1].id);
 
-        if (Input.GetKeyDown(KeyCode.F3))
+        if (Input.GetKeyDown(KeyCode.Alpha6))
             EnvironmentManager.Instance.SetEnvironment(EnvironmentManager.Instance.presets[2].id);
 
         if (Input.GetKeyDown(KeyCode.Alpha1))

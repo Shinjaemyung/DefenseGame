@@ -52,11 +52,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseColorMap:
-        m_Texture: {fileID: 2800000, guid: 9b95083a85d522a4a83b567e1e1d3de3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 476f1d3f481a92e419a26f1d4333f50f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 9b95083a85d522a4a83b567e1e1d3de3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 476f1d3f481a92e419a26f1d4333f50f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Bump2ndMap:
@@ -168,7 +168,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 9b95083a85d522a4a83b567e1e1d3de3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 476f1d3f481a92e419a26f1d4333f50f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MatCap2ndBlendMask:
@@ -676,7 +676,7 @@ Material:
     - _UseEmission2nd: 0
     - _UseGlitter: 0
     - _UseMain2ndTex: 0
-    - _UseMain3rdTex: 1
+    - _UseMain3rdTex: 0
     - _UseMatCap: 0
     - _UseMatCap2nd: 0
     - _UseOutline: 0
