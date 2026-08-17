@@ -137,7 +137,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3121790728495584192}
-  - component: {fileID: 5218535986392544964}
   m_Layer: 0
   m_Name: Hair_Side3_001.R
   m_TagString: Untagged
@@ -161,169 +160,6 @@ Transform:
   - {fileID: 1697952182746116515}
   m_Father: {fileID: 8381576791263112561}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5218535986392544964
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 354920532646067158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foldout_transforms: 1
-  foldout_forces: 1
-  foldout_collision: 1
-  foldout_stretchsquish: 1
-  foldout_limits: 1
-  foldout_grabpose: 1
-  foldout_options: 1
-  foldout_gizmos: 0
-  version: 1
-  integrationType: 1
-  rootTransform: {fileID: 0}
-  ignoreTransforms: []
-  ignoreOtherPhysBones: 1
-  endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
-  pull: 0.2
-  pullCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spring: 0.2
-  springCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stiffness: 0.2
-  stiffnessCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravity: 0
-  gravityCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravityFalloff: 0
-  gravityFalloffCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  immobileType: 0
-  immobile: 0
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowCollision: 1
-  collisionFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  radius: 0.01
-  radiusCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  colliders:
-  - {fileID: 5595541055792449063}
-  - {fileID: 8104212836020397128}
-  - {fileID: 3927157701795204596}
-  - {fileID: 2867675939245853304}
-  - {fileID: 6572778809148823332}
-  - {fileID: 1620134625295187605}
-  - {fileID: 2176283794455997879}
-  limitType: 1
-  maxAngleX: 25
-  maxAngleXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxAngleZ: 45
-  maxAngleZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotation: {x: 0, y: 0, z: 0}
-  limitRotationXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationYCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowGrabbing: 1
-  grabFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  allowPosing: 0
-  poseFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  snapToHand: 0
-  grabMovement: 0.5
-  maxStretch: 0
-  maxStretchCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxSquish: 0
-  maxSquishCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stretchMotion: 0
-  stretchMotionCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  isAnimated: 0
-  resetWhenDisabled: 0
-  parameter: 
-  showGizmos: 1
-  boneOpacity: 0.5
-  limitOpacity: 0.5
 --- !u!1 &365467610829937784
 GameObject:
   m_ObjectHideFlags: 0
@@ -364,7 +200,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7888912860833216908}
-  - component: {fileID: 8104212836020397128}
   m_Layer: 0
   m_Name: UpperArm_R_C
   m_TagString: Untagged
@@ -387,27 +222,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 9060880429220627203}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8104212836020397128
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 593555935556001016}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1631200402, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rootTransform: {fileID: 0}
-  shapeType: 1
-  insideBounds: 0
-  radius: 0.03
-  height: 0.24
-  position: {x: 0, y: 0.1, z: 0}
-  rotation: {x: 0, y: 0, z: 0, w: 1}
-  bonesAsSpheres: 0
-  globalCollisionFlags: 0
 --- !u!1 &625616081535367057
 GameObject:
   m_ObjectHideFlags: 0
@@ -520,6 +334,11 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -541,9 +360,11 @@ SkinnedMeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   serializedVersion: 2
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
@@ -942,7 +763,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 62642662650534263}
-  - component: {fileID: 155305250998494011}
   m_Layer: 0
   m_Name: Hair_Bun2.001.R
   m_TagString: Untagged
@@ -966,169 +786,6 @@ Transform:
   - {fileID: 4392681594788249981}
   m_Father: {fileID: 8381576791263112561}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &155305250998494011
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 914016927098056316}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foldout_transforms: 1
-  foldout_forces: 1
-  foldout_collision: 1
-  foldout_stretchsquish: 1
-  foldout_limits: 1
-  foldout_grabpose: 1
-  foldout_options: 1
-  foldout_gizmos: 0
-  version: 1
-  integrationType: 1
-  rootTransform: {fileID: 0}
-  ignoreTransforms: []
-  ignoreOtherPhysBones: 1
-  endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
-  pull: 0.2
-  pullCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spring: 0.2
-  springCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stiffness: 0.2
-  stiffnessCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravity: 0
-  gravityCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravityFalloff: 0
-  gravityFalloffCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  immobileType: 0
-  immobile: 0
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowCollision: 1
-  collisionFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  radius: 0.01
-  radiusCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  colliders:
-  - {fileID: 5595541055792449063}
-  - {fileID: 8104212836020397128}
-  - {fileID: 3927157701795204596}
-  - {fileID: 2867675939245853304}
-  - {fileID: 6572778809148823332}
-  - {fileID: 1620134625295187605}
-  - {fileID: 2176283794455997879}
-  limitType: 1
-  maxAngleX: 25
-  maxAngleXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxAngleZ: 45
-  maxAngleZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotation: {x: 0, y: 0, z: 0}
-  limitRotationXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationYCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowGrabbing: 1
-  grabFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  allowPosing: 0
-  poseFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  snapToHand: 0
-  grabMovement: 0.5
-  maxStretch: 0
-  maxStretchCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxSquish: 0
-  maxSquishCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stretchMotion: 0
-  stretchMotionCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  isAnimated: 0
-  resetWhenDisabled: 0
-  parameter: 
-  showGizmos: 1
-  boneOpacity: 0.5
-  limitOpacity: 0.5
 --- !u!1 &928928478726467546
 GameObject:
   m_ObjectHideFlags: 0
@@ -1312,8 +969,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1204751728225895126}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.00000013038516, y: 0.000000040978193, z: -0.000000011175872,
-    w: 1}
+  m_LocalRotation: {x: 0.00000013038516, y: 0.000000040978193, z: -0.000000011175872, w: 1}
   m_LocalPosition: {x: -0.000000007450581, y: 0.1833228, z: 0.0000000037252903}
   m_LocalScale: {x: 1, y: 0.99999994, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1432,6 +1088,11 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1453,9 +1114,11 @@ SkinnedMeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   serializedVersion: 2
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
@@ -1799,8 +1462,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1652056216723073400}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.000000009313226, y: 0.000000027939677, z: -0.00000008009374,
-    w: 1}
+  m_LocalRotation: {x: -0.000000009313226, y: 0.000000027939677, z: -0.00000008009374, w: 1}
   m_LocalPosition: {x: -0.000000015832484, y: 0.15576096, z: -0.000000011175871}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1881,7 +1543,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3216713809812047846}
-  - component: {fileID: 8782279839875271026}
   m_Layer: 0
   m_Name: Skirt1_L
   m_TagString: Untagged
@@ -1897,8 +1558,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1762344177978120652}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.00000005960465, y: -0.000000047497455, z: 0.000000011175872,
-    w: 1}
+  m_LocalRotation: {x: -0.00000005960465, y: -0.000000047497455, z: 0.000000011175872, w: 1}
   m_LocalPosition: {x: 0.000000007450581, y: -0.000000010244548, z: 0.0000000037252903}
   m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
   m_ConstrainProportionsScale: 0
@@ -1906,169 +1566,6 @@ Transform:
   - {fileID: 6955798133380934775}
   m_Father: {fileID: 3882569723289535503}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8782279839875271026
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1762344177978120652}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foldout_transforms: 1
-  foldout_forces: 1
-  foldout_collision: 1
-  foldout_stretchsquish: 1
-  foldout_limits: 1
-  foldout_grabpose: 1
-  foldout_options: 1
-  foldout_gizmos: 0
-  version: 1
-  integrationType: 1
-  rootTransform: {fileID: 3216713809812047846}
-  ignoreTransforms: []
-  ignoreOtherPhysBones: 1
-  endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
-  pull: 0.861
-  pullCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spring: 0.2
-  springCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stiffness: 0.2
-  stiffnessCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravity: 0
-  gravityCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravityFalloff: 0
-  gravityFalloffCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  immobileType: 0
-  immobile: 0
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowCollision: 1
-  collisionFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  radius: 0.01
-  radiusCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  colliders:
-  - {fileID: 5595541055792449063}
-  - {fileID: 8104212836020397128}
-  - {fileID: 3927157701795204596}
-  - {fileID: 2867675939245853304}
-  - {fileID: 6572778809148823332}
-  - {fileID: 1620134625295187605}
-  - {fileID: 2176283794455997879}
-  limitType: 2
-  maxAngleX: 25
-  maxAngleXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxAngleZ: 45
-  maxAngleZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotation: {x: -25, y: 0, z: 0}
-  limitRotationXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationYCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowGrabbing: 1
-  grabFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  allowPosing: 0
-  poseFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  snapToHand: 0
-  grabMovement: 0.5
-  maxStretch: 0
-  maxStretchCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxSquish: 0
-  maxSquishCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stretchMotion: 0
-  stretchMotionCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  isAnimated: 0
-  resetWhenDisabled: 0
-  parameter: 
-  showGizmos: 1
-  boneOpacity: 0.5
-  limitOpacity: 0.5
 --- !u!1 &1790379184748977063
 GameObject:
   m_ObjectHideFlags: 0
@@ -2211,7 +1708,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1573035329088037846}
-  - component: {fileID: 6262483768344459581}
   m_Layer: 0
   m_Name: B_Ribbon1.R
   m_TagString: Untagged
@@ -2227,8 +1723,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1890588964246781721}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.000000018626453, y: 0.00000012479724, z: -0.0000000018626446,
-    w: 1}
+  m_LocalRotation: {x: -0.000000018626453, y: 0.00000012479724, z: -0.0000000018626446, w: 1}
   m_LocalPosition: {x: -0.000000013038516, y: 0.000000019092113, z: -0.00000004004687}
   m_LocalScale: {x: 0.99999994, y: 1, z: 0.99999994}
   m_ConstrainProportionsScale: 0
@@ -2236,169 +1731,6 @@ Transform:
   - {fileID: 6505178432075909365}
   m_Father: {fileID: 1879495740418494292}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6262483768344459581
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1890588964246781721}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foldout_transforms: 1
-  foldout_forces: 1
-  foldout_collision: 1
-  foldout_stretchsquish: 1
-  foldout_limits: 1
-  foldout_grabpose: 1
-  foldout_options: 1
-  foldout_gizmos: 0
-  version: 1
-  integrationType: 1
-  rootTransform: {fileID: 3216713809812047846}
-  ignoreTransforms: []
-  ignoreOtherPhysBones: 1
-  endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
-  pull: 0.861
-  pullCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spring: 0.2
-  springCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stiffness: 0.2
-  stiffnessCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravity: 0
-  gravityCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravityFalloff: 0
-  gravityFalloffCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  immobileType: 0
-  immobile: 0
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowCollision: 1
-  collisionFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  radius: 0.01
-  radiusCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  colliders:
-  - {fileID: 5595541055792449063}
-  - {fileID: 8104212836020397128}
-  - {fileID: 3927157701795204596}
-  - {fileID: 2867675939245853304}
-  - {fileID: 6572778809148823332}
-  - {fileID: 1620134625295187605}
-  - {fileID: 2176283794455997879}
-  limitType: 2
-  maxAngleX: 25
-  maxAngleXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxAngleZ: 45
-  maxAngleZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotation: {x: -25, y: 0, z: 0}
-  limitRotationXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationYCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowGrabbing: 1
-  grabFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  allowPosing: 0
-  poseFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  snapToHand: 0
-  grabMovement: 0.5
-  maxStretch: 0
-  maxStretchCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxSquish: 0
-  maxSquishCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stretchMotion: 0
-  stretchMotionCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  isAnimated: 0
-  resetWhenDisabled: 0
-  parameter: 
-  showGizmos: 1
-  boneOpacity: 0.5
-  limitOpacity: 0.5
 --- !u!1 &1908808419631204679
 GameObject:
   m_ObjectHideFlags: 0
@@ -2581,8 +1913,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2000032460498910008}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.008006072, y: -0.000000042222492, z: -0.0000000010754508,
-    w: 0.999968}
+  m_LocalRotation: {x: 0.008006072, y: -0.000000042222492, z: -0.0000000010754508, w: 0.999968}
   m_LocalPosition: {x: -1.3056223e-13, y: 0.072153434, z: 0.000000007450783}
   m_LocalScale: {x: 1, y: 1.0000001, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2598,7 +1929,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2609214232443790743}
-  - component: {fileID: 1423787881781355051}
   m_Layer: 0
   m_Name: Hair_Bun0.001.L
   m_TagString: Untagged
@@ -2622,169 +1952,6 @@ Transform:
   - {fileID: 8419438414197811754}
   m_Father: {fileID: 8381576791263112561}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1423787881781355051
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2000831097845776977}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foldout_transforms: 1
-  foldout_forces: 1
-  foldout_collision: 1
-  foldout_stretchsquish: 1
-  foldout_limits: 1
-  foldout_grabpose: 1
-  foldout_options: 1
-  foldout_gizmos: 0
-  version: 1
-  integrationType: 1
-  rootTransform: {fileID: 0}
-  ignoreTransforms: []
-  ignoreOtherPhysBones: 1
-  endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
-  pull: 0.2
-  pullCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spring: 0.2
-  springCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stiffness: 0.2
-  stiffnessCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravity: 0
-  gravityCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravityFalloff: 0
-  gravityFalloffCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  immobileType: 0
-  immobile: 0
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowCollision: 1
-  collisionFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  radius: 0.01
-  radiusCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  colliders:
-  - {fileID: 5595541055792449063}
-  - {fileID: 8104212836020397128}
-  - {fileID: 3927157701795204596}
-  - {fileID: 2867675939245853304}
-  - {fileID: 6572778809148823332}
-  - {fileID: 1620134625295187605}
-  - {fileID: 2176283794455997879}
-  limitType: 1
-  maxAngleX: 25
-  maxAngleXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxAngleZ: 45
-  maxAngleZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotation: {x: 0, y: 0, z: 0}
-  limitRotationXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationYCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowGrabbing: 1
-  grabFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  allowPosing: 0
-  poseFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  snapToHand: 0
-  grabMovement: 0.5
-  maxStretch: 0
-  maxStretchCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxSquish: 0
-  maxSquishCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stretchMotion: 0
-  stretchMotionCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  isAnimated: 0
-  resetWhenDisabled: 0
-  parameter: 
-  showGizmos: 1
-  boneOpacity: 0.5
-  limitOpacity: 0.5
 --- !u!1 &2006073414712451123
 GameObject:
   m_ObjectHideFlags: 0
@@ -2834,6 +2001,11 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2855,9 +2027,11 @@ SkinnedMeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   serializedVersion: 2
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
@@ -3067,7 +2241,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7349015287848019955}
-  - component: {fileID: 8766080702423675024}
   m_Layer: 0
   m_Name: Armature
   m_TagString: Untagged
@@ -3092,20 +2265,6 @@ Transform:
   - {fileID: 8095966301406650796}
   m_Father: {fileID: 633604029804884722}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8766080702423675024
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2016048839796425844}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73f7270170c01b34c98d42afb9e73aac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Height: 0.05
-  Hips: {fileID: 8177178389716715748}
 --- !u!1 &2164746571629687772
 GameObject:
   m_ObjectHideFlags: 0
@@ -3115,7 +2274,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1358201185384972486}
-  - component: {fileID: 9218852160283822208}
   m_Layer: 0
   m_Name: Hair_Bun0.001.R
   m_TagString: Untagged
@@ -3139,169 +2297,6 @@ Transform:
   - {fileID: 4632070105025732857}
   m_Father: {fileID: 8381576791263112561}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &9218852160283822208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2164746571629687772}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foldout_transforms: 1
-  foldout_forces: 1
-  foldout_collision: 1
-  foldout_stretchsquish: 1
-  foldout_limits: 1
-  foldout_grabpose: 1
-  foldout_options: 1
-  foldout_gizmos: 0
-  version: 1
-  integrationType: 1
-  rootTransform: {fileID: 0}
-  ignoreTransforms: []
-  ignoreOtherPhysBones: 1
-  endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
-  pull: 0.2
-  pullCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spring: 0.2
-  springCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stiffness: 0.2
-  stiffnessCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravity: 0
-  gravityCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravityFalloff: 0
-  gravityFalloffCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  immobileType: 0
-  immobile: 0
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowCollision: 1
-  collisionFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  radius: 0.01
-  radiusCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  colliders:
-  - {fileID: 5595541055792449063}
-  - {fileID: 8104212836020397128}
-  - {fileID: 3927157701795204596}
-  - {fileID: 2867675939245853304}
-  - {fileID: 6572778809148823332}
-  - {fileID: 1620134625295187605}
-  - {fileID: 2176283794455997879}
-  limitType: 1
-  maxAngleX: 25
-  maxAngleXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxAngleZ: 45
-  maxAngleZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotation: {x: 0, y: 0, z: 0}
-  limitRotationXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationYCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowGrabbing: 1
-  grabFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  allowPosing: 0
-  poseFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  snapToHand: 0
-  grabMovement: 0.5
-  maxStretch: 0
-  maxStretchCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxSquish: 0
-  maxSquishCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stretchMotion: 0
-  stretchMotionCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  isAnimated: 0
-  resetWhenDisabled: 0
-  parameter: 
-  showGizmos: 1
-  boneOpacity: 0.5
-  limitOpacity: 0.5
 --- !u!1 &2212828988420339542
 GameObject:
   m_ObjectHideFlags: 0
@@ -3373,7 +2368,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7398707602249474715}
-  - component: {fileID: 104252227202077620}
   m_Layer: 0
   m_Name: B_Ribbon2.L
   m_TagString: Untagged
@@ -3389,8 +2383,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2244055572810311126}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.0000000842847, y: 0.000000048428774, z: -0.00000004807953,
-    w: 1}
+  m_LocalRotation: {x: -0.0000000842847, y: 0.000000048428774, z: -0.00000004807953, w: 1}
   m_LocalPosition: {x: -0.000000009313226, y: 0.000000104671926, z: 0.00000007171184}
   m_LocalScale: {x: 1, y: 0.99999994, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3398,169 +2391,6 @@ Transform:
   - {fileID: 8401871695440473374}
   m_Father: {fileID: 4917570924272593045}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &104252227202077620
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2244055572810311126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foldout_transforms: 1
-  foldout_forces: 1
-  foldout_collision: 1
-  foldout_stretchsquish: 1
-  foldout_limits: 1
-  foldout_grabpose: 1
-  foldout_options: 1
-  foldout_gizmos: 0
-  version: 1
-  integrationType: 1
-  rootTransform: {fileID: 3216713809812047846}
-  ignoreTransforms: []
-  ignoreOtherPhysBones: 1
-  endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
-  pull: 0.861
-  pullCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spring: 0.2
-  springCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stiffness: 0.2
-  stiffnessCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravity: 0
-  gravityCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravityFalloff: 0
-  gravityFalloffCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  immobileType: 0
-  immobile: 0
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowCollision: 1
-  collisionFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  radius: 0.01
-  radiusCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  colliders:
-  - {fileID: 5595541055792449063}
-  - {fileID: 8104212836020397128}
-  - {fileID: 3927157701795204596}
-  - {fileID: 2867675939245853304}
-  - {fileID: 6572778809148823332}
-  - {fileID: 1620134625295187605}
-  - {fileID: 2176283794455997879}
-  limitType: 2
-  maxAngleX: 25
-  maxAngleXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxAngleZ: 45
-  maxAngleZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotation: {x: -25, y: 0, z: 0}
-  limitRotationXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationYCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowGrabbing: 1
-  grabFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  allowPosing: 0
-  poseFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  snapToHand: 0
-  grabMovement: 0.5
-  maxStretch: 0
-  maxStretchCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxSquish: 0
-  maxSquishCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stretchMotion: 0
-  stretchMotionCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  isAnimated: 0
-  resetWhenDisabled: 0
-  parameter: 
-  showGizmos: 1
-  boneOpacity: 0.5
-  limitOpacity: 0.5
 --- !u!1 &2248618597074229782
 GameObject:
   m_ObjectHideFlags: 0
@@ -3758,8 +2588,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2450069359984547948}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.00000028684735, y: -0.000000230968, z: 0.00000006426126,
-    w: 1}
+  m_LocalRotation: {x: 0.00000028684735, y: -0.000000230968, z: 0.00000006426126, w: 1}
   m_LocalPosition: {x: 0.0000000037252903, y: 0.014805607, z: 0.000000024214387}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3885,8 +2714,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2640943718802108772}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.0000002521556, y: 0.00000024586916, z: -0.00000017881395,
-    w: 1}
+  m_LocalRotation: {x: -0.0000002521556, y: 0.00000024586916, z: -0.00000017881395, w: 1}
   m_LocalPosition: {x: -0.000000035390258, y: 0.09694036, z: 0.00000007357448}
   m_LocalScale: {x: 1, y: 0.99999994, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3950,8 +2778,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2697159885108289911}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.00000012945384, y: 0.00000013038516, z: 0.000000033527613,
-    w: 1}
+  m_LocalRotation: {x: 0.00000012945384, y: 0.00000013038516, z: 0.000000033527613, w: 1}
   m_LocalPosition: {x: -0.00000009685755, y: 0.014805714, z: 0.000000009313226}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4062,6 +2889,11 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4083,9 +2915,11 @@ SkinnedMeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   serializedVersion: 2
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
@@ -4389,7 +3223,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1009414987990799592}
-  - component: {fileID: 5513743807117367381}
   m_Layer: 0
   m_Name: Skirt_F
   m_TagString: Untagged
@@ -4413,169 +3246,6 @@ Transform:
   - {fileID: 789366524256860816}
   m_Father: {fileID: 8181142481925062686}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5513743807117367381
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2924899425261314363}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foldout_transforms: 1
-  foldout_forces: 1
-  foldout_collision: 1
-  foldout_stretchsquish: 1
-  foldout_limits: 1
-  foldout_grabpose: 1
-  foldout_options: 1
-  foldout_gizmos: 0
-  version: 1
-  integrationType: 1
-  rootTransform: {fileID: 3216713809812047846}
-  ignoreTransforms: []
-  ignoreOtherPhysBones: 1
-  endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
-  pull: 0.861
-  pullCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spring: 0.2
-  springCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stiffness: 0.2
-  stiffnessCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravity: 0
-  gravityCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravityFalloff: 0
-  gravityFalloffCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  immobileType: 0
-  immobile: 0
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowCollision: 1
-  collisionFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  radius: 0.01
-  radiusCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  colliders:
-  - {fileID: 5595541055792449063}
-  - {fileID: 8104212836020397128}
-  - {fileID: 3927157701795204596}
-  - {fileID: 2867675939245853304}
-  - {fileID: 6572778809148823332}
-  - {fileID: 1620134625295187605}
-  - {fileID: 2176283794455997879}
-  limitType: 2
-  maxAngleX: 25
-  maxAngleXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxAngleZ: 45
-  maxAngleZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotation: {x: -25, y: 0, z: 0}
-  limitRotationXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationYCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowGrabbing: 1
-  grabFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  allowPosing: 0
-  poseFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  snapToHand: 0
-  grabMovement: 0.5
-  maxStretch: 0
-  maxStretchCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxSquish: 0
-  maxSquishCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stretchMotion: 0
-  stretchMotionCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  isAnimated: 0
-  resetWhenDisabled: 0
-  parameter: 
-  showGizmos: 1
-  boneOpacity: 0.5
-  limitOpacity: 0.5
 --- !u!1 &2986528838788219882
 GameObject:
   m_ObjectHideFlags: 0
@@ -4625,6 +3295,11 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4647,9 +3322,11 @@ SkinnedMeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   serializedVersion: 2
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
@@ -4906,8 +3583,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3070178616567774727}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.00000018603167, y: -0.00000027567148, z: 0.00000014551915,
-    w: 1}
+  m_LocalRotation: {x: -0.00000018603167, y: -0.00000027567148, z: 0.00000014551915, w: 1}
   m_LocalPosition: {x: -0.000000020489097, y: 0.09694036, z: 0.000000028871}
   m_LocalScale: {x: 1, y: 1.0000001, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5054,7 +3730,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7580519283410174670}
-  - component: {fileID: 5812072883698795561}
   m_Layer: 0
   m_Name: Skirt2_R
   m_TagString: Untagged
@@ -5070,8 +3745,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3251653584354976480}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.00000006984919, y: 0.0000001094304, z: -0.00000004237518,
-    w: 1}
+  m_LocalRotation: {x: -0.00000006984919, y: 0.0000001094304, z: -0.00000004237518, w: 1}
   m_LocalPosition: {x: -0, y: 0.000000022118911, z: 0.00000000995351}
   m_LocalScale: {x: 1, y: 0.99999994, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5079,169 +3753,6 @@ Transform:
   - {fileID: 3324874267271669542}
   m_Father: {fileID: 5013836774087263517}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5812072883698795561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3251653584354976480}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foldout_transforms: 1
-  foldout_forces: 1
-  foldout_collision: 1
-  foldout_stretchsquish: 1
-  foldout_limits: 1
-  foldout_grabpose: 1
-  foldout_options: 1
-  foldout_gizmos: 0
-  version: 1
-  integrationType: 1
-  rootTransform: {fileID: 3216713809812047846}
-  ignoreTransforms: []
-  ignoreOtherPhysBones: 1
-  endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
-  pull: 0.861
-  pullCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spring: 0.2
-  springCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stiffness: 0.2
-  stiffnessCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravity: 0
-  gravityCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravityFalloff: 0
-  gravityFalloffCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  immobileType: 0
-  immobile: 0
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowCollision: 1
-  collisionFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  radius: 0.01
-  radiusCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  colliders:
-  - {fileID: 5595541055792449063}
-  - {fileID: 8104212836020397128}
-  - {fileID: 3927157701795204596}
-  - {fileID: 2867675939245853304}
-  - {fileID: 6572778809148823332}
-  - {fileID: 1620134625295187605}
-  - {fileID: 2176283794455997879}
-  limitType: 2
-  maxAngleX: 25
-  maxAngleXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxAngleZ: 45
-  maxAngleZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotation: {x: -25, y: 0, z: 0}
-  limitRotationXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationYCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowGrabbing: 1
-  grabFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  allowPosing: 0
-  poseFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  snapToHand: 0
-  grabMovement: 0.5
-  maxStretch: 0
-  maxStretchCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxSquish: 0
-  maxSquishCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stretchMotion: 0
-  stretchMotionCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  isAnimated: 0
-  resetWhenDisabled: 0
-  parameter: 
-  showGizmos: 1
-  boneOpacity: 0.5
-  limitOpacity: 0.5
 --- !u!1 &3278287692546790125
 GameObject:
   m_ObjectHideFlags: 0
@@ -5291,6 +3802,11 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5312,9 +3828,11 @@ SkinnedMeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   serializedVersion: 2
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
@@ -5570,8 +4088,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3402454843453346484}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.000000083469786, y: 0.000000070780516, z: 0.00000006624032,
-    w: 1}
+  m_LocalRotation: {x: 0.000000083469786, y: 0.000000070780516, z: 0.00000006624032, w: 1}
   m_LocalPosition: {x: 0.00000005029142, y: 0.114093855, z: -0.000000019557774}
   m_LocalScale: {x: 1, y: 0.99999994, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5622,7 +4139,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2787180504916878830}
-  - component: {fileID: 3742763627712382069}
   m_Layer: 0
   m_Name: B_Ribbon2.R
   m_TagString: Untagged
@@ -5638,8 +4154,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3408522438684716669}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.000000050757073, y: -0.000000011175871, z: 0.00000005739275,
-    w: 1}
+  m_LocalRotation: {x: -0.000000050757073, y: -0.000000011175871, z: 0.00000005739275, w: 1}
   m_LocalPosition: {x: -0.00000005029142, y: -0.000000017156708, z: 0.000000092200935}
   m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
   m_ConstrainProportionsScale: 0
@@ -5647,169 +4162,6 @@ Transform:
   - {fileID: 6448179883860005126}
   m_Father: {fileID: 4717535384645275227}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3742763627712382069
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3408522438684716669}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foldout_transforms: 1
-  foldout_forces: 1
-  foldout_collision: 1
-  foldout_stretchsquish: 1
-  foldout_limits: 1
-  foldout_grabpose: 1
-  foldout_options: 1
-  foldout_gizmos: 0
-  version: 1
-  integrationType: 1
-  rootTransform: {fileID: 3216713809812047846}
-  ignoreTransforms: []
-  ignoreOtherPhysBones: 1
-  endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
-  pull: 0.861
-  pullCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spring: 0.2
-  springCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stiffness: 0.2
-  stiffnessCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravity: 0
-  gravityCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravityFalloff: 0
-  gravityFalloffCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  immobileType: 0
-  immobile: 0
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowCollision: 1
-  collisionFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  radius: 0.01
-  radiusCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  colliders:
-  - {fileID: 5595541055792449063}
-  - {fileID: 8104212836020397128}
-  - {fileID: 3927157701795204596}
-  - {fileID: 2867675939245853304}
-  - {fileID: 6572778809148823332}
-  - {fileID: 1620134625295187605}
-  - {fileID: 2176283794455997879}
-  limitType: 2
-  maxAngleX: 25
-  maxAngleXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxAngleZ: 45
-  maxAngleZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotation: {x: -25, y: 0, z: 0}
-  limitRotationXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationYCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowGrabbing: 1
-  grabFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  allowPosing: 0
-  poseFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  snapToHand: 0
-  grabMovement: 0.5
-  maxStretch: 0
-  maxStretchCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxSquish: 0
-  maxSquishCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stretchMotion: 0
-  stretchMotionCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  isAnimated: 0
-  resetWhenDisabled: 0
-  parameter: 
-  showGizmos: 1
-  boneOpacity: 0.5
-  limitOpacity: 0.5
 --- !u!1 &3419416703606282089
 GameObject:
   m_ObjectHideFlags: 0
@@ -5851,7 +4203,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3055283909257936866}
-  - component: {fileID: 8489329595055275816}
   m_Layer: 0
   m_Name: Hair_Side2_001.R
   m_TagString: Untagged
@@ -5875,169 +4226,6 @@ Transform:
   - {fileID: 5682476664488330023}
   m_Father: {fileID: 8381576791263112561}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8489329595055275816
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3436013548899225619}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foldout_transforms: 1
-  foldout_forces: 1
-  foldout_collision: 1
-  foldout_stretchsquish: 1
-  foldout_limits: 1
-  foldout_grabpose: 1
-  foldout_options: 1
-  foldout_gizmos: 0
-  version: 1
-  integrationType: 1
-  rootTransform: {fileID: 0}
-  ignoreTransforms: []
-  ignoreOtherPhysBones: 1
-  endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
-  pull: 0.2
-  pullCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spring: 0.2
-  springCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stiffness: 0.2
-  stiffnessCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravity: 0
-  gravityCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravityFalloff: 0
-  gravityFalloffCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  immobileType: 0
-  immobile: 0
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowCollision: 1
-  collisionFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  radius: 0.01
-  radiusCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  colliders:
-  - {fileID: 5595541055792449063}
-  - {fileID: 8104212836020397128}
-  - {fileID: 3927157701795204596}
-  - {fileID: 2867675939245853304}
-  - {fileID: 6572778809148823332}
-  - {fileID: 1620134625295187605}
-  - {fileID: 2176283794455997879}
-  limitType: 1
-  maxAngleX: 25
-  maxAngleXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxAngleZ: 45
-  maxAngleZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotation: {x: 0, y: 0, z: 0}
-  limitRotationXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationYCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowGrabbing: 1
-  grabFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  allowPosing: 0
-  poseFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  snapToHand: 0
-  grabMovement: 0.5
-  maxStretch: 0
-  maxStretchCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxSquish: 0
-  maxSquishCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stretchMotion: 0
-  stretchMotionCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  isAnimated: 0
-  resetWhenDisabled: 0
-  parameter: 
-  showGizmos: 1
-  boneOpacity: 0.5
-  limitOpacity: 0.5
 --- !u!1 &3501729096502432157
 GameObject:
   m_ObjectHideFlags: 0
@@ -6062,8 +4250,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3501729096502432157}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.000000016530976, y: -0.000000029802322, z: -0.00000004994217,
-    w: 1}
+  m_LocalRotation: {x: 0.000000016530976, y: -0.000000029802322, z: -0.00000004994217, w: 1}
   m_LocalPosition: {x: 0.00000002142042, y: 0.114093885, z: -0.000000023283064}
   m_LocalScale: {x: 1, y: 1.0000001, z: 1}
   m_ConstrainProportionsScale: 0
@@ -6115,7 +4302,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9164416971087399665}
-  - component: {fileID: 3927157701795204596}
   m_Layer: 0
   m_Name: UpperLeg_L_C
   m_TagString: Untagged
@@ -6138,27 +4324,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 632305219587105285}
   m_LocalEulerAnglesHint: {x: -3.233, y: 0, z: 0}
---- !u!114 &3927157701795204596
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3571918865562164694}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1631200402, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rootTransform: {fileID: 0}
-  shapeType: 1
-  insideBounds: 0
-  radius: 0.06
-  height: 0.37
-  position: {x: 0, y: 0, z: 0}
-  rotation: {x: 0, y: 0, z: 0, w: 1}
-  bonesAsSpheres: 0
-  globalCollisionFlags: 0
 --- !u!1 &3605903901493087405
 GameObject:
   m_ObjectHideFlags: 0
@@ -6281,8 +4446,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3700883001114136700}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.0000000037252899, y: -0.000000040978193, z: 0.000000074505806,
-    w: 1}
+  m_LocalRotation: {x: -0.0000000037252899, y: -0.000000040978193, z: 0.000000074505806, w: 1}
   m_LocalPosition: {x: 0.000000016763806, y: 0.15576099, z: -0.000000011175871}
   m_LocalScale: {x: 1, y: 1, z: 1.0000001}
   m_ConstrainProportionsScale: 0
@@ -6339,6 +4503,11 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6360,9 +4529,11 @@ SkinnedMeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   serializedVersion: 2
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
@@ -6839,6 +5010,11 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6865,9 +5041,11 @@ SkinnedMeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   serializedVersion: 2
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
@@ -7296,7 +5474,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4030616663246155937}
-  - component: {fileID: 5007183744480408362}
   m_Layer: 0
   m_Name: Hair_Front1_001.L
   m_TagString: Untagged
@@ -7320,169 +5497,6 @@ Transform:
   - {fileID: 751226023149670994}
   m_Father: {fileID: 8381576791263112561}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5007183744480408362
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4309698492227889044}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foldout_transforms: 1
-  foldout_forces: 1
-  foldout_collision: 1
-  foldout_stretchsquish: 1
-  foldout_limits: 1
-  foldout_grabpose: 1
-  foldout_options: 1
-  foldout_gizmos: 0
-  version: 1
-  integrationType: 1
-  rootTransform: {fileID: 0}
-  ignoreTransforms: []
-  ignoreOtherPhysBones: 1
-  endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
-  pull: 0.2
-  pullCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spring: 0.2
-  springCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stiffness: 0.2
-  stiffnessCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravity: 0
-  gravityCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravityFalloff: 0
-  gravityFalloffCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  immobileType: 0
-  immobile: 0
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowCollision: 1
-  collisionFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  radius: 0.01
-  radiusCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  colliders:
-  - {fileID: 5595541055792449063}
-  - {fileID: 8104212836020397128}
-  - {fileID: 3927157701795204596}
-  - {fileID: 2867675939245853304}
-  - {fileID: 6572778809148823332}
-  - {fileID: 1620134625295187605}
-  - {fileID: 2176283794455997879}
-  limitType: 1
-  maxAngleX: 25
-  maxAngleXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxAngleZ: 45
-  maxAngleZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotation: {x: 0, y: 0, z: 0}
-  limitRotationXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationYCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowGrabbing: 1
-  grabFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  allowPosing: 0
-  poseFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  snapToHand: 0
-  grabMovement: 0.5
-  maxStretch: 0
-  maxStretchCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxSquish: 0
-  maxSquishCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stretchMotion: 0
-  stretchMotionCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  isAnimated: 0
-  resetWhenDisabled: 0
-  parameter: 
-  showGizmos: 1
-  boneOpacity: 0.5
-  limitOpacity: 0.5
 --- !u!1 &4331391227829292722
 GameObject:
   m_ObjectHideFlags: 0
@@ -7556,7 +5570,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1859367186232241068}
-  - component: {fileID: 2233914119775224376}
   m_Layer: 0
   m_Name: Hair_Side0_001.R
   m_TagString: Untagged
@@ -7580,169 +5593,6 @@ Transform:
   - {fileID: 7631138270183919509}
   m_Father: {fileID: 8381576791263112561}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2233914119775224376
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4430425299716287004}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foldout_transforms: 1
-  foldout_forces: 1
-  foldout_collision: 1
-  foldout_stretchsquish: 1
-  foldout_limits: 1
-  foldout_grabpose: 1
-  foldout_options: 1
-  foldout_gizmos: 0
-  version: 1
-  integrationType: 1
-  rootTransform: {fileID: 0}
-  ignoreTransforms: []
-  ignoreOtherPhysBones: 1
-  endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
-  pull: 0.2
-  pullCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spring: 0.2
-  springCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stiffness: 0.2
-  stiffnessCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravity: 0
-  gravityCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravityFalloff: 0
-  gravityFalloffCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  immobileType: 0
-  immobile: 0
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowCollision: 1
-  collisionFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  radius: 0.01
-  radiusCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  colliders:
-  - {fileID: 5595541055792449063}
-  - {fileID: 8104212836020397128}
-  - {fileID: 3927157701795204596}
-  - {fileID: 2867675939245853304}
-  - {fileID: 6572778809148823332}
-  - {fileID: 1620134625295187605}
-  - {fileID: 2176283794455997879}
-  limitType: 1
-  maxAngleX: 25
-  maxAngleXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxAngleZ: 45
-  maxAngleZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotation: {x: 0, y: 0, z: 0}
-  limitRotationXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationYCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowGrabbing: 1
-  grabFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  allowPosing: 0
-  poseFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  snapToHand: 0
-  grabMovement: 0.5
-  maxStretch: 0
-  maxStretchCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxSquish: 0
-  maxSquishCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stretchMotion: 0
-  stretchMotionCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  isAnimated: 0
-  resetWhenDisabled: 0
-  parameter: 
-  showGizmos: 1
-  boneOpacity: 0.5
-  limitOpacity: 0.5
 --- !u!1 &4546110595841538696
 GameObject:
   m_ObjectHideFlags: 0
@@ -8028,7 +5878,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7351913463712110023}
-  - component: {fileID: 4577210156711016196}
   m_Layer: 0
   m_Name: Hair_Bun1.001.R
   m_TagString: Untagged
@@ -8052,169 +5901,6 @@ Transform:
   - {fileID: 3515361339365288521}
   m_Father: {fileID: 8381576791263112561}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4577210156711016196
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4892455129792840244}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foldout_transforms: 1
-  foldout_forces: 1
-  foldout_collision: 1
-  foldout_stretchsquish: 1
-  foldout_limits: 1
-  foldout_grabpose: 1
-  foldout_options: 1
-  foldout_gizmos: 0
-  version: 1
-  integrationType: 1
-  rootTransform: {fileID: 0}
-  ignoreTransforms: []
-  ignoreOtherPhysBones: 1
-  endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
-  pull: 0.2
-  pullCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spring: 0.2
-  springCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stiffness: 0.2
-  stiffnessCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravity: 0
-  gravityCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravityFalloff: 0
-  gravityFalloffCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  immobileType: 0
-  immobile: 0
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowCollision: 1
-  collisionFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  radius: 0.01
-  radiusCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  colliders:
-  - {fileID: 5595541055792449063}
-  - {fileID: 8104212836020397128}
-  - {fileID: 3927157701795204596}
-  - {fileID: 2867675939245853304}
-  - {fileID: 6572778809148823332}
-  - {fileID: 1620134625295187605}
-  - {fileID: 2176283794455997879}
-  limitType: 1
-  maxAngleX: 25
-  maxAngleXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxAngleZ: 45
-  maxAngleZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotation: {x: 0, y: 0, z: 0}
-  limitRotationXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationYCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowGrabbing: 1
-  grabFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  allowPosing: 0
-  poseFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  snapToHand: 0
-  grabMovement: 0.5
-  maxStretch: 0
-  maxStretchCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxSquish: 0
-  maxSquishCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stretchMotion: 0
-  stretchMotionCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  isAnimated: 0
-  resetWhenDisabled: 0
-  parameter: 
-  showGizmos: 1
-  boneOpacity: 0.5
-  limitOpacity: 0.5
 --- !u!1 &4918447806173182657
 GameObject:
   m_ObjectHideFlags: 0
@@ -8255,7 +5941,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8095966301406650796}
-  - component: {fileID: 1620134625295187605}
   m_Layer: 0
   m_Name: Floor_C
   m_TagString: Untagged
@@ -8278,27 +5963,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 7349015287848019955}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1620134625295187605
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4950803659179109509}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1631200402, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rootTransform: {fileID: 0}
-  shapeType: 2
-  insideBounds: 0
-  radius: 0.5
-  height: 2
-  position: {x: 0, y: 0, z: 0}
-  rotation: {x: 0.70710677, y: 0, z: 0, w: 0.70710677}
-  bonesAsSpheres: 0
-  globalCollisionFlags: 0
 --- !u!1 &5001782260747766230
 GameObject:
   m_ObjectHideFlags: 0
@@ -8308,7 +5972,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8482521717397634464}
-  - component: {fileID: 5716670094424700716}
   m_Layer: 0
   m_Name: Skirt2_L
   m_TagString: Untagged
@@ -8324,8 +5987,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5001782260747766230}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.00000004773029, y: 0.00000004004687, z: 0.00000004610047,
-    w: 1}
+  m_LocalRotation: {x: -0.00000004773029, y: 0.00000004004687, z: 0.00000004610047, w: 1}
   m_LocalPosition: {x: 0.0000000013969839, y: 0.000000052386895, z: 0.000000014726538}
   m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
   m_ConstrainProportionsScale: 0
@@ -8333,169 +5995,6 @@ Transform:
   - {fileID: 7264285821540829141}
   m_Father: {fileID: 6758037691295423696}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5716670094424700716
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5001782260747766230}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foldout_transforms: 1
-  foldout_forces: 1
-  foldout_collision: 1
-  foldout_stretchsquish: 1
-  foldout_limits: 1
-  foldout_grabpose: 1
-  foldout_options: 1
-  foldout_gizmos: 0
-  version: 1
-  integrationType: 1
-  rootTransform: {fileID: 3216713809812047846}
-  ignoreTransforms: []
-  ignoreOtherPhysBones: 1
-  endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
-  pull: 0.861
-  pullCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spring: 0.2
-  springCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stiffness: 0.2
-  stiffnessCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravity: 0
-  gravityCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravityFalloff: 0
-  gravityFalloffCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  immobileType: 0
-  immobile: 0
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowCollision: 1
-  collisionFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  radius: 0.01
-  radiusCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  colliders:
-  - {fileID: 5595541055792449063}
-  - {fileID: 8104212836020397128}
-  - {fileID: 3927157701795204596}
-  - {fileID: 2867675939245853304}
-  - {fileID: 6572778809148823332}
-  - {fileID: 1620134625295187605}
-  - {fileID: 2176283794455997879}
-  limitType: 2
-  maxAngleX: 25
-  maxAngleXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxAngleZ: 45
-  maxAngleZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotation: {x: -25, y: 0, z: 0}
-  limitRotationXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationYCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowGrabbing: 1
-  grabFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  allowPosing: 0
-  poseFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  snapToHand: 0
-  grabMovement: 0.5
-  maxStretch: 0
-  maxStretchCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxSquish: 0
-  maxSquishCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stretchMotion: 0
-  stretchMotionCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  isAnimated: 0
-  resetWhenDisabled: 0
-  parameter: 
-  showGizmos: 1
-  boneOpacity: 0.5
-  limitOpacity: 0.5
 --- !u!1 &5058559593846705452
 GameObject:
   m_ObjectHideFlags: 0
@@ -8605,7 +6104,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3673114101604546546}
-  - component: {fileID: 5595541055792449063}
   m_Layer: 0
   m_Name: UpperArm_L_C
   m_TagString: Untagged
@@ -8628,27 +6126,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2215107850520896085}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5595541055792449063
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5174328762225908942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1631200402, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rootTransform: {fileID: 0}
-  shapeType: 1
-  insideBounds: 0
-  radius: 0.03
-  height: 0.24
-  position: {x: 0, y: 0.1, z: 0}
-  rotation: {x: 0, y: 0, z: 0, w: 1}
-  bonesAsSpheres: 0
-  globalCollisionFlags: 0
 --- !u!1 &5183377310412655283
 GameObject:
   m_ObjectHideFlags: 0
@@ -8811,6 +6288,11 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8833,9 +6315,11 @@ SkinnedMeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   serializedVersion: 2
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
@@ -9115,8 +6599,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5513113262537431505}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0000001229346, y: -0.000000029802326, z: 0.00000006705523,
-    w: 1}
+  m_LocalRotation: {x: 0.0000001229346, y: -0.000000029802326, z: 0.00000006705523, w: 1}
   m_LocalPosition: {x: 0.000000022351742, y: 0.18332274, z: 0.000000007450581}
   m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
   m_ConstrainProportionsScale: 0
@@ -9164,7 +6647,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3894528392861115947}
-  - component: {fileID: 1658328756119952953}
   m_Layer: 0
   m_Name: Skirt_B
   m_TagString: Untagged
@@ -9180,8 +6662,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5612986160252402882}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.00000040233135, y: -0.000000015690357, z: 1.0591528e-12,
-    w: 1}
+  m_LocalRotation: {x: 0.00000040233135, y: -0.000000015690357, z: 1.0591528e-12, w: 1}
   m_LocalPosition: {x: -1.6919799e-13, y: -0.000000003725316, z: 0.000000003725041}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -9189,169 +6670,6 @@ Transform:
   - {fileID: 5047346232956940742}
   m_Father: {fileID: 7322438640016866334}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1658328756119952953
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5612986160252402882}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foldout_transforms: 1
-  foldout_forces: 1
-  foldout_collision: 1
-  foldout_stretchsquish: 1
-  foldout_limits: 1
-  foldout_grabpose: 1
-  foldout_options: 1
-  foldout_gizmos: 0
-  version: 1
-  integrationType: 1
-  rootTransform: {fileID: 3216713809812047846}
-  ignoreTransforms: []
-  ignoreOtherPhysBones: 1
-  endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
-  pull: 0.861
-  pullCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spring: 0.2
-  springCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stiffness: 0.2
-  stiffnessCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravity: 0
-  gravityCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravityFalloff: 0
-  gravityFalloffCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  immobileType: 0
-  immobile: 0
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowCollision: 1
-  collisionFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  radius: 0.01
-  radiusCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  colliders:
-  - {fileID: 5595541055792449063}
-  - {fileID: 8104212836020397128}
-  - {fileID: 3927157701795204596}
-  - {fileID: 2867675939245853304}
-  - {fileID: 6572778809148823332}
-  - {fileID: 1620134625295187605}
-  - {fileID: 2176283794455997879}
-  limitType: 2
-  maxAngleX: 25
-  maxAngleXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxAngleZ: 45
-  maxAngleZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotation: {x: -25, y: 0, z: 0}
-  limitRotationXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationYCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowGrabbing: 1
-  grabFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  allowPosing: 0
-  poseFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  snapToHand: 0
-  grabMovement: 0.5
-  maxStretch: 0
-  maxStretchCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxSquish: 0
-  maxSquishCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stretchMotion: 0
-  stretchMotionCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  isAnimated: 0
-  resetWhenDisabled: 0
-  parameter: 
-  showGizmos: 1
-  boneOpacity: 0.5
-  limitOpacity: 0.5
 --- !u!1 &5745119433296935071
 GameObject:
   m_ObjectHideFlags: 0
@@ -9392,7 +6710,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1389582498296453709}
-  - component: {fileID: 5729973668468333699}
   m_Layer: 0
   m_Name: Hair_Bun2.001.L
   m_TagString: Untagged
@@ -9416,169 +6733,6 @@ Transform:
   - {fileID: 7144032394042977023}
   m_Father: {fileID: 8381576791263112561}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5729973668468333699
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5746506012374935236}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foldout_transforms: 1
-  foldout_forces: 1
-  foldout_collision: 1
-  foldout_stretchsquish: 1
-  foldout_limits: 1
-  foldout_grabpose: 1
-  foldout_options: 1
-  foldout_gizmos: 0
-  version: 1
-  integrationType: 1
-  rootTransform: {fileID: 0}
-  ignoreTransforms: []
-  ignoreOtherPhysBones: 1
-  endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
-  pull: 0.2
-  pullCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spring: 0.2
-  springCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stiffness: 0.2
-  stiffnessCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravity: 0
-  gravityCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravityFalloff: 0
-  gravityFalloffCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  immobileType: 0
-  immobile: 0
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowCollision: 1
-  collisionFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  radius: 0.01
-  radiusCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  colliders:
-  - {fileID: 5595541055792449063}
-  - {fileID: 8104212836020397128}
-  - {fileID: 3927157701795204596}
-  - {fileID: 2867675939245853304}
-  - {fileID: 6572778809148823332}
-  - {fileID: 1620134625295187605}
-  - {fileID: 2176283794455997879}
-  limitType: 1
-  maxAngleX: 25
-  maxAngleXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxAngleZ: 45
-  maxAngleZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotation: {x: 0, y: 0, z: 0}
-  limitRotationXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationYCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowGrabbing: 1
-  grabFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  allowPosing: 0
-  poseFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  snapToHand: 0
-  grabMovement: 0.5
-  maxStretch: 0
-  maxStretchCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxSquish: 0
-  maxSquishCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stretchMotion: 0
-  stretchMotionCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  isAnimated: 0
-  resetWhenDisabled: 0
-  parameter: 
-  showGizmos: 1
-  boneOpacity: 0.5
-  limitOpacity: 0.5
 --- !u!1 &5793406845254816533
 GameObject:
   m_ObjectHideFlags: 0
@@ -9652,7 +6806,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5569838900162458386}
-  - component: {fileID: 3524923369028453992}
   m_Layer: 0
   m_Name: B_Ribbon_C
   m_TagString: Untagged
@@ -9676,169 +6829,6 @@ Transform:
   - {fileID: 1245467965631416195}
   m_Father: {fileID: 5283195519351853959}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3524923369028453992
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5988071610107280808}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foldout_transforms: 1
-  foldout_forces: 1
-  foldout_collision: 1
-  foldout_stretchsquish: 1
-  foldout_limits: 1
-  foldout_grabpose: 1
-  foldout_options: 1
-  foldout_gizmos: 0
-  version: 1
-  integrationType: 1
-  rootTransform: {fileID: 3216713809812047846}
-  ignoreTransforms: []
-  ignoreOtherPhysBones: 1
-  endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
-  pull: 0.861
-  pullCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spring: 0.2
-  springCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stiffness: 0.2
-  stiffnessCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravity: 0
-  gravityCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravityFalloff: 0
-  gravityFalloffCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  immobileType: 0
-  immobile: 0
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowCollision: 1
-  collisionFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  radius: 0.01
-  radiusCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  colliders:
-  - {fileID: 5595541055792449063}
-  - {fileID: 8104212836020397128}
-  - {fileID: 3927157701795204596}
-  - {fileID: 2867675939245853304}
-  - {fileID: 6572778809148823332}
-  - {fileID: 1620134625295187605}
-  - {fileID: 2176283794455997879}
-  limitType: 2
-  maxAngleX: 25
-  maxAngleXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxAngleZ: 45
-  maxAngleZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotation: {x: -25, y: 0, z: 0}
-  limitRotationXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationYCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowGrabbing: 1
-  grabFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  allowPosing: 0
-  poseFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  snapToHand: 0
-  grabMovement: 0.5
-  maxStretch: 0
-  maxStretchCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxSquish: 0
-  maxSquishCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stretchMotion: 0
-  stretchMotionCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  isAnimated: 0
-  resetWhenDisabled: 0
-  parameter: 
-  showGizmos: 1
-  boneOpacity: 0.5
-  limitOpacity: 0.5
 --- !u!1 &5998137279409283784
 GameObject:
   m_ObjectHideFlags: 0
@@ -10284,8 +7274,6 @@ GameObject:
   m_Component:
   - component: {fileID: 633604029804884722}
   - component: {fileID: 5438449459018757142}
-  - component: {fileID: 6142259188959398215}
-  - component: {fileID: 8444875707871324610}
   m_Layer: 0
   m_Name: Roa_Base_v1_1_1_Bace_Final
   m_TagString: Untagged
@@ -10316,7 +7304,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &5438449459018757142
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -10330,336 +7318,12 @@ Animator:
   m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &6142259188959398215
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6584403403697825953}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 542108242, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: 
-  ViewPosition: {x: 0, y: 1.3141507, z: 0.08784893}
-  Animations: 0
-  ScaleIPD: 1
-  lipSync: 3
-  lipSyncJawBone: {fileID: 0}
-  lipSyncJawClosed: {x: 0, y: 0, z: 0, w: 1}
-  lipSyncJawOpen: {x: 0, y: 0, z: 0, w: 1}
-  VisemeSkinnedMesh: {fileID: 4751404126479861661}
-  MouthOpenBlendShapeName: Facial_Blends.Jaw_Down
-  VisemeBlendShapes:
-  - vrc.v_sil
-  - vrc.v_pp
-  - vrc.v_ff
-  - vrc.v_th
-  - vrc.v_dd
-  - vrc.v_kk
-  - vrc.v_ch
-  - vrc.v_ss
-  - vrc.v_nn
-  - vrc.v_rr
-  - vrc.v_aa
-  - vrc.v_e
-  - vrc.v_ih
-  - vrc.v_oh
-  - vrc.v_ou
-  unityVersion: 2022.3.22f1
-  portraitCameraPositionOffset: {x: 0, y: 0, z: 0}
-  portraitCameraRotationOffset: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-  networkIDs: []
-  customExpressions: 0
-  expressionsMenu: {fileID: 0}
-  expressionParameters: {fileID: 0}
-  enableEyeLook: 1
-  customEyeLookSettings:
-    eyeMovement:
-      confidence: 0.5
-      excitement: 0.5
-    leftEye: {fileID: 510496193096970618}
-    rightEye: {fileID: 1203573093166276628}
-    eyesLookingStraight:
-      linked: 1
-      left: {x: 0, y: 0, z: 0, w: 1}
-      right: {x: 0, y: 0, z: 0, w: 1}
-    eyesLookingUp:
-      linked: 1
-      left: {x: -0.08715574, y: 0, z: 0, w: 0.9961947}
-      right: {x: -0.08715574, y: 0, z: 0, w: 0.9961947}
-    eyesLookingDown:
-      linked: 1
-      left: {x: 0.08715569, y: 0, z: 0, w: 0.9961947}
-      right: {x: 0.08715569, y: 0, z: 0, w: 0.9961947}
-    eyesLookingLeft:
-      linked: 1
-      left: {x: 0, y: -0.08715574, z: 0, w: 0.9961947}
-      right: {x: 0, y: -0.08715574, z: 0, w: 0.9961947}
-    eyesLookingRight:
-      linked: 1
-      left: {x: 0, y: 0.08715569, z: 0, w: 0.9961947}
-      right: {x: 0, y: 0.08715569, z: 0, w: 0.9961947}
-    eyelidType: 2
-    upperLeftEyelid: {fileID: 0}
-    upperRightEyelid: {fileID: 0}
-    lowerLeftEyelid: {fileID: 0}
-    lowerRightEyelid: {fileID: 0}
-    eyelidsDefault:
-      upper:
-        linked: 1
-        left: {x: 0, y: 0, z: 0, w: 0}
-        right: {x: 0, y: 0, z: 0, w: 0}
-      lower:
-        linked: 1
-        left: {x: 0, y: 0, z: 0, w: 0}
-        right: {x: 0, y: 0, z: 0, w: 0}
-    eyelidsClosed:
-      upper:
-        linked: 1
-        left: {x: 0, y: 0, z: 0, w: 0}
-        right: {x: 0, y: 0, z: 0, w: 0}
-      lower:
-        linked: 1
-        left: {x: 0, y: 0, z: 0, w: 0}
-        right: {x: 0, y: 0, z: 0, w: 0}
-    eyelidsLookingUp:
-      upper:
-        linked: 1
-        left: {x: 0, y: 0, z: 0, w: 0}
-        right: {x: 0, y: 0, z: 0, w: 0}
-      lower:
-        linked: 1
-        left: {x: 0, y: 0, z: 0, w: 0}
-        right: {x: 0, y: 0, z: 0, w: 0}
-    eyelidsLookingDown:
-      upper:
-        linked: 1
-        left: {x: 0, y: 0, z: 0, w: 0}
-        right: {x: 0, y: 0, z: 0, w: 0}
-      lower:
-        linked: 1
-        left: {x: 0, y: 0, z: 0, w: 0}
-        right: {x: 0, y: 0, z: 0, w: 0}
-    eyelidsSkinnedMesh: {fileID: 4751404126479861661}
-    eyelidsBlendshapes: 0f0000001200000013000000
-  customizeAnimationLayers: 1
-  baseAnimationLayers:
-  - isEnabled: 0
-    type: 0
-    animatorController: {fileID: 0}
-    mask: {fileID: 0}
-    isDefault: 1
-  - isEnabled: 0
-    type: 2
-    animatorController: {fileID: 0}
-    mask: {fileID: 0}
-    isDefault: 1
-  - isEnabled: 0
-    type: 3
-    animatorController: {fileID: 0}
-    mask: {fileID: 0}
-    isDefault: 1
-  - isEnabled: 0
-    type: 4
-    animatorController: {fileID: 0}
-    mask: {fileID: 0}
-    isDefault: 1
-  - isEnabled: 0
-    type: 5
-    animatorController: {fileID: 9100000, guid: 896a2d865453cc944b5c742734eca8fa,
-      type: 2}
-    mask: {fileID: 31900000, guid: b2b8bad9583e56a46a3e21795e96ad92, type: 2}
-    isDefault: 0
-  specialAnimationLayers:
-  - isEnabled: 0
-    type: 6
-    animatorController: {fileID: 0}
-    mask: {fileID: 0}
-    isDefault: 1
-  - isEnabled: 0
-    type: 7
-    animatorController: {fileID: 0}
-    mask: {fileID: 0}
-    isDefault: 1
-  - isEnabled: 0
-    type: 8
-    animatorController: {fileID: 0}
-    mask: {fileID: 0}
-    isDefault: 1
-  AnimationPreset: {fileID: 0}
-  animationHashSet:
-  - hash: -1963515926
-    name: Fist
-  - hash: -1368897710
-    name: Point
-  - hash: 99779634
-    name: Open
-  - hash: 282634289
-    name: Peace
-  - hash: 935782528
-    name: RockNRoll
-  - hash: 420425210
-    name: Gun
-  - hash: 1949755150
-    name: Thumbs up
-  - hash: 2108076675
-    name: Idle
-  - hash: -998029940
-    name: Peace
-  - hash: 2050206447
-    name: Point
-  - hash: 297357552
-    name: Gun
-  - hash: -449848495
-    name: Open
-  - hash: -1652822560
-    name: Idle
-  - hash: 1781153929
-    name: Fist
-  - hash: -488267544
-    name: Thumbs up
-  - hash: -1592414362
-    name: RockNRoll
-  autoFootsteps: 1
-  autoLocomotion: 1
-  collider_head:
-    isMirrored: 1
-    state: 0
-    transform: {fileID: 6141209725960129786}
-    radius: 0.060627084
-    height: 0
-    position: {x: 0.000000004065619, y: 0.046505444, z: 0.000000025611374}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
-  collider_torso:
-    isMirrored: 1
-    state: 0
-    transform: {fileID: 7951265687537314956}
-    radius: 0.091859214
-    height: 0.4382016
-    position: {x: 7.606351e-18, y: -0.025123807, z: -0.023257438}
-    rotation: {x: 0.10681221, y: 0, z: 7.171881e-15, w: 0.9942792}
-  collider_footR:
-    isMirrored: 1
-    state: 0
-    transform: {fileID: 7411534490232154076}
-    radius: 0.074468926
-    height: 0
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
-  collider_footL:
-    isMirrored: 1
-    state: 0
-    transform: {fileID: 6405662623132501532}
-    radius: 0.07446893
-    height: 0
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
-  collider_handR:
-    isMirrored: 1
-    state: 0
-    transform: {fileID: 4150460720317942961}
-    radius: 0.018741716
-    height: 0.07496686
-    position: {x: -0.0018686088, y: 0.06369184, z: -0.000570668}
-    rotation: {x: -0.00000020597746, y: 0, z: 0.71740055, w: 0.69666094}
-  collider_handL:
-    isMirrored: 1
-    state: 0
-    transform: {fileID: 427764119891713780}
-    radius: 0.018757835
-    height: 0.07503134
-    position: {x: 0.001818739, y: 0.06374893, z: -0.000482178}
-    rotation: {x: -0.00000014968444, y: 0, z: -0.717119, w: 0.69695073}
-  collider_fingerIndexL:
-    isMirrored: 1
-    state: 0
-    transform: {fileID: 7698822310904949376}
-    radius: 0.00651309
-    height: 0.03256545
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
-  collider_fingerMiddleL:
-    isMirrored: 1
-    state: 0
-    transform: {fileID: 5973709477578689161}
-    radius: 0.0071785143
-    height: 0.035892572
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
-  collider_fingerRingL:
-    isMirrored: 1
-    state: 0
-    transform: {fileID: 6102623029369340297}
-    radius: 0.00647975
-    height: 0.03239875
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
-  collider_fingerLittleL:
-    isMirrored: 1
-    state: 0
-    transform: {fileID: 6539519193560745172}
-    radius: 0.006090959
-    height: 0.030454796
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
-  collider_fingerIndexR:
-    isMirrored: 1
-    state: 0
-    transform: {fileID: 3990091213800650865}
-    radius: 0.006513065
-    height: 0.032565325
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
-  collider_fingerMiddleR:
-    isMirrored: 1
-    state: 0
-    transform: {fileID: 1998546551375397794}
-    radius: 0.007178541
-    height: 0.035892703
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
-  collider_fingerRingR:
-    isMirrored: 1
-    state: 0
-    transform: {fileID: 3554588671780526994}
-    radius: 0.0064797564
-    height: 0.032398783
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
-  collider_fingerLittleR:
-    isMirrored: 1
-    state: 0
-    transform: {fileID: 7286419126602446755}
-    radius: 0.006090991
-    height: 0.030454956
-    position: {x: 0, y: 0, z: 0}
-    rotation: {x: 0, y: 0, z: 0, w: 1}
---- !u!114 &8444875707871324610
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6584403403697825953}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1427037861, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  launchedFromSDKPipeline: 0
-  completedSDKPipeline: 0
-  blueprintId: avtr_c9da667f-59dc-4fda-a009-7ec08f0fab98
-  contentType: 0
-  assetBundleUnityVersion: 
-  fallbackStatus: 1
 --- !u!1 &6595945254257272245
 GameObject:
   m_ObjectHideFlags: 0
@@ -10740,6 +7404,11 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10762,9 +7431,11 @@ SkinnedMeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   serializedVersion: 2
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
@@ -11029,7 +7700,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7658587910418767842}
-  - component: {fileID: 227110534053273815}
   m_Layer: 0
   m_Name: Skirt3_R
   m_TagString: Untagged
@@ -11045,8 +7715,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6655996734031655554}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.000000055879347, y: 0.00000004842877, z: 0.000000078231096,
-    w: 1}
+  m_LocalRotation: {x: -0.000000055879347, y: 0.00000004842877, z: 0.000000078231096, w: 1}
   m_LocalPosition: {x: -0.000000014901161, y: -0.000000029802322, z: 0.000000013038516}
   m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
   m_ConstrainProportionsScale: 0
@@ -11054,169 +7723,6 @@ Transform:
   - {fileID: 454934161452412976}
   m_Father: {fileID: 8122488846109624795}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &227110534053273815
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6655996734031655554}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foldout_transforms: 1
-  foldout_forces: 1
-  foldout_collision: 1
-  foldout_stretchsquish: 1
-  foldout_limits: 1
-  foldout_grabpose: 1
-  foldout_options: 1
-  foldout_gizmos: 0
-  version: 1
-  integrationType: 1
-  rootTransform: {fileID: 3216713809812047846}
-  ignoreTransforms: []
-  ignoreOtherPhysBones: 1
-  endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
-  pull: 0.861
-  pullCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spring: 0.2
-  springCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stiffness: 0.2
-  stiffnessCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravity: 0
-  gravityCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravityFalloff: 0
-  gravityFalloffCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  immobileType: 0
-  immobile: 0
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowCollision: 1
-  collisionFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  radius: 0.01
-  radiusCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  colliders:
-  - {fileID: 5595541055792449063}
-  - {fileID: 8104212836020397128}
-  - {fileID: 3927157701795204596}
-  - {fileID: 2867675939245853304}
-  - {fileID: 6572778809148823332}
-  - {fileID: 1620134625295187605}
-  - {fileID: 2176283794455997879}
-  limitType: 2
-  maxAngleX: 25
-  maxAngleXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxAngleZ: 45
-  maxAngleZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotation: {x: -25, y: 0, z: 0}
-  limitRotationXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationYCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowGrabbing: 1
-  grabFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  allowPosing: 0
-  poseFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  snapToHand: 0
-  grabMovement: 0.5
-  maxStretch: 0
-  maxStretchCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxSquish: 0
-  maxSquishCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stretchMotion: 0
-  stretchMotionCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  isAnimated: 0
-  resetWhenDisabled: 0
-  parameter: 
-  showGizmos: 1
-  boneOpacity: 0.5
-  limitOpacity: 0.5
 --- !u!1 &6717816037863352673
 GameObject:
   m_ObjectHideFlags: 0
@@ -11279,7 +7785,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5173373472342799638}
-  - component: {fileID: 2176283794455997879}
   m_Layer: 0
   m_Name: Chest_C
   m_TagString: Untagged
@@ -11302,27 +7807,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 7951265687537314956}
   m_LocalEulerAnglesHint: {x: -29.755, y: 0, z: 0}
---- !u!114 &2176283794455997879
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6775021093786124959}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1631200402, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rootTransform: {fileID: 0}
-  shapeType: 1
-  insideBounds: 0
-  radius: 0.06
-  height: 0.15
-  position: {x: 0, y: 0, z: 0}
-  rotation: {x: 0, y: 0, z: 0, w: 1}
-  bonesAsSpheres: 0
-  globalCollisionFlags: 0
 --- !u!1 &6793329949895428286
 GameObject:
   m_ObjectHideFlags: 0
@@ -11332,7 +7816,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5188273523971491536}
-  - component: {fileID: 7043854624261338891}
   m_Layer: 0
   m_Name: Hair_Bun1.001.L
   m_TagString: Untagged
@@ -11356,169 +7839,6 @@ Transform:
   - {fileID: 5317158087946919809}
   m_Father: {fileID: 8381576791263112561}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7043854624261338891
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6793329949895428286}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foldout_transforms: 1
-  foldout_forces: 1
-  foldout_collision: 1
-  foldout_stretchsquish: 1
-  foldout_limits: 1
-  foldout_grabpose: 1
-  foldout_options: 1
-  foldout_gizmos: 0
-  version: 1
-  integrationType: 1
-  rootTransform: {fileID: 0}
-  ignoreTransforms: []
-  ignoreOtherPhysBones: 1
-  endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
-  pull: 0.2
-  pullCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spring: 0.2
-  springCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stiffness: 0.2
-  stiffnessCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravity: 0
-  gravityCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravityFalloff: 0
-  gravityFalloffCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  immobileType: 0
-  immobile: 0
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowCollision: 1
-  collisionFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  radius: 0.01
-  radiusCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  colliders:
-  - {fileID: 5595541055792449063}
-  - {fileID: 8104212836020397128}
-  - {fileID: 3927157701795204596}
-  - {fileID: 2867675939245853304}
-  - {fileID: 6572778809148823332}
-  - {fileID: 1620134625295187605}
-  - {fileID: 2176283794455997879}
-  limitType: 1
-  maxAngleX: 25
-  maxAngleXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxAngleZ: 45
-  maxAngleZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotation: {x: 0, y: 0, z: 0}
-  limitRotationXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationYCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowGrabbing: 1
-  grabFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  allowPosing: 0
-  poseFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  snapToHand: 0
-  grabMovement: 0.5
-  maxStretch: 0
-  maxStretchCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxSquish: 0
-  maxSquishCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stretchMotion: 0
-  stretchMotionCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  isAnimated: 0
-  resetWhenDisabled: 0
-  parameter: 
-  showGizmos: 1
-  boneOpacity: 0.5
-  limitOpacity: 0.5
 --- !u!1 &6826068123045234851
 GameObject:
   m_ObjectHideFlags: 0
@@ -11560,7 +7880,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3428252798593228944}
-  - component: {fileID: 1946142894387384191}
   m_Layer: 0
   m_Name: Hair_Front0_001.C
   m_TagString: Untagged
@@ -11584,169 +7903,6 @@ Transform:
   - {fileID: 2956217217185563149}
   m_Father: {fileID: 8381576791263112561}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1946142894387384191
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6898967158990119256}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foldout_transforms: 1
-  foldout_forces: 1
-  foldout_collision: 1
-  foldout_stretchsquish: 1
-  foldout_limits: 1
-  foldout_grabpose: 1
-  foldout_options: 1
-  foldout_gizmos: 0
-  version: 1
-  integrationType: 1
-  rootTransform: {fileID: 0}
-  ignoreTransforms: []
-  ignoreOtherPhysBones: 1
-  endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
-  pull: 0.2
-  pullCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spring: 0.2
-  springCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stiffness: 0.2
-  stiffnessCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravity: 0
-  gravityCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravityFalloff: 0
-  gravityFalloffCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  immobileType: 0
-  immobile: 0
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowCollision: 1
-  collisionFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  radius: 0.01
-  radiusCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  colliders:
-  - {fileID: 5595541055792449063}
-  - {fileID: 8104212836020397128}
-  - {fileID: 3927157701795204596}
-  - {fileID: 2867675939245853304}
-  - {fileID: 6572778809148823332}
-  - {fileID: 1620134625295187605}
-  - {fileID: 2176283794455997879}
-  limitType: 1
-  maxAngleX: 25
-  maxAngleXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxAngleZ: 45
-  maxAngleZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotation: {x: 0, y: 0, z: 0}
-  limitRotationXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationYCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowGrabbing: 1
-  grabFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  allowPosing: 0
-  poseFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  snapToHand: 0
-  grabMovement: 0.5
-  maxStretch: 0
-  maxStretchCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxSquish: 0
-  maxSquishCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stretchMotion: 0
-  stretchMotionCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  isAnimated: 0
-  resetWhenDisabled: 0
-  parameter: 
-  showGizmos: 1
-  boneOpacity: 0.5
-  limitOpacity: 0.5
 --- !u!1 &6945634276891294030
 GameObject:
   m_ObjectHideFlags: 0
@@ -11930,8 +8086,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7091194781496140910}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.000000053085383, y: -0.000000033527613, z: -0.00000012107193,
-    w: 1}
+  m_LocalRotation: {x: -0.000000053085383, y: -0.000000033527613, z: -0.00000012107193, w: 1}
   m_LocalPosition: {x: -0.00000015087426, y: 0.014805655, z: -0.00000009872019}
   m_LocalScale: {x: 1, y: 1, z: 1.0000001}
   m_ConstrainProportionsScale: 0
@@ -11948,7 +8103,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3812671480992654509}
-  - component: {fileID: 6572778809148823332}
   m_Layer: 0
   m_Name: Hips_C
   m_TagString: Untagged
@@ -11971,27 +8125,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 8177178389716715748}
   m_LocalEulerAnglesHint: {x: -14.228, y: 0, z: 0}
---- !u!114 &6572778809148823332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7109385646042668668}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1631200402, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rootTransform: {fileID: 0}
-  shapeType: 1
-  insideBounds: 0
-  radius: 0.07
-  height: 0.2
-  position: {x: 0, y: 0, z: 0}
-  rotation: {x: 0, y: 0, z: 0, w: 1}
-  bonesAsSpheres: 0
-  globalCollisionFlags: 0
 --- !u!1 &7112951147442605730
 GameObject:
   m_ObjectHideFlags: 0
@@ -12096,7 +8229,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8386466841781886093}
-  - component: {fileID: 3378832457521461372}
   m_Layer: 0
   m_Name: Skirt3_L
   m_TagString: Untagged
@@ -12112,8 +8244,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7278187893331542900}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.00000005587935, y: 0.00000008940695, z: -0.000000044703484,
-    w: 1}
+  m_LocalRotation: {x: 0.00000005587935, y: 0.00000008940695, z: -0.000000044703484, w: 1}
   m_LocalPosition: {x: -0.000000011175871, y: -0.000000011175871, z: -0.000000016763806}
   m_LocalScale: {x: 1.0000001, y: 1, z: 1.0000001}
   m_ConstrainProportionsScale: 0
@@ -12121,169 +8252,6 @@ Transform:
   - {fileID: 5685490734437009803}
   m_Father: {fileID: 6320551230873337784}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3378832457521461372
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7278187893331542900}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foldout_transforms: 1
-  foldout_forces: 1
-  foldout_collision: 1
-  foldout_stretchsquish: 1
-  foldout_limits: 1
-  foldout_grabpose: 1
-  foldout_options: 1
-  foldout_gizmos: 0
-  version: 1
-  integrationType: 1
-  rootTransform: {fileID: 3216713809812047846}
-  ignoreTransforms: []
-  ignoreOtherPhysBones: 1
-  endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
-  pull: 0.861
-  pullCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spring: 0.2
-  springCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stiffness: 0.2
-  stiffnessCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravity: 0
-  gravityCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravityFalloff: 0
-  gravityFalloffCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  immobileType: 0
-  immobile: 0
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowCollision: 1
-  collisionFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  radius: 0.01
-  radiusCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  colliders:
-  - {fileID: 5595541055792449063}
-  - {fileID: 8104212836020397128}
-  - {fileID: 3927157701795204596}
-  - {fileID: 2867675939245853304}
-  - {fileID: 6572778809148823332}
-  - {fileID: 1620134625295187605}
-  - {fileID: 2176283794455997879}
-  limitType: 2
-  maxAngleX: 25
-  maxAngleXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxAngleZ: 45
-  maxAngleZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotation: {x: -25, y: 0, z: 0}
-  limitRotationXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationYCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowGrabbing: 1
-  grabFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  allowPosing: 0
-  poseFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  snapToHand: 0
-  grabMovement: 0.5
-  maxStretch: 0
-  maxStretchCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxSquish: 0
-  maxSquishCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stretchMotion: 0
-  stretchMotionCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  isAnimated: 0
-  resetWhenDisabled: 0
-  parameter: 
-  showGizmos: 1
-  boneOpacity: 0.5
-  limitOpacity: 0.5
 --- !u!1 &7324372184256530554
 GameObject:
   m_ObjectHideFlags: 0
@@ -12293,7 +8261,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3522156509733882086}
-  - component: {fileID: 8665756231417129739}
   m_Layer: 0
   m_Name: Hair_Side1_001.R
   m_TagString: Untagged
@@ -12317,169 +8284,6 @@ Transform:
   - {fileID: 6896182091860305757}
   m_Father: {fileID: 8381576791263112561}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8665756231417129739
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7324372184256530554}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foldout_transforms: 1
-  foldout_forces: 1
-  foldout_collision: 1
-  foldout_stretchsquish: 1
-  foldout_limits: 1
-  foldout_grabpose: 1
-  foldout_options: 1
-  foldout_gizmos: 0
-  version: 1
-  integrationType: 1
-  rootTransform: {fileID: 0}
-  ignoreTransforms: []
-  ignoreOtherPhysBones: 1
-  endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
-  pull: 0.2
-  pullCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spring: 0.2
-  springCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stiffness: 0.2
-  stiffnessCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravity: 0
-  gravityCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravityFalloff: 0
-  gravityFalloffCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  immobileType: 0
-  immobile: 0
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowCollision: 1
-  collisionFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  radius: 0.01
-  radiusCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  colliders:
-  - {fileID: 5595541055792449063}
-  - {fileID: 8104212836020397128}
-  - {fileID: 3927157701795204596}
-  - {fileID: 2867675939245853304}
-  - {fileID: 6572778809148823332}
-  - {fileID: 1620134625295187605}
-  - {fileID: 2176283794455997879}
-  limitType: 1
-  maxAngleX: 25
-  maxAngleXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxAngleZ: 45
-  maxAngleZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotation: {x: 0, y: 0, z: 0}
-  limitRotationXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationYCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowGrabbing: 1
-  grabFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  allowPosing: 0
-  poseFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  snapToHand: 0
-  grabMovement: 0.5
-  maxStretch: 0
-  maxStretchCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxSquish: 0
-  maxSquishCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stretchMotion: 0
-  stretchMotionCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  isAnimated: 0
-  resetWhenDisabled: 0
-  parameter: 
-  showGizmos: 1
-  boneOpacity: 0.5
-  limitOpacity: 0.5
 --- !u!1 &7328374513234691961
 GameObject:
   m_ObjectHideFlags: 0
@@ -12489,7 +8293,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5330324039941380769}
-  - component: {fileID: 7154752972201660532}
   m_Layer: 0
   m_Name: Hair_Front1_001.R
   m_TagString: Untagged
@@ -12513,169 +8316,6 @@ Transform:
   - {fileID: 8048127370407726849}
   m_Father: {fileID: 8381576791263112561}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7154752972201660532
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7328374513234691961}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foldout_transforms: 1
-  foldout_forces: 1
-  foldout_collision: 1
-  foldout_stretchsquish: 1
-  foldout_limits: 1
-  foldout_grabpose: 1
-  foldout_options: 1
-  foldout_gizmos: 0
-  version: 1
-  integrationType: 1
-  rootTransform: {fileID: 0}
-  ignoreTransforms: []
-  ignoreOtherPhysBones: 1
-  endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
-  pull: 0.2
-  pullCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spring: 0.2
-  springCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stiffness: 0.2
-  stiffnessCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravity: 0
-  gravityCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravityFalloff: 0
-  gravityFalloffCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  immobileType: 0
-  immobile: 0
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowCollision: 1
-  collisionFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  radius: 0.01
-  radiusCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  colliders:
-  - {fileID: 5595541055792449063}
-  - {fileID: 8104212836020397128}
-  - {fileID: 3927157701795204596}
-  - {fileID: 2867675939245853304}
-  - {fileID: 6572778809148823332}
-  - {fileID: 1620134625295187605}
-  - {fileID: 2176283794455997879}
-  limitType: 1
-  maxAngleX: 25
-  maxAngleXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxAngleZ: 45
-  maxAngleZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotation: {x: 0, y: 0, z: 0}
-  limitRotationXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationYCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowGrabbing: 1
-  grabFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  allowPosing: 0
-  poseFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  snapToHand: 0
-  grabMovement: 0.5
-  maxStretch: 0
-  maxStretchCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxSquish: 0
-  maxSquishCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stretchMotion: 0
-  stretchMotionCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  isAnimated: 0
-  resetWhenDisabled: 0
-  parameter: 
-  showGizmos: 1
-  boneOpacity: 0.5
-  limitOpacity: 0.5
 --- !u!1 &7332097375293359701
 GameObject:
   m_ObjectHideFlags: 0
@@ -12725,6 +8365,11 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12747,9 +8392,11 @@ SkinnedMeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   serializedVersion: 2
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
@@ -12976,7 +8623,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3478442484794223275}
-  - component: {fileID: 4713314591655217491}
   m_Layer: 0
   m_Name: Neck_Ribbon.002
   m_TagString: Untagged
@@ -13000,169 +8646,6 @@ Transform:
   - {fileID: 7400311042616852219}
   m_Father: {fileID: 2514890388888380589}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4713314591655217491
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7340925117633857511}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foldout_transforms: 1
-  foldout_forces: 1
-  foldout_collision: 1
-  foldout_stretchsquish: 1
-  foldout_limits: 1
-  foldout_grabpose: 1
-  foldout_options: 1
-  foldout_gizmos: 0
-  version: 1
-  integrationType: 1
-  rootTransform: {fileID: 0}
-  ignoreTransforms: []
-  ignoreOtherPhysBones: 1
-  endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
-  pull: 0.2
-  pullCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spring: 0.2
-  springCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stiffness: 0.2
-  stiffnessCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravity: 0
-  gravityCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravityFalloff: 0
-  gravityFalloffCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  immobileType: 0
-  immobile: 0
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowCollision: 1
-  collisionFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  radius: 0.01
-  radiusCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  colliders:
-  - {fileID: 5595541055792449063}
-  - {fileID: 8104212836020397128}
-  - {fileID: 3927157701795204596}
-  - {fileID: 2867675939245853304}
-  - {fileID: 6572778809148823332}
-  - {fileID: 1620134625295187605}
-  - {fileID: 2176283794455997879}
-  limitType: 1
-  maxAngleX: 25
-  maxAngleXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxAngleZ: 45
-  maxAngleZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotation: {x: 0, y: 0, z: 0}
-  limitRotationXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationYCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowGrabbing: 1
-  grabFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  allowPosing: 0
-  poseFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  snapToHand: 0
-  grabMovement: 0.5
-  maxStretch: 0
-  maxStretchCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxSquish: 0
-  maxSquishCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stretchMotion: 0
-  stretchMotionCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  isAnimated: 0
-  resetWhenDisabled: 0
-  parameter: 
-  showGizmos: 1
-  boneOpacity: 0.5
-  limitOpacity: 0.5
 --- !u!1 &7350441924947530372
 GameObject:
   m_ObjectHideFlags: 0
@@ -13172,7 +8655,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8716170016872564830}
-  - component: {fileID: 5724762812389305578}
   m_Layer: 0
   m_Name: Hair_Side4_001.R
   m_TagString: Untagged
@@ -13196,169 +8678,6 @@ Transform:
   - {fileID: 4508685853351692577}
   m_Father: {fileID: 8381576791263112561}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5724762812389305578
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7350441924947530372}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foldout_transforms: 1
-  foldout_forces: 1
-  foldout_collision: 1
-  foldout_stretchsquish: 1
-  foldout_limits: 1
-  foldout_grabpose: 1
-  foldout_options: 1
-  foldout_gizmos: 0
-  version: 1
-  integrationType: 1
-  rootTransform: {fileID: 0}
-  ignoreTransforms: []
-  ignoreOtherPhysBones: 1
-  endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
-  pull: 0.2
-  pullCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spring: 0.2
-  springCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stiffness: 0.2
-  stiffnessCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravity: 0
-  gravityCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravityFalloff: 0
-  gravityFalloffCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  immobileType: 0
-  immobile: 0
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowCollision: 1
-  collisionFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  radius: 0.01
-  radiusCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  colliders:
-  - {fileID: 5595541055792449063}
-  - {fileID: 8104212836020397128}
-  - {fileID: 3927157701795204596}
-  - {fileID: 2867675939245853304}
-  - {fileID: 6572778809148823332}
-  - {fileID: 1620134625295187605}
-  - {fileID: 2176283794455997879}
-  limitType: 1
-  maxAngleX: 25
-  maxAngleXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxAngleZ: 45
-  maxAngleZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotation: {x: 0, y: 0, z: 0}
-  limitRotationXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationYCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowGrabbing: 1
-  grabFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  allowPosing: 0
-  poseFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  snapToHand: 0
-  grabMovement: 0.5
-  maxStretch: 0
-  maxStretchCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxSquish: 0
-  maxSquishCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stretchMotion: 0
-  stretchMotionCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  isAnimated: 0
-  resetWhenDisabled: 0
-  parameter: 
-  showGizmos: 1
-  boneOpacity: 0.5
-  limitOpacity: 0.5
 --- !u!1 &7401040086455550751
 GameObject:
   m_ObjectHideFlags: 0
@@ -13566,6 +8885,11 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13588,9 +8912,11 @@ SkinnedMeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   serializedVersion: 2
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
@@ -13831,7 +9157,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6810845886320772081}
-  - component: {fileID: 6465479181602194338}
   m_Layer: 0
   m_Name: Hair_Front1_001.C
   m_TagString: Untagged
@@ -13855,169 +9180,6 @@ Transform:
   - {fileID: 2592856695910277795}
   m_Father: {fileID: 8381576791263112561}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6465479181602194338
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7829485064807555178}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foldout_transforms: 1
-  foldout_forces: 1
-  foldout_collision: 1
-  foldout_stretchsquish: 1
-  foldout_limits: 1
-  foldout_grabpose: 1
-  foldout_options: 1
-  foldout_gizmos: 0
-  version: 1
-  integrationType: 1
-  rootTransform: {fileID: 0}
-  ignoreTransforms: []
-  ignoreOtherPhysBones: 1
-  endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
-  pull: 0.2
-  pullCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spring: 0.2
-  springCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stiffness: 0.2
-  stiffnessCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravity: 0
-  gravityCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravityFalloff: 0
-  gravityFalloffCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  immobileType: 0
-  immobile: 0
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowCollision: 1
-  collisionFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  radius: 0.01
-  radiusCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  colliders:
-  - {fileID: 5595541055792449063}
-  - {fileID: 8104212836020397128}
-  - {fileID: 3927157701795204596}
-  - {fileID: 2867675939245853304}
-  - {fileID: 6572778809148823332}
-  - {fileID: 1620134625295187605}
-  - {fileID: 2176283794455997879}
-  limitType: 1
-  maxAngleX: 25
-  maxAngleXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxAngleZ: 45
-  maxAngleZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotation: {x: 0, y: 0, z: 0}
-  limitRotationXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationYCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowGrabbing: 1
-  grabFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  allowPosing: 0
-  poseFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  snapToHand: 0
-  grabMovement: 0.5
-  maxStretch: 0
-  maxStretchCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxSquish: 0
-  maxSquishCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stretchMotion: 0
-  stretchMotionCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  isAnimated: 0
-  resetWhenDisabled: 0
-  parameter: 
-  showGizmos: 1
-  boneOpacity: 0.5
-  limitOpacity: 0.5
 --- !u!1 &7850176239416924556
 GameObject:
   m_ObjectHideFlags: 0
@@ -14351,7 +9513,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2732202520477256650}
-  - component: {fileID: 2629253314581430051}
   m_Layer: 0
   m_Name: Skirt1_R
   m_TagString: Untagged
@@ -14367,8 +9528,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8365413372694971573}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0000000037252907, y: 0.000000024214389, z: 0.000000022351745,
-    w: 1}
+  m_LocalRotation: {x: 0.0000000037252907, y: 0.000000024214389, z: 0.000000022351745, w: 1}
   m_LocalPosition: {x: 0.0000000037252903, y: -0.000000039115548, z: 0.000000014901161}
   m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
   m_ConstrainProportionsScale: 0
@@ -14376,169 +9536,6 @@ Transform:
   - {fileID: 468657297349618496}
   m_Father: {fileID: 4974573839523507569}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2629253314581430051
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8365413372694971573}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foldout_transforms: 1
-  foldout_forces: 1
-  foldout_collision: 1
-  foldout_stretchsquish: 1
-  foldout_limits: 1
-  foldout_grabpose: 1
-  foldout_options: 1
-  foldout_gizmos: 0
-  version: 1
-  integrationType: 1
-  rootTransform: {fileID: 3216713809812047846}
-  ignoreTransforms: []
-  ignoreOtherPhysBones: 1
-  endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
-  pull: 0.861
-  pullCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spring: 0.2
-  springCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stiffness: 0.2
-  stiffnessCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravity: 0
-  gravityCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravityFalloff: 0
-  gravityFalloffCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  immobileType: 0
-  immobile: 0
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowCollision: 1
-  collisionFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  radius: 0.01
-  radiusCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  colliders:
-  - {fileID: 5595541055792449063}
-  - {fileID: 8104212836020397128}
-  - {fileID: 3927157701795204596}
-  - {fileID: 2867675939245853304}
-  - {fileID: 6572778809148823332}
-  - {fileID: 1620134625295187605}
-  - {fileID: 2176283794455997879}
-  limitType: 2
-  maxAngleX: 25
-  maxAngleXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxAngleZ: 45
-  maxAngleZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotation: {x: -25, y: 0, z: 0}
-  limitRotationXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationYCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowGrabbing: 1
-  grabFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  allowPosing: 0
-  poseFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  snapToHand: 0
-  grabMovement: 0.5
-  maxStretch: 0
-  maxStretchCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxSquish: 0
-  maxSquishCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stretchMotion: 0
-  stretchMotionCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  isAnimated: 0
-  resetWhenDisabled: 0
-  parameter: 
-  showGizmos: 1
-  boneOpacity: 0.5
-  limitOpacity: 0.5
 --- !u!1 &8436230345785291324
 GameObject:
   m_ObjectHideFlags: 0
@@ -14642,7 +9639,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 547790346754143408}
-  - component: {fileID: 6936765823887265630}
   m_Layer: 0
   m_Name: Hair_Side1_001.L
   m_TagString: Untagged
@@ -14666,169 +9662,6 @@ Transform:
   - {fileID: 7988007573040110634}
   m_Father: {fileID: 8381576791263112561}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6936765823887265630
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8719972935497818205}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foldout_transforms: 1
-  foldout_forces: 1
-  foldout_collision: 1
-  foldout_stretchsquish: 1
-  foldout_limits: 1
-  foldout_grabpose: 1
-  foldout_options: 1
-  foldout_gizmos: 0
-  version: 1
-  integrationType: 1
-  rootTransform: {fileID: 0}
-  ignoreTransforms: []
-  ignoreOtherPhysBones: 1
-  endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
-  pull: 0.2
-  pullCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spring: 0.2
-  springCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stiffness: 0.2
-  stiffnessCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravity: 0
-  gravityCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravityFalloff: 0
-  gravityFalloffCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  immobileType: 0
-  immobile: 0
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowCollision: 1
-  collisionFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  radius: 0.01
-  radiusCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  colliders:
-  - {fileID: 5595541055792449063}
-  - {fileID: 8104212836020397128}
-  - {fileID: 3927157701795204596}
-  - {fileID: 2867675939245853304}
-  - {fileID: 6572778809148823332}
-  - {fileID: 1620134625295187605}
-  - {fileID: 2176283794455997879}
-  limitType: 1
-  maxAngleX: 25
-  maxAngleXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxAngleZ: 45
-  maxAngleZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotation: {x: 0, y: 0, z: 0}
-  limitRotationXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationYCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowGrabbing: 1
-  grabFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  allowPosing: 0
-  poseFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  snapToHand: 0
-  grabMovement: 0.5
-  maxStretch: 0
-  maxStretchCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxSquish: 0
-  maxSquishCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stretchMotion: 0
-  stretchMotionCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  isAnimated: 0
-  resetWhenDisabled: 0
-  parameter: 
-  showGizmos: 1
-  boneOpacity: 0.5
-  limitOpacity: 0.5
 --- !u!1 &8730162461485007231
 GameObject:
   m_ObjectHideFlags: 0
@@ -14838,7 +9671,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 805437939784077682}
-  - component: {fileID: 3942620072723298241}
   m_Layer: 0
   m_Name: Hair_Side0_001.L
   m_TagString: Untagged
@@ -14862,169 +9694,6 @@ Transform:
   - {fileID: 3994779709303830250}
   m_Father: {fileID: 8381576791263112561}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3942620072723298241
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8730162461485007231}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foldout_transforms: 1
-  foldout_forces: 1
-  foldout_collision: 1
-  foldout_stretchsquish: 1
-  foldout_limits: 1
-  foldout_grabpose: 1
-  foldout_options: 1
-  foldout_gizmos: 0
-  version: 1
-  integrationType: 1
-  rootTransform: {fileID: 0}
-  ignoreTransforms: []
-  ignoreOtherPhysBones: 1
-  endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
-  pull: 0.2
-  pullCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spring: 0.2
-  springCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stiffness: 0.2
-  stiffnessCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravity: 0
-  gravityCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravityFalloff: 0
-  gravityFalloffCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  immobileType: 0
-  immobile: 0
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowCollision: 1
-  collisionFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  radius: 0.01
-  radiusCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  colliders:
-  - {fileID: 5595541055792449063}
-  - {fileID: 8104212836020397128}
-  - {fileID: 3927157701795204596}
-  - {fileID: 2867675939245853304}
-  - {fileID: 6572778809148823332}
-  - {fileID: 1620134625295187605}
-  - {fileID: 2176283794455997879}
-  limitType: 1
-  maxAngleX: 25
-  maxAngleXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxAngleZ: 45
-  maxAngleZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotation: {x: 0, y: 0, z: 0}
-  limitRotationXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationYCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowGrabbing: 1
-  grabFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  allowPosing: 0
-  poseFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  snapToHand: 0
-  grabMovement: 0.5
-  maxStretch: 0
-  maxStretchCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxSquish: 0
-  maxSquishCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stretchMotion: 0
-  stretchMotionCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  isAnimated: 0
-  resetWhenDisabled: 0
-  parameter: 
-  showGizmos: 1
-  boneOpacity: 0.5
-  limitOpacity: 0.5
 --- !u!1 &8742865694838326814
 GameObject:
   m_ObjectHideFlags: 0
@@ -15098,7 +9767,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6156750113401661604}
-  - component: {fileID: 2594308646211809014}
   m_Layer: 0
   m_Name: B_Ribbon1.L
   m_TagString: Untagged
@@ -15114,8 +9782,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8790086148244117848}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.000000052154064, y: -0.00000016018748, z: -0.00000007636845,
-    w: 1}
+  m_LocalRotation: {x: -0.000000052154064, y: -0.00000016018748, z: -0.00000007636845, w: 1}
   m_LocalPosition: {x: -0.000000038184226, y: 0.00000005727634, z: 0.00000002142042}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -15123,169 +9790,6 @@ Transform:
   - {fileID: 2178991736907846175}
   m_Father: {fileID: 8569564991280274460}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2594308646211809014
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8790086148244117848}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foldout_transforms: 1
-  foldout_forces: 1
-  foldout_collision: 1
-  foldout_stretchsquish: 1
-  foldout_limits: 1
-  foldout_grabpose: 1
-  foldout_options: 1
-  foldout_gizmos: 0
-  version: 1
-  integrationType: 1
-  rootTransform: {fileID: 3216713809812047846}
-  ignoreTransforms: []
-  ignoreOtherPhysBones: 1
-  endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
-  pull: 0.861
-  pullCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spring: 0.2
-  springCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stiffness: 0.2
-  stiffnessCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravity: 0
-  gravityCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravityFalloff: 0
-  gravityFalloffCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  immobileType: 0
-  immobile: 0
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowCollision: 1
-  collisionFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  radius: 0.01
-  radiusCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  colliders:
-  - {fileID: 5595541055792449063}
-  - {fileID: 8104212836020397128}
-  - {fileID: 3927157701795204596}
-  - {fileID: 2867675939245853304}
-  - {fileID: 6572778809148823332}
-  - {fileID: 1620134625295187605}
-  - {fileID: 2176283794455997879}
-  limitType: 2
-  maxAngleX: 25
-  maxAngleXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxAngleZ: 45
-  maxAngleZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotation: {x: -25, y: 0, z: 0}
-  limitRotationXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationYCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowGrabbing: 1
-  grabFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  allowPosing: 0
-  poseFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  snapToHand: 0
-  grabMovement: 0.5
-  maxStretch: 0
-  maxStretchCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxSquish: 0
-  maxSquishCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stretchMotion: 0
-  stretchMotionCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  isAnimated: 0
-  resetWhenDisabled: 0
-  parameter: 
-  showGizmos: 1
-  boneOpacity: 0.5
-  limitOpacity: 0.5
 --- !u!1 &8817148358378552461
 GameObject:
   m_ObjectHideFlags: 0
@@ -15342,8 +9846,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8837404724791241735}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.103112146, y: -0.0000000036730003, z: -0.000000021129347,
-    w: 0.99466974}
+  m_LocalRotation: {x: 0.103112146, y: -0.0000000036730003, z: -0.000000021129347, w: 0.99466974}
   m_LocalPosition: {x: 8.260059e-14, y: 0.048266686, z: 0.000000022351424}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -15415,7 +9918,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2205182468673685542}
-  - component: {fileID: 540926518108518407}
   m_Layer: 0
   m_Name: Hair_Front0_001.R
   m_TagString: Untagged
@@ -15439,169 +9941,6 @@ Transform:
   - {fileID: 2117262569900275453}
   m_Father: {fileID: 8381576791263112561}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &540926518108518407
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8849148906936048662}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foldout_transforms: 1
-  foldout_forces: 1
-  foldout_collision: 1
-  foldout_stretchsquish: 1
-  foldout_limits: 1
-  foldout_grabpose: 1
-  foldout_options: 1
-  foldout_gizmos: 0
-  version: 1
-  integrationType: 1
-  rootTransform: {fileID: 0}
-  ignoreTransforms: []
-  ignoreOtherPhysBones: 1
-  endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
-  pull: 0.2
-  pullCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spring: 0.2
-  springCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stiffness: 0.2
-  stiffnessCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravity: 0
-  gravityCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravityFalloff: 0
-  gravityFalloffCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  immobileType: 0
-  immobile: 0
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowCollision: 1
-  collisionFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  radius: 0.01
-  radiusCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  colliders:
-  - {fileID: 5595541055792449063}
-  - {fileID: 8104212836020397128}
-  - {fileID: 3927157701795204596}
-  - {fileID: 2867675939245853304}
-  - {fileID: 6572778809148823332}
-  - {fileID: 1620134625295187605}
-  - {fileID: 2176283794455997879}
-  limitType: 1
-  maxAngleX: 25
-  maxAngleXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxAngleZ: 45
-  maxAngleZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotation: {x: 0, y: 0, z: 0}
-  limitRotationXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationYCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowGrabbing: 1
-  grabFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  allowPosing: 0
-  poseFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  snapToHand: 0
-  grabMovement: 0.5
-  maxStretch: 0
-  maxStretchCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxSquish: 0
-  maxSquishCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stretchMotion: 0
-  stretchMotionCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  isAnimated: 0
-  resetWhenDisabled: 0
-  parameter: 
-  showGizmos: 1
-  boneOpacity: 0.5
-  limitOpacity: 0.5
 --- !u!1 &8913174140505474925
 GameObject:
   m_ObjectHideFlags: 0
@@ -15644,7 +9983,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5111664639502600192}
-  - component: {fileID: 8836508059792234172}
   m_Layer: 0
   m_Name: Hair_Front0_001.L
   m_TagString: Untagged
@@ -15668,169 +10006,6 @@ Transform:
   - {fileID: 9114427288503694609}
   m_Father: {fileID: 8381576791263112561}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8836508059792234172
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8918597984212319056}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1661641543, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foldout_transforms: 1
-  foldout_forces: 1
-  foldout_collision: 1
-  foldout_stretchsquish: 1
-  foldout_limits: 1
-  foldout_grabpose: 1
-  foldout_options: 1
-  foldout_gizmos: 0
-  version: 1
-  integrationType: 1
-  rootTransform: {fileID: 0}
-  ignoreTransforms: []
-  ignoreOtherPhysBones: 1
-  endpointPosition: {x: 0, y: 0, z: 0}
-  multiChildType: 0
-  pull: 0.2
-  pullCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spring: 0.2
-  springCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stiffness: 0.2
-  stiffnessCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravity: 0
-  gravityCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  gravityFalloff: 0
-  gravityFalloffCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  immobileType: 0
-  immobile: 0
-  immobileCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowCollision: 1
-  collisionFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  radius: 0.01
-  radiusCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  colliders:
-  - {fileID: 5595541055792449063}
-  - {fileID: 8104212836020397128}
-  - {fileID: 3927157701795204596}
-  - {fileID: 2867675939245853304}
-  - {fileID: 6572778809148823332}
-  - {fileID: 1620134625295187605}
-  - {fileID: 2176283794455997879}
-  limitType: 1
-  maxAngleX: 25
-  maxAngleXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxAngleZ: 45
-  maxAngleZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotation: {x: 0, y: 0, z: 0}
-  limitRotationXCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationYCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  limitRotationZCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  allowGrabbing: 1
-  grabFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  allowPosing: 0
-  poseFilter:
-    allowSelf: 1
-    allowOthers: 1
-    contentTypes: -1
-  snapToHand: 0
-  grabMovement: 0.5
-  maxStretch: 0
-  maxStretchCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  maxSquish: 0
-  maxSquishCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  stretchMotion: 0
-  stretchMotionCurve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  isAnimated: 0
-  resetWhenDisabled: 0
-  parameter: 
-  showGizmos: 1
-  boneOpacity: 0.5
-  limitOpacity: 0.5
 --- !u!1 &8926307454327892984
 GameObject:
   m_ObjectHideFlags: 0
@@ -15840,7 +10015,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3836446770187547774}
-  - component: {fileID: 2867675939245853304}
   m_Layer: 0
   m_Name: UpperLeg_R_C
   m_TagString: Untagged
@@ -15863,27 +10037,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1456952807454987077}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2867675939245853304
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8926307454327892984}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1631200402, guid: 2a2c05204084d904aa4945ccff20d8e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rootTransform: {fileID: 0}
-  shapeType: 1
-  insideBounds: 0
-  radius: 0.06
-  height: 0.37
-  position: {x: 0, y: 0, z: 0}
-  rotation: {x: 0, y: 0, z: 0, w: 1}
-  bonesAsSpheres: 0
-  globalCollisionFlags: 0
 --- !u!1 &8934859562786780571
 GameObject:
   m_ObjectHideFlags: 0
@@ -15908,8 +10061,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8934859562786780571}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.00000024959445, y: 0.00000029429793, z: -0.00000005960464,
-    w: 1}
+  m_LocalRotation: {x: -0.00000024959445, y: 0.00000029429793, z: -0.00000005960464, w: 1}
   m_LocalPosition: {x: -0.000000011175871, y: 0.014805624, z: -0.000000063329935}
   m_LocalScale: {x: 1, y: 0.9999999, z: 1}
   m_ConstrainProportionsScale: 0
@@ -16074,6 +10226,11 @@ SkinnedMeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 3
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -16096,9 +10253,11 @@ SkinnedMeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   serializedVersion: 2
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
