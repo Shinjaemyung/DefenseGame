@@ -13,10 +13,10 @@ public class UI_PlayerInfoPanel : UI_Panel
 
     private void Start()
     {
-        GamePlayManager.Instance.OnPlayerHealthChanged += SetHealthDisplay;
+        GamePlayManager.Instance.PlayerHealthChanged += SetHealthDisplay;
         SetHealthDisplay(GamePlayManager.Instance.PlayerHealth);
 
-        GamePlayManager.Instance.OnPlayerGoldChanged += SetGoldDisplay;
+        GamePlayManager.Instance.PlayerGoldChanged += SetGoldDisplay;
         SetGoldDisplay(GamePlayManager.Instance.PlayerGold);
     }
 
@@ -32,7 +32,7 @@ public class UI_PlayerInfoPanel : UI_Panel
 
     private void OnDestroy()
     {
-        GamePlayManager.Instance.OnPlayerHealthChanged -= SetHealthDisplay;
-        GamePlayManager.Instance.OnPlayerGoldChanged -= SetGoldDisplay;
+        GamePlayManager.Instance.PlayerHealthChanged -= SetHealthDisplay;
+        GamePlayManager.Instance.PlayerGoldChanged -= SetGoldDisplay;
     }
 }

@@ -22,9 +22,9 @@ public class GamePlayManager : MonoBehaviour
     [SerializeField, Tooltip("Hero 사망 시 체력 회복 속도")]
     float heroHealthRegenRate = 1;
 
-    public event Action<int> OnPlayerHealthChanged;
-    public event Action<int> OnPlayerGoldChanged;
-    public event Action<int> OnPlayerScoreChanged;
+    public event Action<int> PlayerHealthChanged;
+    public event Action<int> PlayerGoldChanged;
+    public event Action<int> PlayerScoreChanged;
 
     public bool IsPaused { get; private set; }
     public bool IsGameOvered { get; private set; }
@@ -47,7 +47,7 @@ public class GamePlayManager : MonoBehaviour
     {
         PlayerHealth += amount;
         PlayerHealth = Mathf.Max(PlayerHealth, 0);
-        OnPlayerHealthChanged?.Invoke(PlayerHealth);
+        PlayerHealthChanged?.Invoke(PlayerHealth);
 
         if (PlayerHealth <= 0)
             SetGameOverState();
@@ -57,14 +57,14 @@ public class GamePlayManager : MonoBehaviour
     {
         PlayerGold += amount;
         PlayerGold = Mathf.Max(PlayerGold, 0);
-        OnPlayerGoldChanged?.Invoke(PlayerGold);
+        PlayerGoldChanged?.Invoke(PlayerGold);
     }
 
     public void UpdatePlayerScore(int amount)
     {
         PlayerScore += amount;
         PlayerScore = Mathf.Max(PlayerScore, 0);
-        OnPlayerScoreChanged?.Invoke(PlayerScore);
+        PlayerScoreChanged?.Invoke(PlayerScore);
     }
 
     public void OnEnemyDied(DamageableBehaviour damageable)

@@ -8,7 +8,7 @@ public class UI_PlayerScorePanel : UI_Panel
 
     private void Start()
     {
-        GamePlayManager.Instance.OnPlayerScoreChanged += SetScoreDisplay;
+        GamePlayManager.Instance.PlayerScoreChanged += SetScoreDisplay;
         SetScoreDisplay(GamePlayManager.Instance.PlayerScore);
     }
 
