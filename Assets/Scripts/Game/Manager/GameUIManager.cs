@@ -7,6 +7,9 @@ public class GameUIManager : MonoBehaviour
 {
     public static GameUIManager Instance { get; private set; }
 
+    [SerializeField]
+    Canvas rootCanvas;
+
     UI_TowerListPanel towerListPanel;
     UI_TowerInfoPanel towerInfoPanel;
     UI_EnemyInfoPanel enemyInfoPanel;
@@ -27,15 +30,15 @@ public class GameUIManager : MonoBehaviour
         if (Instance == null) Instance = this;
         else Destroy(gameObject);
 
-        towerListPanel = GetComponentInChildren<UI_TowerListPanel>(true);
-        towerInfoPanel = GetComponentInChildren<UI_TowerInfoPanel>(true);
-        enemyInfoPanel = GetComponentInChildren<UI_EnemyInfoPanel>(true);
-        modeChangeButton = GetComponentInChildren<UI_ModeChangeButton>(true);
-        gameOverPanel = GetComponentInChildren<UI_GameOverPanel>(true);
-        heroInfoPanel = GetComponentInChildren<UI_HeroInfoPanel>(true);
-        settingsPanel = GetComponentInChildren<UI_SettingsPanel>(true);
-        playerScorePanel = GetComponentInChildren<UI_PlayerScorePanel>(true);
-        modeChangeEffectPanel = GetComponentInChildren<UI_ModeChangeEffectPanel>(true);
+        towerListPanel = rootCanvas.GetComponentInChildren<UI_TowerListPanel>(true);
+        towerInfoPanel = rootCanvas.GetComponentInChildren<UI_TowerInfoPanel>(true);
+        enemyInfoPanel = rootCanvas.GetComponentInChildren<UI_EnemyInfoPanel>(true);
+        modeChangeButton = rootCanvas.GetComponentInChildren<UI_ModeChangeButton>(true);
+        gameOverPanel = rootCanvas.GetComponentInChildren<UI_GameOverPanel>(true);
+        heroInfoPanel = rootCanvas.GetComponentInChildren<UI_HeroInfoPanel>(true);
+        settingsPanel = rootCanvas.GetComponentInChildren<UI_SettingsPanel>(true);
+        playerScorePanel = rootCanvas.GetComponentInChildren<UI_PlayerScorePanel>(true);
+        modeChangeEffectPanel = rootCanvas.GetComponentInChildren<UI_ModeChangeEffectPanel>(true);
 
         ShowTowerList();
     }
