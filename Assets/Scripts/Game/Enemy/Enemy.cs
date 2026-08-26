@@ -10,6 +10,12 @@ public class Enemy : Targetable
 {
     public EnemyData _enemyData;
 
+    /// <summary>지급 점수 오버라이드 값 (설정 시 EnemyData.scoreReward 대신 사용됨)</summary>
+    private int? _scoreRewardOverride;
+
+    /// <summary>실제 지급할 점수. 오버라이드가 없으면 EnemyData의 기본값을 사용</summary>
+    public int ScoreReward => _scoreRewardOverride ?? _enemyData.scoreReward;
+
     private readonly List<StatusEffect> statusEffects = new();
 
     private UI_EnemyHealthBar healthBar;
@@ -84,12 +90,16 @@ public class Enemy : Targetable
         healthBar.ShowAndUpdate(configuration.NormalisedHealth);
     }
 
-    /// <summary>
-    /// 최대 체력을 재설정 (무한 웨이브처럼 웨이브마다 체력이 달라지는 경우 사용)
-    /// </summary>
+    /// <summary>최대 체력을 재설정 (무한 웨이브처럼 웨이브마다 체력이 달라지는 경우 사용)</summary>
     public void SetMaxHealth(float maxHealth)
     {
         configuration.OverrideMaxHealth(maxHealth);
+    }
+
+    /// <summary>지급 점수를 재설정 (무한 웨이브처럼 웨이브마다 점수가 달라지는 경우 사용)</summary>
+    public void SetScoreReward(int scoreReward)
+    {
+        _scoreRewardOverride = scoreReward;
     }
 
     /// <summary>적 클릭 시 호출되어 정보 패널을 표시</summary>

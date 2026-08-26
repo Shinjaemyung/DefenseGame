@@ -21,6 +21,7 @@ public class EnemySpawner : MonoBehaviour
 
     private float _currentSpawnInterval;
     private float? _currentMaxHealthOverride;
+    private int? _currentScoreRewardOverride;
 
     CinemachineImpulseSource _impulseSource;
 
@@ -38,7 +39,7 @@ public class EnemySpawner : MonoBehaviour
         if (_timer >= _currentSpawnInterval)
         {
             _timer = 0f;
-            SpawnEnemy(_currentEnemyData, _currentMaxHealthOverride);
+            SpawnEnemy(_currentEnemyData, _currentMaxHealthOverride, _currentScoreRewardOverride);
 
             _remainingSpawnCount--;
             if (_remainingSpawnCount <= 0)
@@ -72,6 +73,7 @@ public class EnemySpawner : MonoBehaviour
         _currentEnemyData = enemyData;
         _remainingSpawnCount = spawnInfo.count;
         _currentMaxHealthOverride = null;
+        _currentScoreRewardOverride = null;
         _currentSpawnInterval = spawnInfo.interval;
         _aliveCount = 0;
         _timer = _currentSpawnInterval; // 활성화 즉시 첫 적을 스폰
@@ -83,7 +85,7 @@ public class EnemySpawner : MonoBehaviour
     /// StartSpawn과 달리 자체 타이머(수량/간격)를 사용하지 않고, 호출 시점에 즉시 한 마리만 스폰한다.
     /// 스폰 타이밍과 난이도(체력/간격) 계산은 모두 WaveManager가 담당한다.
     /// </summary>
-    public void SpawnOnce(EnemyData enemyData, float? maxHealthOverride = null)
+    public void SpawnOnce(EnemyData enemyData, float? maxHealthOverride = null, int? scoreRewardOverride = null)
     {
         if (enemyData == null || enemyData.enemyPrefab == null)
         {
@@ -94,10 +96,10 @@ public class EnemySpawner : MonoBehaviour
         if (!gameObject.activeSelf)
             gameObject.SetActive(true);
 
-        SpawnEnemy(enemyData, maxHealthOverride);
+        SpawnEnemy(enemyData, maxHealthOverride, scoreRewardOverride);
     }
 
-    private void SpawnEnemy(EnemyData enemyData, float? maxHealthOverride)
+    private void SpawnEnemy(EnemyData enemyData, float? maxHealthOverride, int? scoreRewardOverride)
     {
         if (enemyData == null || spawnPoint == null || waypoints == null || waypoints.Length == 0)
         {
@@ -115,6 +117,8 @@ public class EnemySpawner : MonoBehaviour
         enemy.Initialize(enemyData);
         if (maxHealthOverride.HasValue)
             enemy.SetMaxHealth(maxHealthOverride.Value);
+        if (scoreRewardOverride.HasValue)
+            enemy.SetScoreReward(scoreRewardOverride.Value);
 
         enemy.Died += GamePlayManager.Instance.OnEnemyDied;
         enemy.Removed += OnSpawnedEnemyDied;

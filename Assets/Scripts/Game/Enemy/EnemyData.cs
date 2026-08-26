@@ -20,6 +20,9 @@ public class EnemyData : ScriptableObject
     [Tooltip("사망 시 지급하는 골드")]
     public int goldReward;
 
+    [Tooltip("사망 시 주는 점수")]
+    public int scoreReward;
+
     [Tooltip("타입별 적에게 받는 데미지 비율")]
     public List<TypeCalculation> typeCalculations;
 }

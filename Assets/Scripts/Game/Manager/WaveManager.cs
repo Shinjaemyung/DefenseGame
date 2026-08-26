@@ -43,6 +43,12 @@ public class WaveManager : MonoBehaviour
     [SerializeField, Tooltip("무한 웨이브에서 적이 한 마리 스폰될 때마다 늘어나는 최대 체력")]
     private float infiniteHealthIncreasePerWave = 1f;
 
+    [SerializeField, Tooltip("무한 웨이브 시작 시 적의 지급 점수")]
+    private int infiniteBaseScoreReward = 10;
+
+    [SerializeField, Tooltip("무한 웨이브에서 적이 한 마리 스폰될 때마다 늘어나는 지급 점수")]
+    private int infiniteScoreRewardIncreasePerWave = 1;
+
     [SerializeField, Tooltip("무한 웨이브 시작 wave(=infiniteWaveStartIndex)에서 스폰 간격(초)")]
     private float infiniteBaseSpawnInterval = 10f;
 
@@ -59,6 +65,7 @@ public class WaveManager : MonoBehaviour
     private Coroutine _infiniteSpawnCoroutine;
     private float _currentInfiniteSpawnInterval;
     private float _currentInfiniteMaxHealth;
+    private int _currentInfiniteScoreReward;
 
     private int currentWaveIndex;
     private int _pendingSpawnerCount;
@@ -202,6 +209,7 @@ public class WaveManager : MonoBehaviour
         StopAllInfiniteCoroutines();
 
         _currentInfiniteMaxHealth = infiniteBaseMaxHealth;
+        _currentInfiniteScoreReward = infiniteBaseScoreReward;
         ApplyInfiniteWaveDifficulty(currentWaveIndex);
 
         _infiniteSpawnCoroutine = StartCoroutine(InfiniteSpawnRoutine(spawners));
@@ -235,7 +243,7 @@ public class WaveManager : MonoBehaviour
         {
             for (int i = 0; i < spawners.Length; i++)
             {
-                spawners[i].SpawnOnce(currentEnemyDatas[i], _currentInfiniteMaxHealth);
+                spawners[i].SpawnOnce(currentEnemyDatas[i], _currentInfiniteMaxHealth, _currentInfiniteScoreReward);
 
                 spawnCountSinceChange[i]++;
                 if (infiniteEnemyChangeInterval > 0 && spawnCountSinceChange[i] >= infiniteEnemyChangeInterval)
@@ -245,6 +253,7 @@ public class WaveManager : MonoBehaviour
                 }
             }
             _currentInfiniteMaxHealth += infiniteHealthIncreasePerWave;
+            _currentInfiniteScoreReward += infiniteScoreRewardIncreasePerWave;
 
             yield return new WaitForSeconds(_currentInfiniteSpawnInterval);
         }

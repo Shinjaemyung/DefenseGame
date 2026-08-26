@@ -1,4 +1,4 @@
-﻿using Core.Health;
+using Core.Health;
 using System;
 using System.Collections;
 using UnityEngine;
@@ -12,8 +12,6 @@ public class GamePlayManager : MonoBehaviour
     int initialPlayerHealth = 100;
     [SerializeField, Tooltip("게임 시작 시 플레이어 골드")]
     int initialPlayerGold = 500;
-    [SerializeField, Tooltip("적이 하나 죽을 때마다 늘어나는 스코어의 양")]
-    int increasingScoreAmount = 10;
 
     public int PlayerHealth { get; private set; }
     public int PlayerGold { get; private set; }
@@ -75,7 +73,7 @@ public class GamePlayManager : MonoBehaviour
             return;
 
         UpdatePlayerGold(enemy._enemyData.goldReward);
-        UpdatePlayerScore(increasingScoreAmount);
+        UpdatePlayerScore(enemy.ScoreReward);
 
         enemy.Died -= OnEnemyDied;
     }

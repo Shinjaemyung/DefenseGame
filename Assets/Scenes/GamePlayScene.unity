@@ -11958,6 +11958,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 92b3af2c4823b3f41a248ac438b80939, type: 2}
   infiniteBaseMaxHealth: 20
   infiniteHealthIncreasePerWave: 1
+  infiniteBaseScoreReward: 20
+  infiniteScoreRewardIncreasePerWave: 1
   infiniteBaseSpawnInterval: 10
   infiniteSpawnIntervalDecreasePerWave: 0.1
   infiniteMinSpawnInterval: 0.1
@@ -22957,7 +22959,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialPlayerHealth: 100
   initialPlayerGold: 200
-  increasingScoreAmount: 10
   heroHealthRegenRate: 1
 --- !u!4 &1275425045
 Transform:
