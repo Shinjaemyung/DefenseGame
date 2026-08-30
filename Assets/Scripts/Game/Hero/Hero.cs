@@ -13,19 +13,19 @@ public class Hero : MonoBehaviour
     public float MaxHealth => maxHealth;
 
     /// <summary>체력 변경 시 발생. (currentHealth, maxHealth)</summary>
-    public event Action<float, float> OnHealthChanged;
+    public event Action<float, float> HealthChanged;
 
     /// <summary>사망 시 발생</summary>
-    public event Action OnDied;
+    public event Action Died;
 
     /// <summary>부활 시 발생</summary>
-    public event Action OnRevived;
+    public event Action Revived;
 
     /// <summary>활성화 시 발생</summary>
-    public event Action OnActivated;
+    public event Action Activated;
 
     /// <summary>비활성화 시 발생</summary>
-    public event Action OnDeactivated;
+    public event Action Deactivated;
 
     [SerializeField, Tooltip("피격 시 효과음")]
     private AudioClip hitClip;
@@ -55,7 +55,7 @@ public class Hero : MonoBehaviour
             _impulseSource.GenerateImpulseWithForce(0.5f);
         }
 
-        OnHealthChanged?.Invoke(Health, maxHealth);
+        HealthChanged?.Invoke(Health, maxHealth);
 
         if (Health <= 0f)
             Die();
@@ -65,25 +65,25 @@ public class Hero : MonoBehaviour
     {
         if (isDead) return;
         isDead = true;
-        OnDied?.Invoke();
+        Died?.Invoke();
     }
 
     public void Revive()
     {
         if (!isDead) return;
         isDead = false;
-        OnRevived?.Invoke();
+        Revived?.Invoke();
     }
 
     public void OnHeroActivated()
     {
         gameObject.SetActive(true);
-        OnActivated?.Invoke();
+        Activated?.Invoke();
     }
 
     public void OnHeroDeactivated()
     {
         gameObject.SetActive(false);
-        OnDeactivated?.Invoke();
+        Deactivated?.Invoke();
     }
 }

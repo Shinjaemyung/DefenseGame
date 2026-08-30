@@ -9,8 +9,8 @@ public class HeroPos : MonoBehaviour
     {
         Show();
 
-        Hero.Instance.OnActivated += Hide;
-        Hero.Instance.OnDeactivated += Show;
+        Hero.Instance.Activated += Hide;
+        Hero.Instance.Deactivated += Show;
     }
 
     public void Show()
@@ -26,7 +26,7 @@ public class HeroPos : MonoBehaviour
 
     private void OnDestroy()
     {
-        Hero.Instance.OnActivated -= Hide;
-        Hero.Instance.OnDeactivated -= Show;
+        Hero.Instance.Activated -= Hide;
+        Hero.Instance.Deactivated -= Show;
     }
 }

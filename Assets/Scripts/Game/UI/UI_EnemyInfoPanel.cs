@@ -34,18 +34,16 @@ public class UI_EnemyInfoPanel : UI_Panel
     /// <summary>적 정보를 받아 패널을 업데이트하고 표시</summary>
     public void ShowEnemyInfo(Enemy enemy)
     {
-        Unsubscribe();
-
         _currentEnemy = enemy;
         _currentEnemy.Died += OnCurrentEnemyDied;
+        _currentEnemy.Damaged += OnCurrentEnemyDamaged;
 
         var data = enemy._enemyData;
 
         if (enemyNameText != null)
             enemyNameText.text = data.enemyName;
 
-        if (healthText != null)
-            healthText.text = Mathf.CeilToInt(enemy.configuration.CurrentHealth) + " / " + Mathf.CeilToInt(enemy.configuration.MaxHealth);
+        UpdateHealthText();
 
         SetDamageTypeText(DamageTypeCalculationText_Normal,  DamageType.Normal,  enemy);
         SetDamageTypeText(DamageTypeCalculationText_Water,   DamageType.Water,   enemy);
@@ -78,13 +76,19 @@ public class UI_EnemyInfoPanel : UI_Panel
         label.text = "x" + multiplier.ToString("0.0");
     }
 
-    private void Update()
-    {
-        // 패널이 켜져 있는 동안 체력 변화를 실시간으로 갱신
-        if (_currentEnemy == null) return;
 
-        if (healthText != null)
-            healthText.text = Mathf.CeilToInt(_currentEnemy.configuration.CurrentHealth) + " / " + Mathf.CeilToInt(_currentEnemy.configuration.MaxHealth);
+    /// <summary>현재 표시 중인 적의 체력 텍스트를 갱신</summary>
+    private void UpdateHealthText()
+    {
+        if (healthText == null || _currentEnemy == null) return;
+
+        healthText.text = Mathf.CeilToInt(_currentEnemy.configuration.CurrentHealth) + " / " + Mathf.CeilToInt(_currentEnemy.configuration.MaxHealth);
+    }
+
+    /// <summary>현재 표시 중인 적이 데미지를 받았을 때 호출되어 체력 텍스트를 갱신 (Update 폴링 대신 이벤트 기반)</summary>
+    private void OnCurrentEnemyDamaged(Core.Health.HitInfo hitInfo)
+    {
+        UpdateHealthText();
     }
 
     /// <summary>현재 표시 중인 적이 사망했을 때 패널을 닫음</summary>
@@ -95,8 +99,11 @@ public class UI_EnemyInfoPanel : UI_Panel
 
     private void Unsubscribe()
     {
-        if (_currentEnemy != null)
-            _currentEnemy.Died -= OnCurrentEnemyDied;
+        if (_currentEnemy == null)
+            return;
+
+        _currentEnemy.Died -= OnCurrentEnemyDied;
+        _currentEnemy.Damaged -= OnCurrentEnemyDamaged;
     }
 
     public override void Hide()
@@ -104,10 +111,5 @@ public class UI_EnemyInfoPanel : UI_Panel
         Unsubscribe();
         _currentEnemy = null;
         base.Hide();
-    }
-
-    private void OnDisable()
-    {
-        Unsubscribe();
     }
 }

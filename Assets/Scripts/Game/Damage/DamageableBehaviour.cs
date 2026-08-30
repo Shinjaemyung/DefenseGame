@@ -27,7 +27,7 @@ namespace Core.Health
         /// <summary>
         /// 데미지를 받았을 때 발생하는 이벤트
         /// </summary>
-        public event Action<HitInfo> Hit;
+        public event Action<HitInfo> Damaged;
 
         /// <summary>
         /// 사망 시 호출되는 이벤트
@@ -71,7 +71,7 @@ namespace Core.Health
             HealthChangeInfo info;
             configuration.TakeDamage(damageValue, alignment, damageType, out info);
             var damageInfo = new HitInfo(info, damagePoint);
-            Hit?.Invoke(damageInfo);
+            Damaged?.Invoke(damageInfo);
         }
 
         /// <summary>

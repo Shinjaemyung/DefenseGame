@@ -17,7 +17,7 @@ public class UI_HeroInfoPanel : UI_Panel
     private void Start()
     {
         if (Hero.Instance == null) return;
-        Hero.Instance.OnHealthChanged += UpdateHealth;
+        Hero.Instance.HealthChanged += UpdateHealth;
         // 활성화 시 현재 체력으로 즉시 갱신
         UpdateHealth(Hero.Instance.Health, Hero.Instance.MaxHealth);
     }
@@ -44,6 +44,6 @@ public class UI_HeroInfoPanel : UI_Panel
     private void OnDestroy()
     {
         if (Hero.Instance == null) return;
-        Hero.Instance.OnHealthChanged -= UpdateHealth;
+        Hero.Instance.HealthChanged -= UpdateHealth;
     }
 }

@@ -47,8 +47,8 @@ public class GameUIManager : MonoBehaviour
     {
         if (Hero.Instance != null)
         {
-            Hero.Instance.OnDied += OnHeroDied;
-            Hero.Instance.OnRevived += OnHeroRevived;
+            Hero.Instance.Died += OnHeroDied;
+            Hero.Instance.Revived += OnHeroRevived;
         }
 
         modeChangeEffectPanel.Initialize();
@@ -151,8 +151,8 @@ public class GameUIManager : MonoBehaviour
     {
         if (Hero.Instance != null)
         {
-            Hero.Instance.OnDied -= OnHeroDied;
-            Hero.Instance.OnRevived -= OnHeroRevived;
+            Hero.Instance.Died -= OnHeroDied;
+            Hero.Instance.Revived -= OnHeroRevived;
         }
     }
 }

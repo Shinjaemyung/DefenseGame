@@ -38,12 +38,12 @@ public class Enemy : Targetable
 
     protected override void HandleEnable()
     {
-        Hit += OnHit;
+        Damaged += OnDamaged;
     }
 
     protected override void HandleDisable()
     {
-        Hit -= OnHit;
+        Damaged -= OnDamaged;
     }
 
     private void Update()
@@ -84,7 +84,7 @@ public class Enemy : Targetable
         statusEffects.Add(effect);
     }
 
-    private void OnHit(HitInfo hitInfo)
+    private void OnDamaged(HitInfo hitInfo)
     {
         if (healthBar == null) return;
         healthBar.ShowAndUpdate(configuration.NormalisedHealth);

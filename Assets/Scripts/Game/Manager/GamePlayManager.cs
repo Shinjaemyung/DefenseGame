@@ -38,7 +38,7 @@ public class GamePlayManager : MonoBehaviour
     private void Start()
     {
         if (Hero.Instance != null)
-            Hero.Instance.OnDied += OnHeroDied;
+            Hero.Instance.Died += OnHeroDied;
     }
 
     public void UpdatePlayerHealth(int amount)
@@ -129,6 +129,6 @@ public class GamePlayManager : MonoBehaviour
     private void OnDestroy()
     {
         if (Hero.Instance != null)
-            Hero.Instance.OnDied -= OnHeroDied;
+            Hero.Instance.Died -= OnHeroDied;
     }
 }

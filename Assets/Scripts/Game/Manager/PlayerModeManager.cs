@@ -28,7 +28,7 @@ public class PlayerModeManager : MonoBehaviour
     private void Start()
     {
         heroInputs = Hero.Instance.GetComponent<StarterAssetsInputs>();
-        Hero.Instance.OnDied += RequestPlayerModeChange;
+        Hero.Instance.Died += RequestPlayerModeChange;
         CompleteTowerPlacementMode();
     }
 
@@ -112,6 +112,6 @@ public class PlayerModeManager : MonoBehaviour
     private void OnDestroy()
     {
         if (Hero.Instance != null)
-            Hero.Instance.OnDied -= RequestPlayerModeChange;
+            Hero.Instance.Died -= RequestPlayerModeChange;
     }
 }
